@@ -52,7 +52,7 @@
             <label>Region Start (ms)</label>
             <input
               type="number"
-              :value="Math.round(timeRange.start * 1000)"
+              :value="Math.round(timeRange.start*1000)"
               readonly
             />
           </div>
@@ -60,7 +60,7 @@
             <label>Region End (ms)</label>
             <input
               type="number"
-              :value="Math.round(timeRange.end * 1000)"
+              :value="Math.round(timeRange.end*1000)"
               readonly
             />
           </div>
@@ -130,10 +130,10 @@
                   v-model="editForm.word"
                   required
                 />
-              </div>
 
+              </div>
               <div class="form-group">
-                <label>Start (seconds):</label>
+                <label>Start (ms):</label>
                 <input
                   v-model="editForm.start"
                   type="number"
@@ -143,7 +143,7 @@
               </div>
 
               <div class="form-group">
-                <label>End (seconds):</label>
+                <label>End (ms):</label>
                 <input
                   v-model="editForm.end"
                   type="number"
@@ -195,8 +195,9 @@ import { ref, reactive, watch, onBeforeUnmount } from 'vue'
 import WaveSurfer from 'wavesurfer.js'
 import RegionsPlugin from 'wavesurfer.js/dist/plugins/regions.esm.js'
 
-const API_URL = "https://audio-transcription-editor-13c6d97d2e6b.herokuapp.com"
-
+//const API_URL = "https://audio-transcription-editor-13c6d97d2e6b.herokuapp.com"
+//const API_URL = "http://localhost:5149"
+const API_URL = "http://verbal-fluency-asp-net.onrender.com"
 export default {
   setup() {
     const file = ref(null)
@@ -222,32 +223,51 @@ export default {
 
     const uploadFile = async () => {
       if (!file.value) {
-        alert('Please upload a file!')
-        return
+        alert('Please upload a file!');
+        return;
       }
-      
-      isLoading.value = true
-      loadingMessage.value = 'Transcribing audio...'
-      
-      try {
-        const formData = new FormData()
-        formData.append('file', file.value)
 
-        const response = await fetch(`${API_URL}/upload`, {
+      isLoading.value = true;
+      loadingMessage.value = 'Transcribing audio...';
+
+      try {
+        const formData = new FormData();
+        formData.append('file', file.value); // Must match backend parameter name
+
+        const response = await fetch(`${API_URL}/api/file/upload`, {
           method: 'POST',
           body: formData,
-        })
+          credentials: 'include', // For CORS with credentials
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(
+            errorData.detail || errorData.title || `HTTP error! status: ${response.status}`
+          );
+        }
+
+        const data = await response.json();
+        transcription.value = data;
         
-        const data = await response.json()
-        transcription.value = data
-        
-        loadingMessage.value = 'Audio transcribed successfully!'
-        setTimeout(() => isLoading.value = false, 1000)
-        
-        initializeWaveform(URL.createObjectURL(file.value))
+        loadingMessage.value = 'Audio transcribed successfully!';
+        initializeWaveform(URL.createObjectURL(file.value));
+
       } catch (error) {
-        alert('Error uploading file')
-        isLoading.value = false
+        console.error('Upload error:', {
+          error,
+          fileInfo: {
+            name: file.value.name,
+            type: file.value.type,
+            size: file.value.size
+          }
+        });
+        
+        alert(`Upload failed: ${error.message}`);
+      } finally {
+        setTimeout(() => {
+          isLoading.value = false;
+        }, 1000);
       }
     }
 
@@ -337,8 +357,8 @@ wsRegions.on('region-in', (region) => {
 watch([timeRange, transcription], ([newRange, newTranscription]) => {
   if (newTranscription) {
     editableWords.value = newTranscription.words.filter(word => 
-      (word.start_time / 1000 < newRange.end) && 
-      (word.end_time / 1000 > newRange.start)
+      (word.start_time/1000 < newRange.end) && 
+      (word.end_time/1000 > newRange.start)
     )
   }
 }, { immediate: true, deep: true })
@@ -363,8 +383,8 @@ const togglePlay = () => {
       setTimeout(() => {
         currentWord.value = word
         editForm.word = word.word
-        editForm.start = word.start_time / 1000
-        editForm.end = word.end_time / 1000
+        editForm.start = word.start_time
+        editForm.end = word.end_time
       }, 10)
     }
 
@@ -372,8 +392,8 @@ const togglePlay = () => {
       const updatedWord = {
         ...currentWord.value,
         word: editForm.word,
-        start_time: Math.round(parseFloat(editForm.start) * 1000),
-        end_time: Math.round(parseFloat(editForm.end) * 1000),
+        start_time: Math.round(parseFloat(editForm.start) ),
+        end_time: Math.round(parseFloat(editForm.end) ),
         edited: true,
       }
 
@@ -384,18 +404,46 @@ const togglePlay = () => {
       currentWord.value = null
     }
 
+
     const saveEdits = async () => {
-      await fetch(`${API_URL}/update-json/${file.value.name}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(transcription.value),
-      })
-      alert('Edits Saved!')
+      try {
+        const payload = {
+          filename: file.value.name,
+          duration: transcription.value.duration,
+          words: transcription.value.words.map(word => ({
+            word: word.word,
+            start_time: word.start_time,  
+            end_time: word.end_time,      
+            edited: word.edited,
+            qc: word.qc,
+            qc_word: word.qc_word
+          }))
+        };
+
+        const response = await fetch(`${API_URL}/api/file/update-json/${file.value.name}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+
+    if (!response.ok) {
+      throw new Error('Failed to save edits');
     }
+    
+    // Verify update by fetching fresh data
+    const verifyResponse = await fetch(`${API_URL}/api/file/get-json/${file.value.name}`);
+    transcription.value = await verifyResponse.json();
+    
+    alert('Edits saved and verified!');
+  } catch (error) {
+    alert(`Save failed: ${error.message}`);
+  }
+}
 
     const downloadJSON = async () => {
       try {
-        const response = await fetch(`${API_URL}/download/${file.value.name}`)
+        const response = await fetch(`${API_URL}/api/file/download/${file.value.name}`)
         const blob = await response.blob()
         const url = window.URL.createObjectURL(blob)
         const a = document.createElement('a')
