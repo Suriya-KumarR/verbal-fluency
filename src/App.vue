@@ -2,7 +2,7 @@
 <template>
   <div class="app-container">
     <div class="top-bar">
-      <h1 class="heading">Verbal Fluency Task</h1>
+      <h1 class="heading">BKB Task</h1>
     </div>
 
     <div class="main-content">
@@ -196,9 +196,9 @@ import WaveSurfer from 'wavesurfer.js'
 import RegionsPlugin from 'wavesurfer.js/dist/plugins/regions.esm.js'
 
 //const API_URL = "https://audio-transcription-editor-13c6d97d2e6b.herokuapp.com"
-//const API_URL = "http://localhost:5149"
+const API_URL = "http://localhost:5149"
 //const API_URL = "http://verbal-fluency-asp-net.onrender.com"
-const API_URL =  "https://1bcf-71-95-36-38.ngrok-free.app"
+//const API_URL =  "https://1bcf-71-95-36-38.ngrok-free.app"
 export default {
   setup() {
     const file = ref(null)

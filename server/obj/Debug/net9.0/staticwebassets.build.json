@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "SeiiJcY0EWBzF+x6O5RNYw/bSg4aAC4eTfUBNktC0RA=",
+  "Source": "FileUploadApi",
+  "BasePath": "_content/FileUploadApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FileUploadApi/wwwroot",
+      "Source": "FileUploadApi",
+      "ContentRoot": "/Users/suriyakumar/Documents/Brain_Games/BKB_Vue/verbal-fluency/server/wwwroot/",
+      "BasePath": "_content/FileUploadApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
