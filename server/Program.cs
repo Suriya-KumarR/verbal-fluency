@@ -54,4 +54,38 @@ app.UseAuthorization();
 app.UseCors("VueApp");
 app.MapControllers();
 
+// When processing the JSON on the server side, ensure mark property is preserved
+app.MapPost("/api/file/update-json/{filename}", async (HttpContext context, string filename) =>
+{
+    try
+    {
+        // Read the request body
+        using var reader = new StreamReader(context.Request.Body);
+        var json = await reader.ReadToEndAsync();
+        
+        // Parse the JSON
+        var transcription = JsonSerializer.Deserialize<TranscriptionData>(json);
+        
+        // Ensure each word has a mark property
+        foreach (var word in transcription.Words)
+        {
+            // If mark property doesn't exist in the JSON, add it with default value
+            if (word.GetType().GetProperty("Mark") == null)
+            {
+                word.Mark = false;
+            }
+        }
+        
+        // Save the updated JSON
+        var jsonFilePath = Path.Combine(jsonDirectory, $"{filename}.json");
+        await File.WriteAllTextAsync(jsonFilePath, JsonSerializer.Serialize(transcription));
+        
+        return Results.Ok();
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(ex.Message);
+    }
+});
+
 app.Run();

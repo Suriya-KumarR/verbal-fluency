@@ -1,0 +1,45 @@
+/* Timestamp overlap warning styles */
+.word-item.timestamp-overlap {
+  position: relative;
+}
+
+.word-item.timestamp-overlap::before {
+  content: "⚠️";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #ff9800;
+  font-size: 16px;
+}
+
+.overlap-tooltip {
+  position: absolute;
+  background-color: #fff9c4;
+  border: 1px solid #ffd600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-size: 12px;
+  color: #5d4037;
+  z-index: 100;
+  max-width: 200px;
+  display: none;
+  right: -210px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.overlap-tooltip::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  transform: translateY(-50%);
+  border-width: 6px 6px 6px 0;
+  border-style: solid;
+  border-color: transparent #ffd600 transparent transparent;
+}
+
+.word-item.timestamp-overlap:hover .overlap-tooltip {
+  display: block;
+} 

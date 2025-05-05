@@ -15,6 +15,7 @@ using NAudio.Wave.SampleProviders;
 using NAudio.Dsp;
 using FuzzySharp;
 using MathNet.Numerics; // Fuzzy Matching Library
+using FileUploadApi.Models;
 
 namespace FileUploadApi.Controllers
 {   
@@ -33,6 +34,9 @@ namespace FileUploadApi.Controllers
         public bool Edited { get; set; }
         public bool Qc { get; set; }
         public string Qc_word { get; set; } = string.Empty;
+        public double? Original_start_time { get; set; }
+        public double? Original_end_time { get; set; }
+        public bool HasOverlap { get; set; }
     }
     
     [ApiController]
@@ -99,7 +103,8 @@ namespace FileUploadApi.Controllers
                         End_time = Math.Round(word.EndTime.TotalMilliseconds, 3),
                         Edited = false,
                         Qc = qcResult,
-                        Qc_word = qcWord.Trim()
+                        Qc_word = qcWord.Trim(),
+                        HasOverlap = false
                     });
                 }
 
@@ -110,6 +115,8 @@ namespace FileUploadApi.Controllers
                     Words = words
                 };
 
+                CheckForOverlaps(result.Words);
+
                 Transcriptions[file.FileName] = result;
                 return Ok(result);
             }
@@ -119,46 +126,104 @@ namespace FileUploadApi.Controllers
             }
         }
 
-    [HttpGet("get-json/{filename}")]
-    public IActionResult GetTranscription(string filename)
-    {
-        if (Transcriptions.ContainsKey(filename))
+        [HttpGet("get-json/{filename}")]
+        public IActionResult GetTranscription(string filename)
         {
-            return Ok(Transcriptions[filename]);
+            if (Transcriptions.ContainsKey(filename))
+            {
+                return Ok(Transcriptions[filename]);
+            }
+            return NotFound(new { error = "File not found" });
         }
-        return NotFound(new { error = "File not found" });
-    }
 
-    [HttpPost("update-json/{filename}")]
-    public IActionResult UpdateJson(string filename, [FromBody] TranscriptionModel updatedTranscription)
-    {
-        if (Transcriptions.ContainsKey(filename) && updatedTranscription != null)
+        [HttpPost("update-json/{filename}")]
+        public IActionResult UpdateJson(string filename, [FromBody] TranscriptionModel updatedTranscription)
         {
-            Transcriptions[filename] = updatedTranscription;
-            return Ok(new { message = "JSON updated successfully" });
+            if (Transcriptions.ContainsKey(filename) && updatedTranscription != null)
+            {
+                CheckForOverlaps(updatedTranscription.Words);
+                
+                Transcriptions[filename] = updatedTranscription;
+                return Ok(new { message = "JSON updated successfully" });
+            }
+            return NotFound(new { error = "File not found" });
         }
-        return NotFound(new { error = "File not found" });
-    }
         
-// Modified Download method
+        [HttpPost("save/{filename}")]
+        public async Task<IActionResult> SaveTranscription(string filename, [FromBody] TranscriptionData transcription)
+        {
+            try
+            {
+                // Ensure each word has the mark property
+                foreach (var word in transcription.Words)
+                {
+                    // If mark is not set, initialize it to false
+                    if (word.Mark == null)
+                    {
+                        word.Mark = false;
+                    }
+                }
+                
+                var jsonFilePath = Path.Combine(_jsonDirectory, $"{filename}.json");
+                var json = JsonSerializer.Serialize(transcription, new JsonSerializerOptions
+                {
+                    WriteIndented = true,
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
+                
+                await System.IO.File.WriteAllTextAsync(jsonFilePath, json);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
         [HttpGet("download/{filename}")]
         public IActionResult DownloadJson(string filename)
         {
-            if (!Transcriptions.TryGetValue(filename, out var transcription))
+            try
             {
-                return NotFound(new { error = "File not found" });
+                var jsonFilePath = Path.Combine(_jsonDirectory, $"{filename}.json");
+                if (!System.IO.File.Exists(jsonFilePath))
+                {
+                    return NotFound();
+                }
+
+                // Read the JSON file
+                var jsonContent = System.IO.File.ReadAllText(jsonFilePath);
+                
+                // Deserialize to ensure we can add the mark property if missing
+                var transcription = JsonSerializer.Deserialize<TranscriptionData>(jsonContent, 
+                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                
+                // Ensure each word has the mark property
+                foreach (var word in transcription.Words)
+                {
+                    if (word.Mark == null)
+                    {
+                        word.Mark = false;
+                    }
+                }
+                
+                // Serialize back to JSON with the mark property
+                jsonContent = JsonSerializer.Serialize(transcription, new JsonSerializerOptions
+                {
+                    WriteIndented = true,
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
+                
+                return File(System.Text.Encoding.UTF8.GetBytes(jsonContent), 
+                    "application/json", 
+                    $"{filename}_transcription.json");
             }
-
-            // Use System.Text.Json instead of Newtonsoft.Json
-            var options = new JsonSerializerOptions
+            catch (Exception ex)
             {
-                WriteIndented = true,
-                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-            };
-
-            return new JsonResult(transcription, options);
+                return StatusCode(500, ex.Message);
+            }
         }
+
         private async Task<(string transcribedWord, bool match)> RecheckWordWithWhisperAsync(
             AudioClient audioClient, 
             string originalWord,
@@ -189,7 +254,7 @@ namespace FileUploadApi.Controllers
 
                 double similarity = FuzzyMatchingScore(cleanOriginal, cleanResult);
 
-                return (cleanResult, similarity > 80); // Accept QC if similarity is above 80%
+                return (cleanResult, similarity > 80);
             }
             catch (Exception ex)
             {
@@ -207,7 +272,7 @@ namespace FileUploadApi.Controllers
 
         private double FuzzyMatchingScore(string word1, string word2)
         {
-            return Fuzz.Ratio(word1, word2); // Fuzzy string matching using FuzzySharp
+            return Fuzz.Ratio(word1, word2);
         }
 
         private string TrimAudioWordSegment(string inputPath, double startMs, double endMs)
@@ -236,6 +301,33 @@ namespace FileUploadApi.Controllers
             }
 
             return outputPath;
+        }
+
+        private void CheckForOverlaps(List<WordModel> words)
+        {
+            foreach (var word in words)
+            {
+                word.HasOverlap = false;
+            }
+
+            for (int i = 0; i < words.Count; i++)
+            {
+                var word1 = words[i];
+                
+                for (int j = 0; j < words.Count; j++)
+                {
+                    if (i == j) continue;
+                    
+                    var word2 = words[j];
+                    
+                    if ((word1.Start_time <= word2.End_time && word1.End_time >= word2.Start_time) ||
+                        (word2.Start_time <= word1.End_time && word2.End_time >= word1.Start_time))
+                    {
+                        word1.HasOverlap = true;
+                        break;
+                    }
+                }
+            }
         }
     }
 }
