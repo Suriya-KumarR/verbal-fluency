@@ -1,4 +1,4 @@
-# Verbal Fluency Task
+# BKB Task
 
 This application provides a tool for transcribing and editing audio files with word-level timestamps. It consists of a Vue.js frontend and a .NET Core backend.
 
