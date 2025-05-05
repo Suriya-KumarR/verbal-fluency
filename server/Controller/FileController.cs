@@ -45,12 +45,14 @@ namespace FileUploadApi.Controllers
     {
         private static readonly Dictionary<string, TranscriptionModel> Transcriptions = new();
         private const string UploadDir = "uploads";
+        private readonly string _jsonDirectory;
         
         public FileController()
         {
-            if (!Directory.Exists(UploadDir))
+            _jsonDirectory = Path.Combine(Directory.GetCurrentDirectory(), UploadDir);
+            if (!Directory.Exists(_jsonDirectory))
             {
-                Directory.CreateDirectory(UploadDir);
+                Directory.CreateDirectory(_jsonDirectory);
             }
         }
 
@@ -157,18 +159,18 @@ namespace FileUploadApi.Controllers
                 // Ensure each word has the mark property
                 foreach (var word in transcription.Words)
                 {
-                    // If mark is not set, initialize it to false
-                    if (word.Mark == null)
+                    // If mark is not initialized, set it to false
+                    if (!word.Mark)
                     {
                         word.Mark = false;
                     }
                 }
                 
                 var jsonFilePath = Path.Combine(_jsonDirectory, $"{filename}.json");
-                var json = JsonSerializer.Serialize(transcription, new JsonSerializerOptions
+                var json = System.Text.Json.JsonSerializer.Serialize(transcription, new System.Text.Json.JsonSerializerOptions
                 {
                     WriteIndented = true,
-                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                    PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase
                 });
                 
                 await System.IO.File.WriteAllTextAsync(jsonFilePath, json);
@@ -195,23 +197,23 @@ namespace FileUploadApi.Controllers
                 var jsonContent = System.IO.File.ReadAllText(jsonFilePath);
                 
                 // Deserialize to ensure we can add the mark property if missing
-                var transcription = JsonSerializer.Deserialize<TranscriptionData>(jsonContent, 
-                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                var transcription = System.Text.Json.JsonSerializer.Deserialize<TranscriptionData>(jsonContent, 
+                    new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true });
                 
                 // Ensure each word has the mark property
                 foreach (var word in transcription.Words)
                 {
-                    if (word.Mark == null)
+                    if (!word.Mark)
                     {
                         word.Mark = false;
                     }
                 }
                 
                 // Serialize back to JSON with the mark property
-                jsonContent = JsonSerializer.Serialize(transcription, new JsonSerializerOptions
+                jsonContent = System.Text.Json.JsonSerializer.Serialize(transcription, new System.Text.Json.JsonSerializerOptions
                 {
                     WriteIndented = true,
-                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                    PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase
                 });
                 
                 return File(System.Text.Encoding.UTF8.GetBytes(jsonContent), 

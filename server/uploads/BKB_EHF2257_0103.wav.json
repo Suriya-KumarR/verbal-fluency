@@ -1,0 +1,51 @@
+{
+  "filename": "BKB_EHF2257_0103.wav",
+  "duration": 1.4199999,
+  "words": [
+    {
+      "word": "she",
+      "start_time": 50,
+      "end_time": 340,
+      "edited": true,
+      "qc": false,
+      "qc_word": "sheik",
+      "mark": true
+    },
+    {
+      "word": "cut",
+      "start_time": 340,
+      "end_time": 600,
+      "edited": false,
+      "qc": true,
+      "qc_word": "cut",
+      "mark": false
+    },
+    {
+      "word": "with",
+      "start_time": 600,
+      "end_time": 840,
+      "edited": false,
+      "qc": true,
+      "qc_word": "with",
+      "mark": false
+    },
+    {
+      "word": "her",
+      "start_time": 840,
+      "end_time": 1000,
+      "edited": false,
+      "qc": false,
+      "qc_word": "Error: Whisper returned empty result",
+      "mark": false
+    },
+    {
+      "word": "knife",
+      "start_time": 1000,
+      "end_time": 1280,
+      "edited": false,
+      "qc": true,
+      "qc_word": "knife",
+      "mark": false
+    }
+  ]
+}

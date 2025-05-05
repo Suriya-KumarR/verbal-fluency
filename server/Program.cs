@@ -1,5 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using FileUploadApi.Models; // Add this to reference TranscriptionData
+
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
     ApplicationName = typeof(Program).Assembly.FullName,
@@ -7,6 +9,13 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
     WebRootPath = "wwwroot",
     Args = args
 });
+
+// Define jsonDirectory
+string jsonDirectory = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
+if (!Directory.Exists(jsonDirectory))
+{
+    Directory.CreateDirectory(jsonDirectory);
+}
 
 // Explicitly set URLs to override any defaults
 builder.WebHost.UseUrls("http://localhost:5149", "https://localhost:7272");
@@ -29,8 +38,11 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
                 "http://localhost:8080",
+                "http://localhost:8081",
                 "http://192.168.86.77:8080",
+                "http://192.168.86.77:8081",
                 "http://127.0.0.1:8080",
+                "http://127.0.0.1:8081",
                 "https://verbal-fluency-wpxb.vercel.app/"
             )
             .AllowAnyHeader()
@@ -69,8 +81,8 @@ app.MapPost("/api/file/update-json/{filename}", async (HttpContext context, stri
         // Ensure each word has a mark property
         foreach (var word in transcription.Words)
         {
-            // If mark property doesn't exist in the JSON, add it with default value
-            if (word.GetType().GetProperty("Mark") == null)
+            // Initialize mark to false if it's the default value
+            if (!word.Mark) // Changed from word.Mark == null
             {
                 word.Mark = false;
             }
