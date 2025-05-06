@@ -58,8 +58,6 @@ The backend server will start at `http://localhost:5149`.
    npm install vue-cli-plugin-electron-builder
    ```
 
-   ```
-
 2. Run the Electron app in development mode:
    ```bash
    npm run electron:serve
