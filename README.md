@@ -14,26 +14,8 @@ This is a Vue.js application for audio transcription and editing, with a .NET ba
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/verbal-fluency.git
-   cd verbal-fluency
    ```
-
-2. Install frontend dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Install Electron builder plugin:
-   ```bash
-   npm install vue-cli-plugin-electron-builder@13.0.0 --save-dev
-   ```
-
-4. Install backend dependencies:
-   ```bash
-   cd server
-   dotnet restore
-   cd ..
-   ```
-
+   
 ### Running the Application
 
 #### Development Mode (Separate Frontend and Backend)
@@ -63,6 +45,7 @@ The backend server will start at `http://localhost:5149`.
 
 2. In a new terminal, start the frontend:
    ```bash
+   npm install
    npm run serve
    ```
 
@@ -70,9 +53,11 @@ The backend server will start at `http://localhost:5149`.
 
 #### Electron Mode (Desktop Application)
 
-1. Install Electron dependencies:
+1. Install Electron builder plugin:
    ```bash
-   npm install
+   npm install vue-cli-plugin-electron-builder
+   ```
+
    ```
 
 2. Run the Electron app in development mode:
@@ -100,11 +85,6 @@ The backend server will start at `http://localhost:5149`.
 - Download edited transcription as JSON
 
 ## Troubleshooting
-
-- **Electron build issues**: Make sure you have all required dependencies installed:
-  ```bash
-  npm install
-  ```
 
 ### CORS Issues
 
