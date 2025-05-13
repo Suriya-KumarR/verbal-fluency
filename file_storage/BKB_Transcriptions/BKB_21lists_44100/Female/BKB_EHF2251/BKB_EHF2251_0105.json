@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0105.wav",
+  "words": [
+    {
+      "word": "house_1",
+      "start_time": 340,
+      "end_time": 600,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "nine_1",
+      "start_time": 879,
+      "end_time": 1200,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "rooms_1",
+      "start_time": 1200,
+      "end_time": 1580,
+      "duration": 379,
+      "qc": false
+    }
+  ]
+}

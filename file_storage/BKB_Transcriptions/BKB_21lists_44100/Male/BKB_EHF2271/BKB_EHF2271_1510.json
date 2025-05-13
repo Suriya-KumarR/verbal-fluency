@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1510.wav",
+  "words": [
+    {
+      "word": "flowers_1",
+      "start_time": 0,
+      "end_time": 639,
+      "duration": 639,
+      "qc": true
+    },
+    {
+      "word": "grow_1",
+      "start_time": 639,
+      "end_time": 959,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "garden_1",
+      "start_time": 1320,
+      "end_time": 1600,
+      "duration": 279,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "flowers_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "garden_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "flowers_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "garden_1"
+    }
+  ],
+  "incorrect words": []
+}

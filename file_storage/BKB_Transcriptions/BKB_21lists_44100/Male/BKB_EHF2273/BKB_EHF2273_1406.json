@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1406.wav",
+  "words": [
+    {
+      "word": "dropped_1",
+      "start_time": 319,
+      "end_time": 620,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "money_1",
+      "start_time": 1000,
+      "end_time": 1220,
+      "duration": 220,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "dropped_1"
+    },
+    {
+      "word": "money_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dropped_1"
+    },
+    {
+      "word": "money_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0407.wav",
+  "words": [
+    {
+      "word": "crossing_1",
+      "start_time": 400,
+      "end_time": 819,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "street_1",
+      "start_time": 1059,
+      "end_time": 1440,
+      "duration": 380,
+      "qc": true
+    }
+  ]
+}

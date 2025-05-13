@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_0308.wav",
+  "words": [
+    {
+      "word": "needed_1",
+      "start_time": 280,
+      "end_time": 519,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "vacation_1",
+      "start_time": 779,
+      "end_time": 1259,
+      "duration": 480,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "needed_1"
+    },
+    {
+      "word": "his_1"
+    },
+    {
+      "word": "vacation_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "needed_1"
+    },
+    {
+      "word": "vacation_1"
+    }
+  ],
+  "incorrect words": []
+}

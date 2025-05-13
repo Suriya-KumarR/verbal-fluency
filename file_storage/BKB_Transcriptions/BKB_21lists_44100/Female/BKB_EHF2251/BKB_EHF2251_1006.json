@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1006.wav",
+  "words": [
+    {
+      "word": "kitchen_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "clock_1",
+      "start_time": 579,
+      "end_time": 939,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "wrong_1",
+      "start_time": 1220,
+      "end_time": 1519,
+      "duration": 299,
+      "qc": false
+    }
+  ]
+}

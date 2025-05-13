@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2259_0407.wav",
+  "words": [
+    {
+      "word": "crossing_1",
+      "start_time": 460,
+      "end_time": 839,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "street_1",
+      "start_time": 1059,
+      "end_time": 1360,
+      "duration": 300,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "crossing_1"
+    },
+    {
+      "word": "street_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "crossing_1"
+    },
+    {
+      "word": "street_1"
+    }
+  ],
+  "incorrect words": []
+}

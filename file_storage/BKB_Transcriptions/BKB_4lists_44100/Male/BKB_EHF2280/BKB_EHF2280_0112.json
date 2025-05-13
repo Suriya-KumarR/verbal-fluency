@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2280_0112.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "handstand_1",
+      "start_time": 860,
+      "end_time": 1379,
+      "duration": 519,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "did_1"
+    },
+    {
+      "word": "handstand_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "handstand_1"
+    }
+  ],
+  "incorrect words": []
+}

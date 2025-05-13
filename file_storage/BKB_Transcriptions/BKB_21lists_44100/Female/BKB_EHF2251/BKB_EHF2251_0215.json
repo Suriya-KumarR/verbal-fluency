@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0215.wav",
+  "words": [
+    {
+      "word": "watching_1",
+      "start_time": 419,
+      "end_time": 779,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "train_1",
+      "start_time": 1019,
+      "end_time": 1320,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

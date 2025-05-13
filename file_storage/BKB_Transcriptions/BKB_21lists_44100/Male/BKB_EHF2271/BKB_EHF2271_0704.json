@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2271_0704.wav",
+  "words": [
+    {
+      "word": "found_1",
+      "start_time": 300,
+      "end_time": 639,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "purse_1",
+      "start_time": 839,
+      "end_time": 1240,
+      "duration": 400,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "found_1"
+    },
+    {
+      "word": "her_1"
+    },
+    {
+      "word": "purse_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "found_1"
+    },
+    {
+      "word": "purse_1"
+    }
+  ],
+  "incorrect words": []
+}

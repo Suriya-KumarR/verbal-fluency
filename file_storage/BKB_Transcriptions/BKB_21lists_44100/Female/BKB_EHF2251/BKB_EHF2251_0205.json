@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0205.wav",
+  "words": [
+    {
+      "word": "cut_1",
+      "start_time": 340,
+      "end_time": 579,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "finger_1",
+      "start_time": 860,
+      "end_time": 1200,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

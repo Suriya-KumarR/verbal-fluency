@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0514.wav",
+  "words": [
+    {
+      "word": "wanted_1",
+      "start_time": 280,
+      "end_time": 620,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "potatoes_1",
+      "start_time": 939,
+      "end_time": 1320,
+      "duration": 380,
+      "qc": false
+    }
+  ]
+}

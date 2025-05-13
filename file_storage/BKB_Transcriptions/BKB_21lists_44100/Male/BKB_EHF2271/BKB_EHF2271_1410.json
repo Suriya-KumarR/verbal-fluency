@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2271_1410.wav",
+  "words": [
+    {
+      "word": "big_1",
+      "start_time": 340,
+      "end_time": 620,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "fish_1",
+      "start_time": 620,
+      "end_time": 819,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "got_1",
+      "start_time": 819,
+      "end_time": 1019,
+      "duration": 199,
+      "qc": true
+    },
+    {
+      "word": "away_1",
+      "start_time": 1019,
+      "end_time": 1440,
+      "duration": 420,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "big_1"
+    },
+    {
+      "word": "fish_1"
+    },
+    {
+      "word": "got_1"
+    },
+    {
+      "word": "away_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "big_1"
+    },
+    {
+      "word": "fish_1"
+    },
+    {
+      "word": "got_1"
+    },
+    {
+      "word": "away_1"
+    }
+  ],
+  "incorrect words": []
+}

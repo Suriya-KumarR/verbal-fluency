@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1808.wav",
+  "words": [
+    {
+      "word": "painted_1",
+      "start_time": 419,
+      "end_time": 639,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "wall_1",
+      "start_time": 920,
+      "end_time": 1200,
+      "duration": 280,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "painted_1"
+    },
+    {
+      "word": "wall_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "painted_1"
+    },
+    {
+      "word": "wall_1"
+    }
+  ],
+  "incorrect words": []
+}

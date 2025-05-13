@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0609.wav",
+  "words": [
+    {
+      "word": "spending_1",
+      "start_time": 720,
+      "end_time": 1080,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "money_1",
+      "start_time": 1080,
+      "end_time": 1320,
+      "duration": 240,
+      "qc": true
+    }
+  ]
+}

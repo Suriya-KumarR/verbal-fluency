@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1716.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 259,
+      "end_time": 600,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "chased_1",
+      "start_time": 600,
+      "end_time": 959,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "cat_1",
+      "start_time": 1179,
+      "end_time": 1399,
+      "duration": 220,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "chased_1"
+    },
+    {
+      "word": "cat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "chased_1"
+    },
+    {
+      "word": "cat_1"
+    }
+  ],
+  "incorrect words": []
+}

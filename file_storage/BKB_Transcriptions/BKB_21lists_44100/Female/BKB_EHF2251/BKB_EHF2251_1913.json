@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1913.wav",
+  "words": [
+    {
+      "word": "staying_1",
+      "start_time": 460,
+      "end_time": 759,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "supper_1",
+      "start_time": 1059,
+      "end_time": 1320,
+      "duration": 260,
+      "qc": true
+    }
+  ]
+}

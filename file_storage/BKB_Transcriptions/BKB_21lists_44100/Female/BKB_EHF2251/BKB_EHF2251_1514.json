@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1514.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 400,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "tied_1",
+      "start_time": 400,
+      "end_time": 660,
+      "duration": 260,
+      "qc": true
+    },
+    {
+      "word": "string_1",
+      "start_time": 920,
+      "end_time": 1179,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

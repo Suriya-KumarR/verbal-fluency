@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0504.wav",
+  "words": [
+    {
+      "word": "train_1",
+      "start_time": 239,
+      "end_time": 540,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "bad_1",
+      "start_time": 1000,
+      "end_time": 1159,
+      "duration": 159,
+      "qc": false
+    },
+    {
+      "word": "accident_1",
+      "start_time": 1159,
+      "end_time": 1620,
+      "duration": 460,
+      "qc": true
+    }
+  ]
+}

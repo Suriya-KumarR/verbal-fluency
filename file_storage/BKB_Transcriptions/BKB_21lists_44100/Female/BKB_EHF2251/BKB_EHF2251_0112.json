@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0112.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 280,
+      "end_time": 560,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "handstand_1",
+      "start_time": 939,
+      "end_time": 1659,
+      "duration": 719,
+      "qc": true
+    }
+  ]
+}

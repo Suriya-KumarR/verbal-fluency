@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1614.wav",
+  "words": [
+    {
+      "word": "car_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "going_1",
+      "start_time": 720,
+      "end_time": 899,
+      "duration": 179,
+      "qc": false
+    },
+    {
+      "word": "fast_1",
+      "start_time": 1220,
+      "end_time": 1600,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

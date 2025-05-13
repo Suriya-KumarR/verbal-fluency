@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2114.wav",
+  "words": [
+    {
+      "word": "water_1",
+      "start_time": 259,
+      "end_time": 579,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "boiled_1",
+      "start_time": 579,
+      "end_time": 920,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "quickly_1",
+      "start_time": 920,
+      "end_time": 1320,
+      "duration": 400,
+      "qc": true
+    }
+  ]
+}

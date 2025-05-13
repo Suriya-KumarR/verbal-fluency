@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1111.wav",
+  "words": [
+    {
+      "word": "cow_1",
+      "start_time": 360,
+      "end_time": 500,
+      "duration": 139,
+      "qc": false
+    },
+    {
+      "word": "gave_1",
+      "start_time": 500,
+      "end_time": 800,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "milk_1",
+      "start_time": 1059,
+      "end_time": 1320,
+      "duration": 260,
+      "qc": false
+    }
+  ]
+}

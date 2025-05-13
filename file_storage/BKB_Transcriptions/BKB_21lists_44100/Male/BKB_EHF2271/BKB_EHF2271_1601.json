@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1601.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 259,
+      "end_time": 600,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "waved_1",
+      "start_time": 600,
+      "end_time": 959,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "train_1",
+      "start_time": 1320,
+      "end_time": 1639,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "waved_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "waved_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "incorrect words": []
+}

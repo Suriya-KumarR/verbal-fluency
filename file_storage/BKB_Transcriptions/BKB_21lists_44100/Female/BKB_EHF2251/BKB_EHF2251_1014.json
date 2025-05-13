@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1014.wav",
+  "words": [
+    {
+      "word": "ground_1",
+      "start_time": 259,
+      "end_time": 560,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "hard_1",
+      "start_time": 1200,
+      "end_time": 1519,
+      "duration": 319,
+      "qc": false
+    }
+  ]
+}

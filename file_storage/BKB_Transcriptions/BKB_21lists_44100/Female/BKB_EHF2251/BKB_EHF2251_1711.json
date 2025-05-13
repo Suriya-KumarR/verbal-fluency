@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1711.wav",
+  "words": [
+    {
+      "word": "calling_1",
+      "start_time": 540,
+      "end_time": 800,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "daughter_1",
+      "start_time": 1059,
+      "end_time": 1360,
+      "duration": 300,
+      "qc": false
+    }
+  ]
+}

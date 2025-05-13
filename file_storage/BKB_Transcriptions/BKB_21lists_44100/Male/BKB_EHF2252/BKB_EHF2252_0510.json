@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2252_0510.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 340,
+      "end_time": 620,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "made_1",
+      "start_time": 620,
+      "end_time": 839,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "angry_1",
+      "start_time": 1080,
+      "end_time": 1279,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "noise_1",
+      "start_time": 1279,
+      "end_time": 1700,
+      "duration": 420,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "made_1"
+    },
+    {
+      "word": "angry_1"
+    },
+    {
+      "word": "noise_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "made_1"
+    },
+    {
+      "word": "angry_1"
+    },
+    {
+      "word": "noise_1"
+    }
+  ],
+  "incorrect words": []
+}

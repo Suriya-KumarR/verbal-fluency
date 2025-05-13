@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_0404.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "ran_1",
+      "start_time": 519,
+      "end_time": 819,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "path_1",
+      "start_time": 1299,
+      "end_time": 1700,
+      "duration": 400,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "down_1"
+    },
+    {
+      "word": "path_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "path_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_2110.wav",
+  "words": [
+    {
+      "word": "coffee_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "cups_1",
+      "start_time": 639,
+      "end_time": 959,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "table_1",
+      "start_time": 1500,
+      "end_time": 1860,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "coffee_1"
+    },
+    {
+      "word": "cups_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "coffee_1"
+    },
+    {
+      "word": "cups_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "incorrect words": []
+}

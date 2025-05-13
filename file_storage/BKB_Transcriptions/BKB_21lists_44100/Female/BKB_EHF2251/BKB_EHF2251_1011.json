@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1011.wav",
+  "words": [
+    {
+      "word": "broke_1",
+      "start_time": 360,
+      "end_time": 620,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "leg_1",
+      "start_time": 920,
+      "end_time": 1200,
+      "duration": 280,
+      "qc": true
+    }
+  ]
+}

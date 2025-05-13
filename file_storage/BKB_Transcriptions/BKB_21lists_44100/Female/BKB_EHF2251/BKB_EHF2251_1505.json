@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1505.wav",
+  "words": [
+    {
+      "word": "driver_1",
+      "start_time": 300,
+      "end_time": 560,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "started_1",
+      "start_time": 560,
+      "end_time": 959,
+      "duration": 399,
+      "qc": false
+    },
+    {
+      "word": "engine_1",
+      "start_time": 1200,
+      "end_time": 1500,
+      "duration": 299,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2106.wav",
+  "words": [
+    {
+      "word": "road_1",
+      "start_time": 300,
+      "end_time": 560,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "goes_1",
+      "start_time": 560,
+      "end_time": 860,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "hill_1",
+      "start_time": 1240,
+      "end_time": 1379,
+      "duration": 139,
+      "qc": false
+    }
+  ]
+}

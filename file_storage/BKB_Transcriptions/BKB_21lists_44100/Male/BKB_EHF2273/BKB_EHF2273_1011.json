@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1011.wav",
+  "words": [
+    {
+      "word": "broke_1",
+      "start_time": 360,
+      "end_time": 560,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "leg_1",
+      "start_time": 819,
+      "end_time": 1039,
+      "duration": 219,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "broke_1"
+    },
+    {
+      "word": "leg_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "broke_1"
+    },
+    {
+      "word": "leg_1"
+    }
+  ],
+  "incorrect words": []
+}

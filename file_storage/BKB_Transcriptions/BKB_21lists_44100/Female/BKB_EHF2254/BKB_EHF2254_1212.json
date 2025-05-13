@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2254_1212.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 259,
+      "end_time": 639,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "help_1",
+      "start_time": 639,
+      "end_time": 1080,
+      "duration": 440,
+      "qc": true
+    },
+    {
+      "word": "milkman_1",
+      "start_time": 1279,
+      "end_time": 1799,
+      "duration": 519,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "helped_1"
+    },
+    {
+      "word": "milkman_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "milkman_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "help_1"
+    }
+  ]
+}

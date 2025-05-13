@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1211.wav",
+  "words": [
+    {
+      "word": "carried_1",
+      "start_time": 280,
+      "end_time": 639,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "shopping_1",
+      "start_time": 920,
+      "end_time": 1220,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "bags_1",
+      "start_time": 1220,
+      "end_time": 1620,
+      "duration": 399,
+      "qc": false
+    }
+  ]
+}

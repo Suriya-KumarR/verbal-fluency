@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1701.wav",
+  "words": [
+    {
+      "word": "apple_1",
+      "start_time": 519,
+      "end_time": 720,
+      "duration": 200,
+      "qc": false
+    },
+    {
+      "word": "pie_1",
+      "start_time": 720,
+      "end_time": 1080,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "baking_1",
+      "start_time": 1320,
+      "end_time": 1679,
+      "duration": 359,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "apple_1"
+    },
+    {
+      "word": "pie_1"
+    },
+    {
+      "word": "baking_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "apple_1"
+    },
+    {
+      "word": "pie_1"
+    },
+    {
+      "word": "baking_1"
+    }
+  ],
+  "incorrect words": []
+}

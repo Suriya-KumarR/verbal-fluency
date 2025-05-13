@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1506.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 259,
+      "end_time": 540,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "hurried_1",
+      "start_time": 540,
+      "end_time": 959,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "school_1",
+      "start_time": 1159,
+      "end_time": 1480,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0601.wav",
+  "words": [
+    {
+      "word": "paint_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "dripped_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "ground_1",
+      "start_time": 1240,
+      "end_time": 1519,
+      "duration": 279,
+      "qc": true
+    }
+  ]
+}

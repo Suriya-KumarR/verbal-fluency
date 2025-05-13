@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0410.wav",
+  "words": [
+    {
+      "word": "animals_1",
+      "start_time": 500,
+      "end_time": 1000,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "sleep_1",
+      "start_time": 1000,
+      "end_time": 1419,
+      "duration": 419,
+      "qc": false
+    },
+    {
+      "word": "straw_1",
+      "start_time": 1840,
+      "end_time": 2039,
+      "duration": 199,
+      "qc": false
+    }
+  ]
+}

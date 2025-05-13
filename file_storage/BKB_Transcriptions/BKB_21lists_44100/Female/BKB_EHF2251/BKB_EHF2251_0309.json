@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0309.wav",
+  "words": [
+    {
+      "word": "milk_1",
+      "start_time": 0,
+      "end_time": 439,
+      "duration": 439,
+      "qc": true
+    },
+    {
+      "word": "comes_1",
+      "start_time": 439,
+      "end_time": 839,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "carton_1",
+      "start_time": 1100,
+      "end_time": 1460,
+      "duration": 360,
+      "qc": false
+    }
+  ]
+}

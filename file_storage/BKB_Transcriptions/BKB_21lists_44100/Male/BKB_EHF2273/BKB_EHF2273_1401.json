@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1401.wav",
+  "words": [
+    {
+      "word": "angry_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "man_1",
+      "start_time": 579,
+      "end_time": 980,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "shouted_1",
+      "start_time": 980,
+      "end_time": 1279,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "angry_1"
+    },
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "shouted_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "angry_1"
+    },
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "shouted_1"
+    }
+  ],
+  "incorrect words": []
+}

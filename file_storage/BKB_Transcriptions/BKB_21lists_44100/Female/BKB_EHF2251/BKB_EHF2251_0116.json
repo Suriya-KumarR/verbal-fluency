@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0116.wav",
+  "words": [
+    {
+      "word": "ice_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "cream_1",
+      "start_time": 519,
+      "end_time": 759,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "pink_1",
+      "start_time": 1000,
+      "end_time": 1340,
+      "duration": 340,
+      "qc": false
+    }
+  ]
+}

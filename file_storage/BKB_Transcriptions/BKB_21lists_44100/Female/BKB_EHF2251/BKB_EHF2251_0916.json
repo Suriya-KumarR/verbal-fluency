@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0916.wav",
+  "words": [
+    {
+      "word": "car_1",
+      "start_time": 280,
+      "end_time": 540,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "hit_1",
+      "start_time": 540,
+      "end_time": 759,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "wall_1",
+      "start_time": 959,
+      "end_time": 1179,
+      "duration": 219,
+      "qc": false
+    }
+  ]
+}

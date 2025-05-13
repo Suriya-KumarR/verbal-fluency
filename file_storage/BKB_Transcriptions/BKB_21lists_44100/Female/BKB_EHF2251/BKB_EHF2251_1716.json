@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1716.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 239,
+      "end_time": 479,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "chase_1",
+      "start_time": 479,
+      "end_time": 819,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "cat_1",
+      "start_time": 1019,
+      "end_time": 1379,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

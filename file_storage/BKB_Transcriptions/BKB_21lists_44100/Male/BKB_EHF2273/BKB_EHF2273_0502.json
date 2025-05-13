@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_0502.wav",
+  "words": [
+    {
+      "word": "matches_1",
+      "start_time": 259,
+      "end_time": 660,
+      "duration": 400,
+      "qc": false
+    },
+    {
+      "word": "shelf_1",
+      "start_time": 1299,
+      "end_time": 1539,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "matches_1"
+    },
+    {
+      "word": "are_1"
+    },
+    {
+      "word": "shelf_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "matches_1"
+    },
+    {
+      "word": "shelf_1"
+    }
+  ],
+  "incorrect words": []
+}

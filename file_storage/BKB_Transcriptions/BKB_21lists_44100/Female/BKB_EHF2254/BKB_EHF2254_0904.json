@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2254_0904.wav",
+  "words": [
+    {
+      "word": "stood_1",
+      "start_time": 419,
+      "end_time": 860,
+      "duration": 440,
+      "qc": false
+    },
+    {
+      "word": "near_1",
+      "start_time": 860,
+      "end_time": 1179,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "window_1",
+      "start_time": 1519,
+      "end_time": 1759,
+      "duration": 240,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "stood_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "stood_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "near_1"
+    }
+  ]
+}

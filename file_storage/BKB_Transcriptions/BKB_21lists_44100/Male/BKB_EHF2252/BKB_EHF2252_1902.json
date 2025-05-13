@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_1902.wav",
+  "words": [
+    {
+      "word": "sugar_1",
+      "start_time": 0,
+      "end_time": 579,
+      "duration": 579,
+      "qc": true
+    },
+    {
+      "word": "sweet_1",
+      "start_time": 1179,
+      "end_time": 1440,
+      "duration": 260,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "sugar_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "sweet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sugar_1"
+    },
+    {
+      "word": "sweet_1"
+    }
+  ],
+  "incorrect words": []
+}

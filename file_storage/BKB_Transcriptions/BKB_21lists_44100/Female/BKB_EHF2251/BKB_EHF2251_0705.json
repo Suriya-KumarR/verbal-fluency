@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0705.wav",
+  "words": [
+    {
+      "word": "fruit_1",
+      "start_time": 259,
+      "end_time": 479,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "ground_1",
+      "start_time": 1000,
+      "end_time": 1279,
+      "duration": 279,
+      "qc": true
+    }
+  ]
+}

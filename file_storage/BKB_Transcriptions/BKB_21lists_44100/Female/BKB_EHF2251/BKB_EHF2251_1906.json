@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1906.wav",
+  "words": [
+    {
+      "word": "janitor_1",
+      "start_time": 300,
+      "end_time": 759,
+      "duration": 459,
+      "qc": false
+    },
+    {
+      "word": "swept_1",
+      "start_time": 759,
+      "end_time": 1059,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "floor_1",
+      "start_time": 1320,
+      "end_time": 1539,
+      "duration": 219,
+      "qc": true
+    }
+  ]
+}

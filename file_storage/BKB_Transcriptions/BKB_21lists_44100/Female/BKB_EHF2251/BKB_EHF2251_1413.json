@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1413.wav",
+  "words": [
+    {
+      "word": "mailman_1",
+      "start_time": 219,
+      "end_time": 720,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "comes_1",
+      "start_time": 720,
+      "end_time": 980,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "early_1",
+      "start_time": 980,
+      "end_time": 1379,
+      "duration": 399,
+      "qc": true
+    }
+  ]
+}

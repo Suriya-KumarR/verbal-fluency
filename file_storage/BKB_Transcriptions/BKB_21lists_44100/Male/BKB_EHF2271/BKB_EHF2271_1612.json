@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1612.wav",
+  "words": [
+    {
+      "word": "cat_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "drank_1",
+      "start_time": 579,
+      "end_time": 939,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "saucer_1",
+      "start_time": 1279,
+      "end_time": 1779,
+      "duration": 500,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "drank_1"
+    },
+    {
+      "word": "saucer_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "drank_1"
+    },
+    {
+      "word": "saucer_1"
+    }
+  ],
+  "incorrect words": []
+}

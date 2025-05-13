@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0114.wav",
+  "words": [
+    {
+      "word": "truck_1",
+      "start_time": 219,
+      "end_time": 560,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "carried_1",
+      "start_time": 560,
+      "end_time": 1019,
+      "duration": 459,
+      "qc": true
+    },
+    {
+      "word": "fruit_1",
+      "start_time": 1019,
+      "end_time": 1379,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

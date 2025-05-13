@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2269_0405.wav",
+  "words": [
+    {
+      "word": "house_1",
+      "start_time": 219,
+      "end_time": 439,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "nice_1",
+      "start_time": 800,
+      "end_time": 959,
+      "duration": 159,
+      "qc": false
+    },
+    {
+      "word": "garden_1",
+      "start_time": 959,
+      "end_time": 1279,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "house_1"
+    },
+    {
+      "word": "nice_1"
+    },
+    {
+      "word": "garden_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "house_1"
+    },
+    {
+      "word": "nice_1"
+    },
+    {
+      "word": "garden_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1310.wav",
+  "words": [
+    {
+      "word": "big_1",
+      "start_time": 300,
+      "end_time": 600,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "dog_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "dangerous_1",
+      "start_time": 1179,
+      "end_time": 1559,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "big_1"
+    },
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "dangerous_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "big_1"
+    },
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "dangerous_1"
+    }
+  ],
+  "incorrect words": []
+}

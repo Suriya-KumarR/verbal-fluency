@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_0813.wav",
+  "words": [
+    {
+      "word": "writes_1",
+      "start_time": 439,
+      "end_time": 839,
+      "duration": 399,
+      "qc": false
+    },
+    {
+      "word": "brother_1",
+      "start_time": 1320,
+      "end_time": 1639,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "writes_1"
+    },
+    {
+      "word": "brother_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "writes_1"
+    },
+    {
+      "word": "brother_1"
+    }
+  ],
+  "incorrect words": []
+}

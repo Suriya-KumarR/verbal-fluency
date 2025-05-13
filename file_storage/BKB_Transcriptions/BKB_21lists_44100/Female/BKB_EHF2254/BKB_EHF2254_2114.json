@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_2114.wav",
+  "words": [
+    {
+      "word": "water_1",
+      "start_time": 259,
+      "end_time": 620,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "boiled_1",
+      "start_time": 620,
+      "end_time": 980,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "quickly_1",
+      "start_time": 980,
+      "end_time": 1460,
+      "duration": 480,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "water_1"
+    },
+    {
+      "word": "boiled_1"
+    },
+    {
+      "word": "quickly_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "water_1"
+    },
+    {
+      "word": "boiled_1"
+    },
+    {
+      "word": "quickly_1"
+    }
+  ],
+  "incorrect words": []
+}

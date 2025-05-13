@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0608.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "coming_1",
+      "start_time": 879,
+      "end_time": 1139,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 1139,
+      "end_time": 1480,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1801.wav",
+  "words": [
+    {
+      "word": "bakery_1",
+      "start_time": 280,
+      "end_time": 699,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "open_1",
+      "start_time": 1019,
+      "end_time": 1500,
+      "duration": 480,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "bakery_1"
+    },
+    {
+      "word": "is_1"
+    },
+    {
+      "word": "open_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "bakery_1"
+    },
+    {
+      "word": "open_1"
+    }
+  ],
+  "incorrect words": []
+}

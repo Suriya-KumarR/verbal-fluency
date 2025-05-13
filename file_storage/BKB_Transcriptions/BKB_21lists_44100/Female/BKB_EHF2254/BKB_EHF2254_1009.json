@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1009.wav",
+  "words": [
+    {
+      "word": "mailman_1",
+      "start_time": 259,
+      "end_time": 819,
+      "duration": 560,
+      "qc": true
+    },
+    {
+      "word": "brought_1",
+      "start_time": 819,
+      "end_time": 1100,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "letter_1",
+      "start_time": 1419,
+      "end_time": 1600,
+      "duration": 180,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mailman_1"
+    },
+    {
+      "word": "brought_1"
+    },
+    {
+      "word": "letter_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mailman_1"
+    },
+    {
+      "word": "brought_1"
+    },
+    {
+      "word": "letter_1"
+    }
+  ],
+  "incorrect words": []
+}

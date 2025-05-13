@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_2004.wav",
+  "words": [
+    {
+      "word": "paid_1",
+      "start_time": 400,
+      "end_time": 660,
+      "duration": 260,
+      "qc": true
+    },
+    {
+      "word": "bill_1",
+      "start_time": 920,
+      "end_time": 1179,
+      "duration": 259,
+      "qc": true
+    }
+  ]
+}

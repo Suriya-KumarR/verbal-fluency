@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1512.wav",
+  "words": [
+    {
+      "word": "daughter_1",
+      "start_time": 259,
+      "end_time": 540,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "set_1",
+      "start_time": 540,
+      "end_time": 860,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "table_1",
+      "start_time": 1340,
+      "end_time": 1360,
+      "duration": 19,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "daughter_1"
+    },
+    {
+      "word": "set_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "daughter_1"
+    },
+    {
+      "word": "set_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "incorrect words": []
+}

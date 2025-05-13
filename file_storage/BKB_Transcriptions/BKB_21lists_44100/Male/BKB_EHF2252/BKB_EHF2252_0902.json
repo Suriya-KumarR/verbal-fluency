@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2252_0902.wav",
+  "words": [
+    {
+      "word": "young_1",
+      "start_time": 259,
+      "end_time": 479,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "boy_1",
+      "start_time": 479,
+      "end_time": 699,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "left_1",
+      "start_time": 699,
+      "end_time": 939,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 939,
+      "end_time": 1220,
+      "duration": 280,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "young_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "left_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "young_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "left_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "incorrect words": []
+}

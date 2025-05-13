@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_0902.wav",
+  "words": [
+    {
+      "word": "young_1",
+      "start_time": 239,
+      "end_time": 500,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "boy_1",
+      "start_time": 500,
+      "end_time": 779,
+      "duration": 279,
+      "qc": false
+    },
+    {
+      "word": "left_1",
+      "start_time": 779,
+      "end_time": 1039,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 1039,
+      "end_time": 1419,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

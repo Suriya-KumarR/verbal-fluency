@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_2112.wav",
+  "words": [
+    {
+      "word": "basketball_1",
+      "start_time": 239,
+      "end_time": 660,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "team_1",
+      "start_time": 660,
+      "end_time": 1039,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "playing_1",
+      "start_time": 1220,
+      "end_time": 1519,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "basketball_1"
+    },
+    {
+      "word": "team_1"
+    },
+    {
+      "word": "playing_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "basketball_1"
+    },
+    {
+      "word": "team_1"
+    },
+    {
+      "word": "playing_1"
+    }
+  ],
+  "incorrect words": []
+}

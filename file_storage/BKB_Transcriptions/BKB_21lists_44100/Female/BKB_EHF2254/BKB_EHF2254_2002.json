@@ -1,0 +1,40 @@
+{
+  "audio_path": "BKB_EHF2254_2002.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 519,
+      "duration": 519,
+      "qc": false
+    },
+    {
+      "word": "going_1",
+      "start_time": 519,
+      "end_time": 839,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "going_1"
+    },
+    {
+      "word": "out_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "going_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1709.wav",
+  "words": [
+    {
+      "word": "chocolate_1",
+      "start_time": 720,
+      "end_time": 1059,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "pudding_1",
+      "start_time": 1059,
+      "end_time": 1440,
+      "duration": 380,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2276_0106.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 439,
+      "duration": 439,
+      "qc": false
+    },
+    {
+      "word": "buying_1",
+      "start_time": 439,
+      "end_time": 839,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1240,
+      "end_time": 1620,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "buying_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "buying_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

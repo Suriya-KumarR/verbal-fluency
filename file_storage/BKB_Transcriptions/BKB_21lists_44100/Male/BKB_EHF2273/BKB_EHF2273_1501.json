@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1501.wav",
+  "words": [
+    {
+      "word": "man_1",
+      "start_time": 239,
+      "end_time": 560,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "turning_1",
+      "start_time": 819,
+      "end_time": 1059,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "faucet_1",
+      "start_time": 1299,
+      "end_time": 1700,
+      "duration": 400,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "turning_1"
+    },
+    {
+      "word": "faucet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "turning_1"
+    },
+    {
+      "word": "faucet_1"
+    }
+  ],
+  "incorrect words": []
+}

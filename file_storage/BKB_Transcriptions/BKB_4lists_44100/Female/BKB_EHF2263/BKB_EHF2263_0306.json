@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2263_0306.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 319,
+      "end_time": 560,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "wore_1",
+      "start_time": 560,
+      "end_time": 879,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "coat_1",
+      "start_time": 1179,
+      "end_time": 1279,
+      "duration": 100,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "wore_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "wore_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "incorrect words": []
+}

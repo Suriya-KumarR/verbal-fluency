@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0704.wav",
+  "words": [
+    {
+      "word": "found_1",
+      "start_time": 400,
+      "end_time": 720,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "purse_1",
+      "start_time": 959,
+      "end_time": 1340,
+      "duration": 380,
+      "qc": false
+    }
+  ]
+}

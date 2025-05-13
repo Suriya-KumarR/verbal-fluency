@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2265_0406.wav",
+  "words": [
+    {
+      "word": "spoke_1",
+      "start_time": 439,
+      "end_time": 680,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "son_1",
+      "start_time": 1100,
+      "end_time": 1360,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "spoke_1"
+    },
+    {
+      "word": "to_1"
+    },
+    {
+      "word": "son_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "spoke_1"
+    },
+    {
+      "word": "son_1"
+    }
+  ],
+  "incorrect words": []
+}

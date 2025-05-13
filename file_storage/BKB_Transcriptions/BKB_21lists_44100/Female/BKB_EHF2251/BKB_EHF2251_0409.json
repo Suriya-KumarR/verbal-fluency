@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0409.wav",
+  "words": [
+    {
+      "word": "found_1",
+      "start_time": 400,
+      "end_time": 680,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "brother_1",
+      "start_time": 899,
+      "end_time": 1200,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

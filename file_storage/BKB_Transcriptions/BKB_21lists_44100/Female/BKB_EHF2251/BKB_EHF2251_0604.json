@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_0604.wav",
+  "words": [
+    {
+      "word": "men_1",
+      "start_time": 0,
+      "end_time": 340,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "wear_1",
+      "start_time": 340,
+      "end_time": 560,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "long_1",
+      "start_time": 560,
+      "end_time": 899,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "pants_1",
+      "start_time": 899,
+      "end_time": 1379,
+      "duration": 480,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_1007.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 259,
+      "end_time": 639,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "jumped_1",
+      "start_time": 639,
+      "end_time": 980,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "chair_1",
+      "start_time": 1340,
+      "end_time": 1679,
+      "duration": 339,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "jumped_1"
+    },
+    {
+      "word": "on_1"
+    },
+    {
+      "word": "chair_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "jumped_1"
+    },
+    {
+      "word": "chair_1"
+    }
+  ],
+  "incorrect words": []
+}

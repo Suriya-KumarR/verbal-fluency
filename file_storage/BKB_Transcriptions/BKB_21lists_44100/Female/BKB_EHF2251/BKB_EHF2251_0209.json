@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0209.wav",
+  "words": [
+    {
+      "word": "taking_1",
+      "start_time": 479,
+      "end_time": 779,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "coat_1",
+      "start_time": 1039,
+      "end_time": 1379,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

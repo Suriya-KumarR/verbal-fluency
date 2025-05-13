@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_2105.wav",
+  "words": [
+    {
+      "word": "cat_1",
+      "start_time": 300,
+      "end_time": 639,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "caught_1",
+      "start_time": 639,
+      "end_time": 899,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "mouse_1",
+      "start_time": 1080,
+      "end_time": 1399,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "caught_1"
+    },
+    {
+      "word": "mouse_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "caught_1"
+    },
+    {
+      "word": "mouse_1"
+    }
+  ],
+  "incorrect words": []
+}

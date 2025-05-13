@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1113.wav",
+  "words": [
+    {
+      "word": "two_1",
+      "start_time": 219,
+      "end_time": 540,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "farmers_1",
+      "start_time": 540,
+      "end_time": 899,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "talking_1",
+      "start_time": 1139,
+      "end_time": 1460,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "two_1"
+    },
+    {
+      "word": "farmers_1"
+    },
+    {
+      "word": "talking_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "two_1"
+    },
+    {
+      "word": "farmers_1"
+    },
+    {
+      "word": "talking_1"
+    }
+  ],
+  "incorrect words": []
+}

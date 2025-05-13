@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0508.wav",
+  "words": [
+    {
+      "word": "park_1",
+      "start_time": 239,
+      "end_time": 479,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "near_1",
+      "start_time": 740,
+      "end_time": 879,
+      "duration": 139,
+      "qc": false
+    },
+    {
+      "word": "road_1",
+      "start_time": 1100,
+      "end_time": 1299,
+      "duration": 199,
+      "qc": false
+    }
+  ]
+}

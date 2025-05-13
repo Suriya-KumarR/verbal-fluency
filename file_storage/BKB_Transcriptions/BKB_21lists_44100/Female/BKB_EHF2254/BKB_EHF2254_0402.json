@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_0402.wav",
+  "words": [
+    {
+      "word": "machine_1",
+      "start_time": 219,
+      "end_time": 720,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "noisy_1",
+      "start_time": 1340,
+      "end_time": 1759,
+      "duration": 419,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "machine_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "noisy_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "machine_1"
+    },
+    {
+      "word": "noisy_1"
+    }
+  ],
+  "incorrect words": []
+}

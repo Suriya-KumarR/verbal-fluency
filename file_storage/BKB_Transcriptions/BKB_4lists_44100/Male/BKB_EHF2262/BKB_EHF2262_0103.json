@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2262_0103.wav",
+  "words": [
+    {
+      "word": "cut_1",
+      "start_time": 379,
+      "end_time": 639,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "knife_1",
+      "start_time": 1039,
+      "end_time": 1320,
+      "duration": 280,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "knife_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "knife_1"
+    }
+  ],
+  "incorrect words": []
+}

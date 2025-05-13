@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2260_0216.wav",
+  "words": [
+    {
+      "word": "school_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "finished_1",
+      "start_time": 479,
+      "end_time": 939,
+      "duration": 460,
+      "qc": true
+    },
+    {
+      "word": "early_1",
+      "start_time": 939,
+      "end_time": 1279,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "today_1",
+      "start_time": 1279,
+      "end_time": 1659,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "school_1"
+    },
+    {
+      "word": "finished_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "school_1"
+    },
+    {
+      "word": "finished_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "today_1"
+    }
+  ]
+}

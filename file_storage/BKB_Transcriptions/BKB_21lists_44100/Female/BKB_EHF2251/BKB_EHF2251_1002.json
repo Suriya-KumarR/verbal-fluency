@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1002.wav",
+  "words": [
+    {
+      "word": "janitor_1",
+      "start_time": 280,
+      "end_time": 819,
+      "duration": 539,
+      "qc": false
+    },
+    {
+      "word": "used_1",
+      "start_time": 819,
+      "end_time": 1220,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "broom_1",
+      "start_time": 1460,
+      "end_time": 1740,
+      "duration": 279,
+      "qc": true
+    }
+  ]
+}

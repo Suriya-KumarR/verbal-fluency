@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1904.wav",
+  "words": [
+    {
+      "word": "washing_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "machine_1",
+      "start_time": 500,
+      "end_time": 920,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "broke_1",
+      "start_time": 920,
+      "end_time": 1259,
+      "duration": 339,
+      "qc": true
+    }
+  ]
+}

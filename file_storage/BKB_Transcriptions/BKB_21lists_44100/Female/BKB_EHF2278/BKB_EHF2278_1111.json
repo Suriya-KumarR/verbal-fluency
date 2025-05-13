@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1111.wav",
+  "words": [
+    {
+      "word": "cow_1",
+      "start_time": 340,
+      "end_time": 660,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "gave_1",
+      "start_time": 660,
+      "end_time": 1039,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "milk_1",
+      "start_time": 1399,
+      "end_time": 1720,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cow_1"
+    },
+    {
+      "word": "gave_1"
+    },
+    {
+      "word": "milk_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cow_1"
+    },
+    {
+      "word": "gave_1"
+    },
+    {
+      "word": "milk_1"
+    }
+  ],
+  "incorrect words": []
+}

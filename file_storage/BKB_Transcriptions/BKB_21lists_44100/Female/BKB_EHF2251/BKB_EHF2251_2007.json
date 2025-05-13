@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2007.wav",
+  "words": [
+    {
+      "word": "baby_1",
+      "start_time": 379,
+      "end_time": 600,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "blue_1",
+      "start_time": 860,
+      "end_time": 1139,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "eyes_1",
+      "start_time": 1139,
+      "end_time": 1580,
+      "duration": 440,
+      "qc": true
+    }
+  ]
+}

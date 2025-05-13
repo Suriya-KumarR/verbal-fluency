@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0403.wav",
+  "words": [
+    {
+      "word": "old_1",
+      "start_time": 239,
+      "end_time": 479,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "man_1",
+      "start_time": 479,
+      "end_time": 779,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "worried_1",
+      "start_time": 959,
+      "end_time": 1279,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "old_1"
+    },
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "worried_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "old_1"
+    },
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "worried_1"
+    }
+  ],
+  "incorrect words": []
+}

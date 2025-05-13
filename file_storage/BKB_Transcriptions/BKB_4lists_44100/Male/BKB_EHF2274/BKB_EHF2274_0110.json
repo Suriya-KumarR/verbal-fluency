@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2274_0110.wav",
+  "words": [
+    {
+      "word": "looking_1",
+      "start_time": 400,
+      "end_time": 639,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "clock_1",
+      "start_time": 1059,
+      "end_time": 1379,
+      "duration": 320,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "looking_1"
+    },
+    {
+      "word": "at_1"
+    },
+    {
+      "word": "clock_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "looking_1"
+    },
+    {
+      "word": "clock_1"
+    }
+  ],
+  "incorrect words": []
+}

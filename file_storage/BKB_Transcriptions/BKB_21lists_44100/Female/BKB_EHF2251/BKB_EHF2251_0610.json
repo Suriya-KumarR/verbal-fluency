@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0610.wav",
+  "words": [
+    {
+      "word": "truck_1",
+      "start_time": 219,
+      "end_time": 560,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "drove_1",
+      "start_time": 560,
+      "end_time": 879,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "road_1",
+      "start_time": 1240,
+      "end_time": 1460,
+      "duration": 220,
+      "qc": true
+    }
+  ]
+}

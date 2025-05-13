@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2271_1912.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 300,
+      "end_time": 579,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "slipped_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "stairs_1",
+      "start_time": 1240,
+      "end_time": 1759,
+      "duration": 519,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "slipped_1"
+    },
+    {
+      "word": "on_1"
+    },
+    {
+      "word": "stairs_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "slipped_1"
+    },
+    {
+      "word": "stairs_1"
+    }
+  ],
+  "incorrect words": []
+}

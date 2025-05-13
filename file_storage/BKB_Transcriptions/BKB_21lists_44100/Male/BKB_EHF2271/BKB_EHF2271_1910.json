@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_1910.wav",
+  "words": [
+    {
+      "word": "hurt_1",
+      "start_time": 360,
+      "end_time": 600,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "hand_1",
+      "start_time": 800,
+      "end_time": 1159,
+      "duration": 359,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "hurt_1"
+    },
+    {
+      "word": "hand_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "hurt_1"
+    },
+    {
+      "word": "hand_1"
+    }
+  ],
+  "incorrect words": []
+}

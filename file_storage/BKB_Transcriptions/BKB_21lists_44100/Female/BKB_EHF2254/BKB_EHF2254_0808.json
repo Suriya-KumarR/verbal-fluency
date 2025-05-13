@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_0808.wav",
+  "words": [
+    {
+      "word": "shopping_1",
+      "start_time": 400,
+      "end_time": 759,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "cheese_1",
+      "start_time": 1200,
+      "end_time": 1679,
+      "duration": 479,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "shopping_1"
+    },
+    {
+      "word": "cheese_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "shopping_1"
+    },
+    {
+      "word": "cheese_1"
+    }
+  ],
+  "incorrect words": []
+}

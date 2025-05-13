@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2270_0107.wav",
+  "words": [
+    {
+      "word": "green_1",
+      "start_time": 239,
+      "end_time": 560,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "tomatoes_1",
+      "start_time": 560,
+      "end_time": 899,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "small_1",
+      "start_time": 1200,
+      "end_time": 1659,
+      "duration": 459,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "green_1"
+    },
+    {
+      "word": "tomatoes_1"
+    },
+    {
+      "word": "small_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "green_1"
+    },
+    {
+      "word": "tomatoes_1"
+    },
+    {
+      "word": "small_1"
+    }
+  ],
+  "incorrect words": []
+}

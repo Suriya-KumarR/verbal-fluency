@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1508.wav",
+  "words": [
+    {
+      "word": "bumped_1",
+      "start_time": 300,
+      "end_time": 519,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "head_1",
+      "start_time": 759,
+      "end_time": 1000,
+      "duration": 240,
+      "qc": true
+    }
+  ]
+}

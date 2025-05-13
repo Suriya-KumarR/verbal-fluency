@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_0606.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "went_1",
+      "start_time": 639,
+      "end_time": 920,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "store_1",
+      "start_time": 1320,
+      "end_time": 1639,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "to_1"
+    },
+    {
+      "word": "store_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "store_1"
+    }
+  ],
+  "incorrect words": []
+}

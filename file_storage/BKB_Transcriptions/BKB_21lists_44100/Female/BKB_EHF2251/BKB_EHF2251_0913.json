@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0913.wav",
+  "words": [
+    {
+      "word": "dinner_1",
+      "start_time": 280,
+      "end_time": 479,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "plate_1",
+      "start_time": 479,
+      "end_time": 759,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "hot_1",
+      "start_time": 959,
+      "end_time": 1279,
+      "duration": 319,
+      "qc": false
+    }
+  ]
+}

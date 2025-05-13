@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2252_0301.wav",
+  "words": [
+    {
+      "word": "glass_1",
+      "start_time": 239,
+      "end_time": 460,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "ball_1",
+      "start_time": 460,
+      "end_time": 779,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "broke_1",
+      "start_time": 779,
+      "end_time": 1100,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "glass_1"
+    },
+    {
+      "word": "bowl_1"
+    },
+    {
+      "word": "broke_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "glass_1"
+    },
+    {
+      "word": "broke_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "ball_1"
+    }
+  ]
+}

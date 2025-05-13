@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0605.wav",
+  "words": [
+    {
+      "word": "small_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "boy_1",
+      "start_time": 579,
+      "end_time": 819,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "asleep_1",
+      "start_time": 1059,
+      "end_time": 1460,
+      "duration": 400,
+      "qc": false
+    }
+  ]
+}

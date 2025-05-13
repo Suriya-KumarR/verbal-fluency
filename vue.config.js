@@ -3,7 +3,8 @@ module.exports = defineConfig({
   transpileDependencies: true,
   pluginOptions: {
     electronBuilder: {
-      nodeIntegration: true,
+      nodeIntegration: false,
+      preload: 'src/preload.js',
       builderOptions: {
         appId: 'com.example.verbal-fluency',
         productName: 'Verbal Fluency',
@@ -15,7 +16,14 @@ module.exports = defineConfig({
         },
         linux: {
           target: 'AppImage'
-        }
+        },
+        extraResources: [
+          {
+            from: 'file_storage',
+            to: 'file_storage',
+            filter: ['**/*']
+          }
+        ]
       }
     }
   }

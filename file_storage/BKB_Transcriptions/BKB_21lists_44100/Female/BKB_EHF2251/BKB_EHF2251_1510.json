@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1510.wav",
+  "words": [
+    {
+      "word": "flowers_1",
+      "start_time": 0,
+      "end_time": 560,
+      "duration": 560,
+      "qc": true
+    },
+    {
+      "word": "grow_1",
+      "start_time": 560,
+      "end_time": 800,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "garden_1",
+      "start_time": 1120,
+      "end_time": 1360,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

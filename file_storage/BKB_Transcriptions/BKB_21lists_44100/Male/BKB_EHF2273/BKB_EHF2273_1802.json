@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2273_1802.wav",
+  "words": [
+    {
+      "word": "like_1",
+      "start_time": 379,
+      "end_time": 680,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "orange_1",
+      "start_time": 680,
+      "end_time": 1080,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "marmalade_1",
+      "start_time": 1080,
+      "end_time": 1659,
+      "duration": 579,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "like_1"
+    },
+    {
+      "word": "orange_1"
+    },
+    {
+      "word": "marmalade_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "like_1"
+    },
+    {
+      "word": "orange_1"
+    },
+    {
+      "word": "marmalade_1"
+    }
+  ],
+  "incorrect words": []
+}

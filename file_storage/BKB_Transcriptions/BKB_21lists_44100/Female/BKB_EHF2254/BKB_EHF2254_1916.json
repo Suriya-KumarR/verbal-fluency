@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1916.wav",
+  "words": [
+    {
+      "word": "cows_1",
+      "start_time": 300,
+      "end_time": 579,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "pasture_1",
+      "start_time": 1419,
+      "end_time": 1440,
+      "duration": 20,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cows_1"
+    },
+    {
+      "word": "are_1"
+    },
+    {
+      "word": "pasture_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cows_1"
+    },
+    {
+      "word": "pasture_1"
+    }
+  ],
+  "incorrect words": []
+}

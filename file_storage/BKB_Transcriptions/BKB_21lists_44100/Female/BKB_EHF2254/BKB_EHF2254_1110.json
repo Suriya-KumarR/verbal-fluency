@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1110.wav",
+  "words": [
+    {
+      "word": "coming_1",
+      "start_time": 419,
+      "end_time": 759,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "christmas_1",
+      "start_time": 1100,
+      "end_time": 1460,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "coming_1"
+    },
+    {
+      "word": "christmas_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "coming_1"
+    },
+    {
+      "word": "christmas_1"
+    }
+  ],
+  "incorrect words": []
+}

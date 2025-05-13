@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2254_1602.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 400,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "cut_1",
+      "start_time": 400,
+      "end_time": 680,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "birthday_1",
+      "start_time": 819,
+      "end_time": 1179,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "cake_1",
+      "start_time": 1179,
+      "end_time": 1600,
+      "duration": 420,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "birthday_1"
+    },
+    {
+      "word": "cake_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "birthday_1"
+    },
+    {
+      "word": "cake_1"
+    }
+  ],
+  "incorrect words": []
+}

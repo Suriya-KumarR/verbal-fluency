@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1511.wav",
+  "words": [
+    {
+      "word": "tiny_1",
+      "start_time": 280,
+      "end_time": 639,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "baby_1",
+      "start_time": 639,
+      "end_time": 899,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "pretty_1",
+      "start_time": 1159,
+      "end_time": 1539,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "tiny_1"
+    },
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "pretty_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "tiny_1"
+    },
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "pretty_1"
+    }
+  ],
+  "incorrect words": []
+}

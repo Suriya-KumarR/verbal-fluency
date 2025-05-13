@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0905.wav",
+  "words": [
+    {
+      "word": "table_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "three_1",
+      "start_time": 819,
+      "end_time": 1120,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "legs_1",
+      "start_time": 1120,
+      "end_time": 1460,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "table_1"
+    },
+    {
+      "word": "three_1"
+    },
+    {
+      "word": "legs_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "table_1"
+    },
+    {
+      "word": "three_1"
+    },
+    {
+      "word": "legs_1"
+    }
+  ],
+  "incorrect words": []
+}

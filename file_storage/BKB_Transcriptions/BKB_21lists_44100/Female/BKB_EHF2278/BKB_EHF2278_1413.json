@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1413.wav",
+  "words": [
+    {
+      "word": "mailman_1",
+      "start_time": 200,
+      "end_time": 819,
+      "duration": 619,
+      "qc": true
+    },
+    {
+      "word": "comes_1",
+      "start_time": 819,
+      "end_time": 1100,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "early_1",
+      "start_time": 1100,
+      "end_time": 1500,
+      "duration": 399,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mailman_1"
+    },
+    {
+      "word": "comes_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mailman_1"
+    },
+    {
+      "word": "comes_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "incorrect words": []
+}

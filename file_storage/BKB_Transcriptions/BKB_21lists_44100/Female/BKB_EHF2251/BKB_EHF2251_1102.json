@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1102.wav",
+  "words": [
+    {
+      "word": "dogs_1",
+      "start_time": 300,
+      "end_time": 600,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "went_1",
+      "start_time": 600,
+      "end_time": 819,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "walk_1",
+      "start_time": 1419,
+      "end_time": 1480,
+      "duration": 60,
+      "qc": false
+    }
+  ]
+}

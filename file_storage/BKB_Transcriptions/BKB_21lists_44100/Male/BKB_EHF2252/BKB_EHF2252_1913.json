@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2252_1913.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "staying_1",
+      "start_time": 419,
+      "end_time": 720,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "supper_1",
+      "start_time": 959,
+      "end_time": 1240,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "staying_1"
+    },
+    {
+      "word": "supper_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "staying_1"
+    },
+    {
+      "word": "supper_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

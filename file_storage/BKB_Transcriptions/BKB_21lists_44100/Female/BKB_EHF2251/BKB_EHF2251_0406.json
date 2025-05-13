@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0406.wav",
+  "words": [
+    {
+      "word": "spoke_1",
+      "start_time": 439,
+      "end_time": 720,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "son_1",
+      "start_time": 1200,
+      "end_time": 1500,
+      "duration": 299,
+      "qc": false
+    }
+  ]
+}

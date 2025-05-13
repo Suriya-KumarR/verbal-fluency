@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1402.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 280,
+      "end_time": 639,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "sleeps_1",
+      "start_time": 639,
+      "end_time": 1019,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "basket_1",
+      "start_time": 1440,
+      "end_time": 1740,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "sleeps_1"
+    },
+    {
+      "word": "basket_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "sleeps_1"
+    },
+    {
+      "word": "basket_1"
+    }
+  ],
+  "incorrect words": []
+}

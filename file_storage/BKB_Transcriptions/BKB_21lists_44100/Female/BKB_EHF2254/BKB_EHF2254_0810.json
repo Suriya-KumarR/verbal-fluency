@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_0810.wav",
+  "words": [
+    {
+      "word": "heard_1",
+      "start_time": 340,
+      "end_time": 680,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "funny_1",
+      "start_time": 899,
+      "end_time": 1100,
+      "duration": 200,
+      "qc": false
+    },
+    {
+      "word": "noise_1",
+      "start_time": 1100,
+      "end_time": 1620,
+      "duration": 519,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "heard_1"
+    },
+    {
+      "word": "funny_1"
+    },
+    {
+      "word": "noise_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "heard_1"
+    },
+    {
+      "word": "funny_1"
+    },
+    {
+      "word": "noise_1"
+    }
+  ],
+  "incorrect words": []
+}

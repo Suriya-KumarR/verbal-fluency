@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1403.wav",
+  "words": [
+    {
+      "word": "drinking_1",
+      "start_time": 500,
+      "end_time": 839,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "tea_1",
+      "start_time": 839,
+      "end_time": 1200,
+      "duration": 360,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "drinking_1"
+    },
+    {
+      "word": "tea_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "drinking_1"
+    },
+    {
+      "word": "tea_1"
+    }
+  ],
+  "incorrect words": []
+}

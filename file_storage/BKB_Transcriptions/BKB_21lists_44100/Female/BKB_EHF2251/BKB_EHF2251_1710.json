@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1710.wav",
+  "words": [
+    {
+      "word": "scissors_1",
+      "start_time": 319,
+      "end_time": 579,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "sharp_1",
+      "start_time": 1120,
+      "end_time": 1340,
+      "duration": 220,
+      "qc": true
+    }
+  ]
+}

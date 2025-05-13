@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1114.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 439,
+      "duration": 439,
+      "qc": true
+    },
+    {
+      "word": "picked_1",
+      "start_time": 439,
+      "end_time": 759,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "flowers_1",
+      "start_time": 1100,
+      "end_time": 1559,
+      "duration": 459,
+      "qc": true
+    }
+  ]
+}

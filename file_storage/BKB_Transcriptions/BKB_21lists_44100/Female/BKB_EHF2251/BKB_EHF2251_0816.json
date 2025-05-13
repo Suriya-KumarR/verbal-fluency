@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0816.wav",
+  "words": [
+    {
+      "word": "coat_1",
+      "start_time": 180,
+      "end_time": 500,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "chair_1",
+      "start_time": 959,
+      "end_time": 1240,
+      "duration": 280,
+      "qc": false
+    }
+  ]
+}

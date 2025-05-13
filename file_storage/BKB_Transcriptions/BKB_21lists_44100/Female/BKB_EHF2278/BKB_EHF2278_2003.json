@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2278_2003.wav",
+  "words": [
+    {
+      "word": "football_1",
+      "start_time": 280,
+      "end_time": 720,
+      "duration": 440,
+      "qc": true
+    },
+    {
+      "word": "hit_1",
+      "start_time": 720,
+      "end_time": 1059,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "goal_1",
+      "start_time": 1259,
+      "end_time": 1480,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "post_1",
+      "start_time": 1480,
+      "end_time": 1919,
+      "duration": 439,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "football_1"
+    },
+    {
+      "word": "hit_1"
+    },
+    {
+      "word": "goalpost_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "football_1"
+    },
+    {
+      "word": "hit_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "goal_1"
+    },
+    {
+      "word": "post_1"
+    }
+  ]
+}

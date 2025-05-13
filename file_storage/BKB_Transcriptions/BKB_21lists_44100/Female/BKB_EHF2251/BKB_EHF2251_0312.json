@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0312.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 280,
+      "end_time": 519,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "running_1",
+      "start_time": 800,
+      "end_time": 1039,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "away_1",
+      "start_time": 1039,
+      "end_time": 1440,
+      "duration": 400,
+      "qc": true
+    }
+  ]
+}

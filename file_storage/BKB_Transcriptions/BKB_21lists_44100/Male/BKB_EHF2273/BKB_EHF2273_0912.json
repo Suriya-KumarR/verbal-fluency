@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0912.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 219,
+      "end_time": 560,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "packed_1",
+      "start_time": 560,
+      "end_time": 879,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "bag_1",
+      "start_time": 1139,
+      "end_time": 1379,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "packed_1"
+    },
+    {
+      "word": "bag_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "packed_1"
+    },
+    {
+      "word": "bag_1"
+    }
+  ],
+  "incorrect words": []
+}

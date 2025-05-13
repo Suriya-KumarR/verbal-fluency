@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2011.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 239,
+      "end_time": 519,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "caught_1",
+      "start_time": 519,
+      "end_time": 779,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "cold_1",
+      "start_time": 959,
+      "end_time": 1379,
+      "duration": 420,
+      "qc": true
+    }
+  ]
+}

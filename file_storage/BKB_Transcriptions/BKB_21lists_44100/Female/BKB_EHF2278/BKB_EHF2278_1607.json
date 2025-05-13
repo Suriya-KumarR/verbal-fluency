@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1607.wav",
+  "words": [
+    {
+      "word": "paying_1",
+      "start_time": 620,
+      "end_time": 860,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1360,
+      "end_time": 1639,
+      "duration": 279,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "paying_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "paying_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "incorrect words": []
+}

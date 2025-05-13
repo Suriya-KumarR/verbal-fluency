@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2260_0311.wav",
+  "words": [
+    {
+      "word": "ate_1",
+      "start_time": 300,
+      "end_time": 479,
+      "duration": 179,
+      "qc": false
+    },
+    {
+      "word": "lemon_1",
+      "start_time": 720,
+      "end_time": 920,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "pie_1",
+      "start_time": 920,
+      "end_time": 1299,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "ate_1"
+    },
+    {
+      "word": "lemon_1"
+    },
+    {
+      "word": "pie_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ate_1"
+    },
+    {
+      "word": "lemon_1"
+    },
+    {
+      "word": "pie_1"
+    }
+  ],
+  "incorrect words": []
+}

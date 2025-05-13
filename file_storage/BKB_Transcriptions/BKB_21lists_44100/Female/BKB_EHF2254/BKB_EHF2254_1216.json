@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1216.wav",
+  "words": [
+    {
+      "word": "tree_1",
+      "start_time": 280,
+      "end_time": 540,
+      "duration": 260,
+      "qc": true
+    },
+    {
+      "word": "fell_1",
+      "start_time": 540,
+      "end_time": 800,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "house_1",
+      "start_time": 1159,
+      "end_time": 1639,
+      "duration": 480,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "tree_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "tree_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "incorrect words": []
+}

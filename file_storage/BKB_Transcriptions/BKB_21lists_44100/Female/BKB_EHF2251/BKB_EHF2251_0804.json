@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0804.wav",
+  "words": [
+    {
+      "word": "climbed_1",
+      "start_time": 379,
+      "end_time": 699,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "ladder_1",
+      "start_time": 1080,
+      "end_time": 1399,
+      "duration": 319,
+      "qc": true
+    }
+  ]
+}

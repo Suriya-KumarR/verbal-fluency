@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_0613.wav",
+  "words": [
+    {
+      "word": "took_1",
+      "start_time": 319,
+      "end_time": 479,
+      "duration": 159,
+      "qc": false
+    },
+    {
+      "word": "food_1",
+      "start_time": 699,
+      "end_time": 959,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "took_1"
+    },
+    {
+      "word": "food_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "took_1"
+    },
+    {
+      "word": "food_1"
+    }
+  ],
+  "incorrect words": []
+}

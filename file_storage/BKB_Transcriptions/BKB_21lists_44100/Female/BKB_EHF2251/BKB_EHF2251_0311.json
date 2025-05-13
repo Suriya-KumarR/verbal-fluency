@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0311.wav",
+  "words": [
+    {
+      "word": "ate_1",
+      "start_time": 360,
+      "end_time": 600,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "lemon_1",
+      "start_time": 860,
+      "end_time": 1059,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "pie_1",
+      "start_time": 1059,
+      "end_time": 1440,
+      "duration": 380,
+      "qc": true
+    }
+  ]
+}

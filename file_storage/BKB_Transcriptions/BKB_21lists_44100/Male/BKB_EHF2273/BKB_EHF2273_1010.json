@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1010.wav",
+  "words": [
+    {
+      "word": "riding_1",
+      "start_time": 540,
+      "end_time": 800,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "bicycles_1",
+      "start_time": 1059,
+      "end_time": 1460,
+      "duration": 400,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "riding_1"
+    },
+    {
+      "word": "bicycles_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "riding_1"
+    },
+    {
+      "word": "bicycles_1"
+    }
+  ],
+  "incorrect words": []
+}

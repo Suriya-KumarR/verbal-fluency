@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1013.wav",
+  "words": [
+    {
+      "word": "shirts_1",
+      "start_time": 319,
+      "end_time": 680,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "hanging_1",
+      "start_time": 959,
+      "end_time": 1279,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "closet_1",
+      "start_time": 1740,
+      "end_time": 2039,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "shirts_1"
+    },
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "closet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "shirts_1"
+    },
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "closet_1"
+    }
+  ],
+  "incorrect words": []
+}

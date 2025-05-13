@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0610.wav",
+  "words": [
+    {
+      "word": "truck_1",
+      "start_time": 319,
+      "end_time": 579,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "drove_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "road_1",
+      "start_time": 1320,
+      "end_time": 1580,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "truck_1"
+    },
+    {
+      "word": "drove_1"
+    },
+    {
+      "word": "road_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "truck_1"
+    },
+    {
+      "word": "drove_1"
+    },
+    {
+      "word": "road_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1104.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 280,
+      "end_time": 600,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "stayed_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "lunch_1",
+      "start_time": 1220,
+      "end_time": 1460,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "stayed_1"
+    },
+    {
+      "word": "lunch_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "stayed_1"
+    },
+    {
+      "word": "lunch_1"
+    }
+  ],
+  "incorrect words": []
+}

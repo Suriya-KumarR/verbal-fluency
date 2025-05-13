@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0516.wav",
+  "words": [
+    {
+      "word": "cold_1",
+      "start_time": 259,
+      "end_time": 680,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "milk_1",
+      "start_time": 680,
+      "end_time": 1019,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "pitcher_1",
+      "start_time": 1440,
+      "end_time": 1779,
+      "duration": 339,
+      "qc": true
+    }
+  ]
+}

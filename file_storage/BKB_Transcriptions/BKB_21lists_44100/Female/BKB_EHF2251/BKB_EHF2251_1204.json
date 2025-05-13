@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1204.wav",
+  "words": [
+    {
+      "word": "lost_1",
+      "start_time": 340,
+      "end_time": 600,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "hat_1",
+      "start_time": 879,
+      "end_time": 1159,
+      "duration": 279,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1608.wav",
+  "words": [
+    {
+      "word": "policeman_1",
+      "start_time": 300,
+      "end_time": 800,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "found_1",
+      "start_time": 800,
+      "end_time": 1120,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "dog_1",
+      "start_time": 1320,
+      "end_time": 1639,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "policeman_1"
+    },
+    {
+      "word": "found_1"
+    },
+    {
+      "word": "dog_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "policeman_1"
+    },
+    {
+      "word": "found_1"
+    },
+    {
+      "word": "dog_1"
+    }
+  ],
+  "incorrect words": []
+}

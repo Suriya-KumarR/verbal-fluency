@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0703.wav",
+  "words": [
+    {
+      "word": "floor_1",
+      "start_time": 239,
+      "end_time": 500,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "looked_1",
+      "start_time": 500,
+      "end_time": 819,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "clean_1",
+      "start_time": 819,
+      "end_time": 1259,
+      "duration": 439,
+      "qc": true
+    }
+  ]
+}

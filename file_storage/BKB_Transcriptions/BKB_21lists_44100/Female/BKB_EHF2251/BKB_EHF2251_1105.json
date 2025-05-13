@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1105.wav",
+  "words": [
+    {
+      "word": "driver_1",
+      "start_time": 219,
+      "end_time": 519,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "waited_1",
+      "start_time": 519,
+      "end_time": 860,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "corner_1",
+      "start_time": 1279,
+      "end_time": 1559,
+      "duration": 279,
+      "qc": true
+    }
+  ]
+}

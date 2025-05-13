@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0505.wav",
+  "words": [
+    {
+      "word": "kitchen_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "sink_1",
+      "start_time": 519,
+      "end_time": 939,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "empty_1",
+      "start_time": 1179,
+      "end_time": 1460,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "kitchen_1"
+    },
+    {
+      "word": "sink_1"
+    },
+    {
+      "word": "empty_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "kitchen_1"
+    },
+    {
+      "word": "sink_1"
+    },
+    {
+      "word": "empty_1"
+    }
+  ],
+  "incorrect words": []
+}

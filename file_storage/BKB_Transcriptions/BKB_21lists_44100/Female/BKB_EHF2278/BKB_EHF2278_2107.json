@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_2107.wav",
+  "words": [
+    {
+      "word": "made_1",
+      "start_time": 360,
+      "end_time": 560,
+      "duration": 199,
+      "qc": true
+    },
+    {
+      "word": "bed_1",
+      "start_time": 819,
+      "end_time": 1139,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "made_1"
+    },
+    {
+      "word": "bed_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "made_1"
+    },
+    {
+      "word": "bed_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2271_0808.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": false
+    },
+    {
+      "word": "shopping_1",
+      "start_time": 419,
+      "end_time": 740,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "cheese_1",
+      "start_time": 1000,
+      "end_time": 1419,
+      "duration": 419,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "shopping_1"
+    },
+    {
+      "word": "cheese_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "shopping_1"
+    },
+    {
+      "word": "cheese_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

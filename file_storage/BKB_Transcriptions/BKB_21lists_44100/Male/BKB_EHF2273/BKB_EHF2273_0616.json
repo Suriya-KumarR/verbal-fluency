@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0616.wav",
+  "words": [
+    {
+      "word": "woman_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "cleaned_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "house_1",
+      "start_time": 1159,
+      "end_time": 1500,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "woman_1"
+    },
+    {
+      "word": "cleaned_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "woman_1"
+    },
+    {
+      "word": "cleaned_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "incorrect words": []
+}

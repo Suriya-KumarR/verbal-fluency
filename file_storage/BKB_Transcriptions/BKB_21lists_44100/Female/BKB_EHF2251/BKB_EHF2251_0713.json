@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0713.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 280,
+      "end_time": 519,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "picture_1",
+      "start_time": 1059,
+      "end_time": 1200,
+      "duration": 140,
+      "qc": false
+    },
+    {
+      "word": "book_1",
+      "start_time": 1200,
+      "end_time": 1580,
+      "duration": 379,
+      "qc": false
+    }
+  ]
+}

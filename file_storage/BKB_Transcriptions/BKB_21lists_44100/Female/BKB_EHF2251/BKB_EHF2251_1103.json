@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1103.wav",
+  "words": [
+    {
+      "word": "washing_1",
+      "start_time": 560,
+      "end_time": 819,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "dress_1",
+      "start_time": 1100,
+      "end_time": 1460,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

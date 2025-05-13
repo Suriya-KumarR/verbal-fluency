@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1714.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "ran_1",
+      "start_time": 519,
+      "end_time": 800,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "along_1",
+      "start_time": 800,
+      "end_time": 1159,
+      "duration": 359,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "along_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "along_1"
+    }
+  ],
+  "incorrect words": []
+}

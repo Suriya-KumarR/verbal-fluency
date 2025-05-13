@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1303.wav",
+  "words": [
+    {
+      "word": "playing_1",
+      "start_time": 419,
+      "end_time": 839,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "park_1",
+      "start_time": 1179,
+      "end_time": 1500,
+      "duration": 320,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "playing_1"
+    },
+    {
+      "word": "park_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "playing_1"
+    },
+    {
+      "word": "park_1"
+    }
+  ],
+  "incorrect words": []
+}

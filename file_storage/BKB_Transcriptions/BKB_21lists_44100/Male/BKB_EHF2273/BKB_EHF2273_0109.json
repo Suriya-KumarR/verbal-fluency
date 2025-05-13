@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0109.wav",
+  "words": [
+    {
+      "word": "mailman_1",
+      "start_time": 259,
+      "end_time": 759,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "shut_1",
+      "start_time": 759,
+      "end_time": 1059,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "gate_1",
+      "start_time": 1220,
+      "end_time": 1419,
+      "duration": 199,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mailman_1"
+    },
+    {
+      "word": "shut_1"
+    },
+    {
+      "word": "gate_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mailman_1"
+    },
+    {
+      "word": "shut_1"
+    },
+    {
+      "word": "gate_1"
+    }
+  ],
+  "incorrect words": []
+}

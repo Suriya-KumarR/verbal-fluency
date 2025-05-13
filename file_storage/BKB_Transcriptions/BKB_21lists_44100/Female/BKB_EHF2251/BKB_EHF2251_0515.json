@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0515.wav",
+  "words": [
+    {
+      "word": "little_1",
+      "start_time": 259,
+      "end_time": 540,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "girl_1",
+      "start_time": 540,
+      "end_time": 839,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "shouting_1",
+      "start_time": 1039,
+      "end_time": 1360,
+      "duration": 320,
+      "qc": false
+    }
+  ]
+}

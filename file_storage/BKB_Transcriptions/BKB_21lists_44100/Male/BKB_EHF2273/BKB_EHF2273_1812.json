@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2273_1812.wav",
+  "words": [
+    {
+      "word": "yellow_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "pears_1",
+      "start_time": 519,
+      "end_time": 939,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "tasted_1",
+      "start_time": 939,
+      "end_time": 1379,
+      "duration": 439,
+      "qc": false
+    },
+    {
+      "word": "good_1",
+      "start_time": 1379,
+      "end_time": 1700,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "yellow_1"
+    },
+    {
+      "word": "pears_1"
+    },
+    {
+      "word": "good_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "yellow_1"
+    },
+    {
+      "word": "pears_1"
+    },
+    {
+      "word": "good_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "tasted_1"
+    }
+  ]
+}

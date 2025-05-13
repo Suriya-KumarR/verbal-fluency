@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1703.wav",
+  "words": [
+    {
+      "word": "sky_1",
+      "start_time": 340,
+      "end_time": 579,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "blue_1",
+      "start_time": 1259,
+      "end_time": 1500,
+      "duration": 240,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "sky_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "blue_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sky_1"
+    },
+    {
+      "word": "blue_1"
+    }
+  ],
+  "incorrect words": []
+}

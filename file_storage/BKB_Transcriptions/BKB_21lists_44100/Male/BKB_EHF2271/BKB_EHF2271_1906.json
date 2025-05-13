@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1906.wav",
+  "words": [
+    {
+      "word": "janitor_1",
+      "start_time": 319,
+      "end_time": 779,
+      "duration": 459,
+      "qc": true
+    },
+    {
+      "word": "swept_1",
+      "start_time": 779,
+      "end_time": 1080,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "floor_1",
+      "start_time": 1399,
+      "end_time": 1620,
+      "duration": 220,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "janitor_1"
+    },
+    {
+      "word": "swept_1"
+    },
+    {
+      "word": "floor_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "janitor_1"
+    },
+    {
+      "word": "swept_1"
+    },
+    {
+      "word": "floor_1"
+    }
+  ],
+  "incorrect words": []
+}

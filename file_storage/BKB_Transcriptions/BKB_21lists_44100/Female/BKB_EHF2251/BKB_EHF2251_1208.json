@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1208.wav",
+  "words": [
+    {
+      "word": "bread_1",
+      "start_time": 219,
+      "end_time": 540,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "truck_1",
+      "start_time": 540,
+      "end_time": 860,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "coming_1",
+      "start_time": 1039,
+      "end_time": 1340,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

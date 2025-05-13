@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_2113.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 519,
+      "duration": 519,
+      "qc": true
+    },
+    {
+      "word": "picked_1",
+      "start_time": 519,
+      "end_time": 839,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "pears_1",
+      "start_time": 1179,
+      "end_time": 1620,
+      "duration": 440,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "picked_1"
+    },
+    {
+      "word": "pears_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "picked_1"
+    },
+    {
+      "word": "pears_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1806.wav",
+  "words": [
+    {
+      "word": "rain_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "falls_1",
+      "start_time": 479,
+      "end_time": 779,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "clouds_1",
+      "start_time": 1240,
+      "end_time": 1620,
+      "duration": 379,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "rain_1"
+    },
+    {
+      "word": "falls_1"
+    },
+    {
+      "word": "clouds_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "rain_1"
+    },
+    {
+      "word": "falls_1"
+    },
+    {
+      "word": "clouds_1"
+    }
+  ],
+  "incorrect words": []
+}

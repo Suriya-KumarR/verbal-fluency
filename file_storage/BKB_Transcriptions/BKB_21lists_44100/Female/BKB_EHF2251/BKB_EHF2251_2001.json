@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2001.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "got_1",
+      "start_time": 500,
+      "end_time": 699,
+      "duration": 199,
+      "qc": true
+    },
+    {
+      "word": "trouble_1",
+      "start_time": 939,
+      "end_time": 1279,
+      "duration": 339,
+      "qc": true
+    }
+  ]
+}

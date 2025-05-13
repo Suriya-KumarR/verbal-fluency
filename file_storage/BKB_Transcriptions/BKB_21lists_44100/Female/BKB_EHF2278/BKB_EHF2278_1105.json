@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1105.wav",
+  "words": [
+    {
+      "word": "driver_1",
+      "start_time": 259,
+      "end_time": 579,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "waited_1",
+      "start_time": 579,
+      "end_time": 980,
+      "duration": 400,
+      "qc": false
+    },
+    {
+      "word": "corner_1",
+      "start_time": 1379,
+      "end_time": 1679,
+      "duration": 299,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "driver_1"
+    },
+    {
+      "word": "waited_1"
+    },
+    {
+      "word": "corner_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "driver_1"
+    },
+    {
+      "word": "waited_1"
+    },
+    {
+      "word": "corner_1"
+    }
+  ],
+  "incorrect words": []
+}

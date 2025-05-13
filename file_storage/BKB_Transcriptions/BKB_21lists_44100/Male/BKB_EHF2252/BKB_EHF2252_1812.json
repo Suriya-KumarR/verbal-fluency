@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2252_1812.wav",
+  "words": [
+    {
+      "word": "yellow_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "pears_1",
+      "start_time": 500,
+      "end_time": 899,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "tasted_1",
+      "start_time": 899,
+      "end_time": 1259,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "good_1",
+      "start_time": 1259,
+      "end_time": 1559,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "yellow_1"
+    },
+    {
+      "word": "pears_1"
+    },
+    {
+      "word": "good_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "yellow_1"
+    },
+    {
+      "word": "pears_1"
+    },
+    {
+      "word": "good_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "tasted_1"
+    }
+  ]
+}

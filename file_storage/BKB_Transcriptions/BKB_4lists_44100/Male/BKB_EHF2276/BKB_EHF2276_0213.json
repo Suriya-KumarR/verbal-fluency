@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2276_0213.wav",
+  "words": [
+    {
+      "word": "sticks_1",
+      "start_time": 419,
+      "end_time": 779,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "tree_1",
+      "start_time": 1340,
+      "end_time": 1659,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "sticks_1"
+    },
+    {
+      "word": "under_1"
+    },
+    {
+      "word": "tree_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sticks_1"
+    },
+    {
+      "word": "tree_1"
+    }
+  ],
+  "incorrect words": []
+}

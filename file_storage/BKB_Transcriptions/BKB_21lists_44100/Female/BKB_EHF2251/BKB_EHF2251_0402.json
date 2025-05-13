@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0402.wav",
+  "words": [
+    {
+      "word": "machine_1",
+      "start_time": 219,
+      "end_time": 600,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "noisy_1",
+      "start_time": 1100,
+      "end_time": 1480,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

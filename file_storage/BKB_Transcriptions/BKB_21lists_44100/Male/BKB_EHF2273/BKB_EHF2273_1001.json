@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1001.wav",
+  "words": [
+    {
+      "word": "dish_1",
+      "start_time": 319,
+      "end_time": 540,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "towel_1",
+      "start_time": 540,
+      "end_time": 920,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "sink_1",
+      "start_time": 1679,
+      "end_time": 1879,
+      "duration": 200,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dish_1"
+    },
+    {
+      "word": "towel_1"
+    },
+    {
+      "word": "sink_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dish_1"
+    },
+    {
+      "word": "towel_1"
+    },
+    {
+      "word": "sink_1"
+    }
+  ],
+  "incorrect words": []
+}

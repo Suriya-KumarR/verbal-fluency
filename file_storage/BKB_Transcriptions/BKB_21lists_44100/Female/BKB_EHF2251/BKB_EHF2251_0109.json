@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0109.wav",
+  "words": [
+    {
+      "word": "mailman_1",
+      "start_time": 280,
+      "end_time": 779,
+      "duration": 499,
+      "qc": true
+    },
+    {
+      "word": "shut_1",
+      "start_time": 779,
+      "end_time": 1059,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "gate_1",
+      "start_time": 1220,
+      "end_time": 1460,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

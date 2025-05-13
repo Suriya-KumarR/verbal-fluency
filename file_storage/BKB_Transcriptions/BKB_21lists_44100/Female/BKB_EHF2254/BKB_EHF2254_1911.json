@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2254_1911.wav",
+  "words": [
+    {
+      "word": "milkman_1",
+      "start_time": 280,
+      "end_time": 860,
+      "duration": 580,
+      "qc": true
+    },
+    {
+      "word": "drives_1",
+      "start_time": 860,
+      "end_time": 1100,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "small_1",
+      "start_time": 1340,
+      "end_time": 1639,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "truck_1",
+      "start_time": 1639,
+      "end_time": 1980,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "milkman_1"
+    },
+    {
+      "word": "drives_1"
+    },
+    {
+      "word": "small_1"
+    },
+    {
+      "word": "truck_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "milkman_1"
+    },
+    {
+      "word": "drives_1"
+    },
+    {
+      "word": "small_1"
+    },
+    {
+      "word": "truck_1"
+    }
+  ],
+  "incorrect words": []
+}

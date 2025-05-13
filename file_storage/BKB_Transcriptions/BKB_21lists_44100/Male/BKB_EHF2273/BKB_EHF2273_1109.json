@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2273_1109.wav",
+  "words": [
+    {
+      "word": "wore_1",
+      "start_time": 379,
+      "end_time": 639,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "yellow_1",
+      "start_time": 920,
+      "end_time": 1179,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "shirt_1",
+      "start_time": 1179,
+      "end_time": 1480,
+      "duration": 300,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "wore_1"
+    },
+    {
+      "word": "yellow_1"
+    },
+    {
+      "word": "shirt_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "wore_1"
+    },
+    {
+      "word": "yellow_1"
+    },
+    {
+      "word": "shirt_1"
+    }
+  ],
+  "incorrect words": []
+}

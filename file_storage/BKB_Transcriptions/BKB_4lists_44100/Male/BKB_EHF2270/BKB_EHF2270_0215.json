@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2270_0215.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "watching_1",
+      "start_time": 419,
+      "end_time": 740,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "train_1",
+      "start_time": 980,
+      "end_time": 1320,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "watching_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "watching_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

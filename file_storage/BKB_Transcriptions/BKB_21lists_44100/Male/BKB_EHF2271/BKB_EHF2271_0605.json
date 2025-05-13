@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0605.wav",
+  "words": [
+    {
+      "word": "small_1",
+      "start_time": 280,
+      "end_time": 519,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "boy_1",
+      "start_time": 519,
+      "end_time": 779,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "asleep_1",
+      "start_time": 980,
+      "end_time": 1460,
+      "duration": 480,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "small_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "asleep_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "small_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "asleep_1"
+    }
+  ],
+  "incorrect words": []
+}

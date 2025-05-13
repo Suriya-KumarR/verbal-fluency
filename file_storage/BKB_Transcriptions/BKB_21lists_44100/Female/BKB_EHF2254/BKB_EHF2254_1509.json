@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2254_1509.wav",
+  "words": [
+    {
+      "word": "met_1",
+      "start_time": 340,
+      "end_time": 560,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "friends_1",
+      "start_time": 939,
+      "end_time": 1259,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "met_1"
+    },
+    {
+      "word": "some_1"
+    },
+    {
+      "word": "friends_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "met_1"
+    },
+    {
+      "word": "friends_1"
+    }
+  ],
+  "incorrect words": []
+}

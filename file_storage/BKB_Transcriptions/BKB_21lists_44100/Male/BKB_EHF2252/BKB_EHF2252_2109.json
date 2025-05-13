@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_2109.wav",
+  "words": [
+    {
+      "word": "cow_1",
+      "start_time": 219,
+      "end_time": 460,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "grass_1",
+      "start_time": 860,
+      "end_time": 1200,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cow_1"
+    },
+    {
+      "word": "is_1"
+    },
+    {
+      "word": "grass_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cow_1"
+    },
+    {
+      "word": "grass_1"
+    }
+  ],
+  "incorrect words": []
+}

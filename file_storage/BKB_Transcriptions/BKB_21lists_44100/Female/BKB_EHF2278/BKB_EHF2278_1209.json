@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1209.wav",
+  "words": [
+    {
+      "word": "cold_1",
+      "start_time": 860,
+      "end_time": 1220,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "meat_1",
+      "start_time": 1220,
+      "end_time": 1559,
+      "duration": 339,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "cold_1"
+    },
+    {
+      "word": "meat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cold_1"
+    },
+    {
+      "word": "meat_1"
+    }
+  ],
+  "incorrect words": []
+}

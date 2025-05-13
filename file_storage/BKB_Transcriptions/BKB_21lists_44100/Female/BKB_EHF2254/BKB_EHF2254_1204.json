@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1204.wav",
+  "words": [
+    {
+      "word": "lost_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "hat_1",
+      "start_time": 959,
+      "end_time": 1279,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "lost_1"
+    },
+    {
+      "word": "hat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lost_1"
+    },
+    {
+      "word": "hat_1"
+    }
+  ],
+  "incorrect words": []
+}

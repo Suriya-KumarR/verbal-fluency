@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0416.wav",
+  "words": [
+    {
+      "word": "mud_1",
+      "start_time": 319,
+      "end_time": 579,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "stuck_1",
+      "start_time": 579,
+      "end_time": 879,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "shoe_1",
+      "start_time": 1279,
+      "end_time": 1480,
+      "duration": 200,
+      "qc": false
+    }
+  ]
+}

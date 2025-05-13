@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1910.wav",
+  "words": [
+    {
+      "word": "hurt_1",
+      "start_time": 379,
+      "end_time": 600,
+      "duration": 220,
+      "qc": true
+    },
+    {
+      "word": "hand_1",
+      "start_time": 800,
+      "end_time": 1200,
+      "duration": 400,
+      "qc": true
+    }
+  ]
+}

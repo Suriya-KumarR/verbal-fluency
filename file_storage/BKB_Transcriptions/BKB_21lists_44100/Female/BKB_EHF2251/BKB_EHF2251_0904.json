@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0904.wav",
+  "words": [
+    {
+      "word": "stood_1",
+      "start_time": 360,
+      "end_time": 680,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "near_1",
+      "start_time": 680,
+      "end_time": 899,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "window_1",
+      "start_time": 1179,
+      "end_time": 1379,
+      "duration": 200,
+      "qc": true
+    }
+  ]
+}

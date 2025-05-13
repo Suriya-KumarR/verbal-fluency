@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2279_0306.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 239,
+      "end_time": 479,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "wore_1",
+      "start_time": 479,
+      "end_time": 779,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "coat_1",
+      "start_time": 980,
+      "end_time": 1120,
+      "duration": 139,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "wore_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "wore_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "incorrect words": []
+}

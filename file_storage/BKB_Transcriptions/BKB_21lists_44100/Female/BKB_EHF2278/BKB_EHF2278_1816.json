@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2278_1816.wav",
+  "words": [
+    {
+      "word": "cub_1",
+      "start_time": 219,
+      "end_time": 419,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "hanging_1",
+      "start_time": 620,
+      "end_time": 819,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "hook_1",
+      "start_time": 1200,
+      "end_time": 1460,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cup_1"
+    },
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "hook_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "hook_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "cub_1"
+    }
+  ]
+}

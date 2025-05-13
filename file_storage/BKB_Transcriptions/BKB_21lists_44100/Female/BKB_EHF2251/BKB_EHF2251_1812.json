@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_1812.wav",
+  "words": [
+    {
+      "word": "yellow_1",
+      "start_time": 300,
+      "end_time": 579,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "pears_1",
+      "start_time": 579,
+      "end_time": 1039,
+      "duration": 459,
+      "qc": false
+    },
+    {
+      "word": "tasted_1",
+      "start_time": 1039,
+      "end_time": 1440,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "good_1",
+      "start_time": 1440,
+      "end_time": 1759,
+      "duration": 319,
+      "qc": true
+    }
+  ]
+}

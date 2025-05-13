@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1302.wav",
+  "words": [
+    {
+      "word": "husband_1",
+      "start_time": 239,
+      "end_time": 620,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "brought_1",
+      "start_time": 620,
+      "end_time": 879,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "flowers_1",
+      "start_time": 1179,
+      "end_time": 1600,
+      "duration": 420,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "husband_1"
+    },
+    {
+      "word": "brought_1"
+    },
+    {
+      "word": "flowers_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "husband_1"
+    },
+    {
+      "word": "brought_1"
+    },
+    {
+      "word": "flowers_1"
+    }
+  ],
+  "incorrect words": []
+}

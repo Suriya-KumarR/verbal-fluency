@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1415.wav",
+  "words": [
+    {
+      "word": "grass_1",
+      "start_time": 239,
+      "end_time": 560,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "getting_1",
+      "start_time": 839,
+      "end_time": 1039,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "long_1",
+      "start_time": 1039,
+      "end_time": 1460,
+      "duration": 420,
+      "qc": true
+    }
+  ]
+}

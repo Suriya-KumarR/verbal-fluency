@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_1909.wav",
+  "words": [
+    {
+      "word": "reaching_1",
+      "start_time": 540,
+      "end_time": 779,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "spoon_1",
+      "start_time": 1360,
+      "end_time": 1720,
+      "duration": 360,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "reaching_1"
+    },
+    {
+      "word": "spoon_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "reaching_1"
+    },
+    {
+      "word": "spoon_1"
+    }
+  ],
+  "incorrect words": []
+}

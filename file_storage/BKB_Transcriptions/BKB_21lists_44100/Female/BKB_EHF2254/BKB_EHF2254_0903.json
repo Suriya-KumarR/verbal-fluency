@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_0903.wav",
+  "words": [
+    {
+      "word": "climbing_1",
+      "start_time": 479,
+      "end_time": 779,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "tree_1",
+      "start_time": 1120,
+      "end_time": 1419,
+      "duration": 299,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "climbing_1"
+    },
+    {
+      "word": "tree_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "climbing_1"
+    },
+    {
+      "word": "tree_1"
+    }
+  ],
+  "incorrect words": []
+}

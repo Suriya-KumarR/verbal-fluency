@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0803.wav",
+  "words": [
+    {
+      "word": "matchboxes_1",
+      "start_time": 300,
+      "end_time": 1039,
+      "duration": 739,
+      "qc": true
+    },
+    {
+      "word": "empty_1",
+      "start_time": 1240,
+      "end_time": 1480,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

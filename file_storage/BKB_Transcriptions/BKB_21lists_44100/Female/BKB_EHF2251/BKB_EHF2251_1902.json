@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1902.wav",
+  "words": [
+    {
+      "word": "sugar_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "sweet_1",
+      "start_time": 939,
+      "end_time": 1320,
+      "duration": 380,
+      "qc": true
+    }
+  ]
+}

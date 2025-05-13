@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0509.wav",
+  "words": [
+    {
+      "word": "cook_1",
+      "start_time": 360,
+      "end_time": 620,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "cut_1",
+      "start_time": 620,
+      "end_time": 939,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "onions_1",
+      "start_time": 1139,
+      "end_time": 1480,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cook_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "onions_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cook_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "onions_1"
+    }
+  ],
+  "incorrect words": []
+}

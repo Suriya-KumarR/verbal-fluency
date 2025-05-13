@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_0715.wav",
+  "words": [
+    {
+      "word": "holding_1",
+      "start_time": 439,
+      "end_time": 720,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "nose_1",
+      "start_time": 920,
+      "end_time": 1320,
+      "duration": 400,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "holding_1"
+    },
+    {
+      "word": "nose_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "holding_1"
+    },
+    {
+      "word": "nose_1"
+    }
+  ],
+  "incorrect words": []
+}

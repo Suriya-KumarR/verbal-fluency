@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0512.wav",
+  "words": [
+    {
+      "word": "somebody_1",
+      "start_time": 0,
+      "end_time": 600,
+      "duration": 600,
+      "qc": true
+    },
+    {
+      "word": "took_1",
+      "start_time": 600,
+      "end_time": 879,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "money_1",
+      "start_time": 1240,
+      "end_time": 1460,
+      "duration": 220,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1210.wav",
+  "words": [
+    {
+      "word": "football_1",
+      "start_time": 300,
+      "end_time": 620,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "game_1",
+      "start_time": 620,
+      "end_time": 920,
+      "duration": 300,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "football_1"
+    },
+    {
+      "word": "game_1"
+    },
+    {
+      "word": "over_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "football_1"
+    },
+    {
+      "word": "game_1"
+    }
+  ],
+  "incorrect words": []
+}

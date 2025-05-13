@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1311.wav",
+  "words": [
+    {
+      "word": "strawberry_1",
+      "start_time": 239,
+      "end_time": 699,
+      "duration": 459,
+      "qc": true
+    },
+    {
+      "word": "jam_1",
+      "start_time": 699,
+      "end_time": 1120,
+      "duration": 420,
+      "qc": false
+    },
+    {
+      "word": "sweet_1",
+      "start_time": 1320,
+      "end_time": 1700,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "strawberry_1"
+    },
+    {
+      "word": "jam_1"
+    },
+    {
+      "word": "sweet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "strawberry_1"
+    },
+    {
+      "word": "jam_1"
+    },
+    {
+      "word": "sweet_1"
+    }
+  ],
+  "incorrect words": []
+}

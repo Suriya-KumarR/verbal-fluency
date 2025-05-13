@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2278_2008.wav",
+  "words": [
+    {
+      "word": "sat_1",
+      "start_time": 340,
+      "end_time": 579,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "wooden_1",
+      "start_time": 920,
+      "end_time": 1059,
+      "duration": 139,
+      "qc": false
+    },
+    {
+      "word": "bench_1",
+      "start_time": 1059,
+      "end_time": 1480,
+      "duration": 420,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "sat_1"
+    },
+    {
+      "word": "wooden_1"
+    },
+    {
+      "word": "bench_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sat_1"
+    },
+    {
+      "word": "wooden_1"
+    },
+    {
+      "word": "bench_1"
+    }
+  ],
+  "incorrect words": []
+}

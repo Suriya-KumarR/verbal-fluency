@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0404.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 219,
+      "end_time": 460,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "ran_1",
+      "start_time": 460,
+      "end_time": 779,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "path_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": false
+    }
+  ]
+}

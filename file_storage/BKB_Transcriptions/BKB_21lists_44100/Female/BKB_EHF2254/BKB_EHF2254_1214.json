@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1214.wav",
+  "words": [
+    {
+      "word": "rice_1",
+      "start_time": 280,
+      "end_time": 639,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "pudding_1",
+      "start_time": 639,
+      "end_time": 920,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "ready_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "rice_1"
+    },
+    {
+      "word": "pudding_1"
+    },
+    {
+      "word": "ready_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "rice_1"
+    },
+    {
+      "word": "pudding_1"
+    },
+    {
+      "word": "ready_1"
+    }
+  ],
+  "incorrect words": []
+}

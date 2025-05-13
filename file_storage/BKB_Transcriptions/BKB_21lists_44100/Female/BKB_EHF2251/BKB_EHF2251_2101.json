@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2101.wav",
+  "words": [
+    {
+      "word": "pepper_1",
+      "start_time": 239,
+      "end_time": 560,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "shaker_1",
+      "start_time": 560,
+      "end_time": 899,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "empty_1",
+      "start_time": 1139,
+      "end_time": 1460,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

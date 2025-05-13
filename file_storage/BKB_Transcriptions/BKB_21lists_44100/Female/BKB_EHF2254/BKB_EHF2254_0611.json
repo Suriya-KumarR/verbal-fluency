@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_0611.wav",
+  "words": [
+    {
+      "word": "bringing_1",
+      "start_time": 460,
+      "end_time": 819,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "raincoat_1",
+      "start_time": 1100,
+      "end_time": 1659,
+      "duration": 559,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "bringing_1"
+    },
+    {
+      "word": "raincoat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "bringing_1"
+    },
+    {
+      "word": "raincoat_1"
+    }
+  ],
+  "incorrect words": []
+}

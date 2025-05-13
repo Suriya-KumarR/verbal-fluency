@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2278_1705.wav",
+  "words": [
+    {
+      "word": "big_1",
+      "start_time": 259,
+      "end_time": 560,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "boy_1",
+      "start_time": 560,
+      "end_time": 879,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "kicked_1",
+      "start_time": 879,
+      "end_time": 1179,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "ball_1",
+      "start_time": 1419,
+      "end_time": 1679,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "big_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "kicked_1"
+    },
+    {
+      "word": "ball_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "big_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "kicked_1"
+    },
+    {
+      "word": "ball_1"
+    }
+  ],
+  "incorrect words": []
+}

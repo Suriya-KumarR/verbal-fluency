@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_0910.wav",
+  "words": [
+    {
+      "word": "went_1",
+      "start_time": 379,
+      "end_time": 660,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "vacation_1",
+      "start_time": 980,
+      "end_time": 1340,
+      "duration": 360,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "vacation_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "vacation_1"
+    }
+  ],
+  "incorrect words": []
+}

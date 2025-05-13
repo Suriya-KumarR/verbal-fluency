@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2271_0503.wav",
+  "words": [
+    {
+      "word": "running_1",
+      "start_time": 460,
+      "end_time": 660,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "past_1",
+      "start_time": 660,
+      "end_time": 1000,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "house_1",
+      "start_time": 1200,
+      "end_time": 1500,
+      "duration": 299,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "running_1"
+    },
+    {
+      "word": "past_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "running_1"
+    },
+    {
+      "word": "past_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "incorrect words": []
+}

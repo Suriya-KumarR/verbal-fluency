@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1305.wav",
+  "words": [
+    {
+      "word": "man_1",
+      "start_time": 280,
+      "end_time": 639,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "told_1",
+      "start_time": 639,
+      "end_time": 899,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "police_1",
+      "start_time": 1159,
+      "end_time": 1519,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "told_1"
+    },
+    {
+      "word": "police_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "told_1"
+    },
+    {
+      "word": "police_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1107.wav",
+  "words": [
+    {
+      "word": "policeman_1",
+      "start_time": 360,
+      "end_time": 879,
+      "duration": 519,
+      "qc": true
+    },
+    {
+      "word": "knows_1",
+      "start_time": 879,
+      "end_time": 1159,
+      "duration": 279,
+      "qc": false
+    },
+    {
+      "word": "way_1",
+      "start_time": 1440,
+      "end_time": 1679,
+      "duration": 239,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "policeman_1"
+    },
+    {
+      "word": "knows_1"
+    },
+    {
+      "word": "way_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "policeman_1"
+    },
+    {
+      "word": "knows_1"
+    },
+    {
+      "word": "way_1"
+    }
+  ],
+  "incorrect words": []
+}

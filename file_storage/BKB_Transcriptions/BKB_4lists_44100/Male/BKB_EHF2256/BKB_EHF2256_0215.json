@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2256_0215.wav",
+  "words": [
+    {
+      "word": "watching_1",
+      "start_time": 439,
+      "end_time": 839,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "train_1",
+      "start_time": 1139,
+      "end_time": 1539,
+      "duration": 399,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "watching_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "watching_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "incorrect words": []
+}

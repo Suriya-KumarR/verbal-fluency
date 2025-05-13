@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0606.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 280,
+      "end_time": 560,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "went_1",
+      "start_time": 560,
+      "end_time": 800,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "store_1",
+      "start_time": 1179,
+      "end_time": 1460,
+      "duration": 280,
+      "qc": true
+    }
+  ]
+}

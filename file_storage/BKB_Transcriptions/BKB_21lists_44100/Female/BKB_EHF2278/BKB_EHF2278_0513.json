@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_0513.wav",
+  "words": [
+    {
+      "word": "light_1",
+      "start_time": 239,
+      "end_time": 460,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "went_1",
+      "start_time": 460,
+      "end_time": 660,
+      "duration": 200,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "light_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "out_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "light_1"
+    },
+    {
+      "word": "went_1"
+    }
+  ],
+  "incorrect words": []
+}

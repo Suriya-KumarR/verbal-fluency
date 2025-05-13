@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_1911.wav",
+  "words": [
+    {
+      "word": "milkman_1",
+      "start_time": 300,
+      "end_time": 779,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "drives_1",
+      "start_time": 779,
+      "end_time": 1059,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "small_1",
+      "start_time": 1299,
+      "end_time": 1559,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "truck_1",
+      "start_time": 1559,
+      "end_time": 1960,
+      "duration": 400,
+      "qc": true
+    }
+  ]
+}

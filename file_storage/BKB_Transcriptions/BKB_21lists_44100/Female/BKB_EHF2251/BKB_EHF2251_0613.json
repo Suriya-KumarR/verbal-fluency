@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0613.wav",
+  "words": [
+    {
+      "word": "took_1",
+      "start_time": 300,
+      "end_time": 519,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "food_1",
+      "start_time": 860,
+      "end_time": 1159,
+      "duration": 299,
+      "qc": true
+    }
+  ]
+}

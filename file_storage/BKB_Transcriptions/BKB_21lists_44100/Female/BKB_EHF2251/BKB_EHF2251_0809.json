@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0809.wav",
+  "words": [
+    {
+      "word": "pond_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "water_1",
+      "start_time": 639,
+      "end_time": 1000,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "dirty_1",
+      "start_time": 1299,
+      "end_time": 1500,
+      "duration": 200,
+      "qc": false
+    }
+  ]
+}

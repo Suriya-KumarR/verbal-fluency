@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2273_1407.wav",
+  "words": [
+    {
+      "word": "broke_1",
+      "start_time": 379,
+      "end_time": 660,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "eggs_1",
+      "start_time": 1139,
+      "end_time": 1419,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "broke_1"
+    },
+    {
+      "word": "all_1"
+    },
+    {
+      "word": "eggs_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "broke_1"
+    },
+    {
+      "word": "eggs_1"
+    }
+  ],
+  "incorrect words": []
+}

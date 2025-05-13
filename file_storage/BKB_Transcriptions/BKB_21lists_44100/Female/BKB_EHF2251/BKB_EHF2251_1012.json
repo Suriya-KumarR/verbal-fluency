@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1012.wav",
+  "words": [
+    {
+      "word": "milk_1",
+      "start_time": 259,
+      "end_time": 460,
+      "duration": 200,
+      "qc": false
+    },
+    {
+      "word": "front_1",
+      "start_time": 1159,
+      "end_time": 1340,
+      "duration": 180,
+      "qc": true
+    },
+    {
+      "word": "door_1",
+      "start_time": 1340,
+      "end_time": 1639,
+      "duration": 299,
+      "qc": true
+    }
+  ]
+}

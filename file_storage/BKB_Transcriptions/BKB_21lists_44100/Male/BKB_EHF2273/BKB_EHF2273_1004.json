@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1004.wav",
+  "words": [
+    {
+      "word": "good_1",
+      "start_time": 300,
+      "end_time": 519,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "boy_1",
+      "start_time": 519,
+      "end_time": 800,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "helping_1",
+      "start_time": 1080,
+      "end_time": 1379,
+      "duration": 299,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "good_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "helping_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "good_1"
+    },
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "helping_1"
+    }
+  ],
+  "incorrect words": []
+}

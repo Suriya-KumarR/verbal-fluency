@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_0710.wav",
+  "words": [
+    {
+      "word": "two_1",
+      "start_time": 419,
+      "end_time": 860,
+      "duration": 440,
+      "qc": true
+    },
+    {
+      "word": "empty_1",
+      "start_time": 860,
+      "end_time": 1240,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "bottles_1",
+      "start_time": 1240,
+      "end_time": 1639,
+      "duration": 399,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "two_1"
+    },
+    {
+      "word": "empty_1"
+    },
+    {
+      "word": "bottles_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "two_1"
+    },
+    {
+      "word": "empty_1"
+    },
+    {
+      "word": "bottles_1"
+    }
+  ],
+  "incorrect words": []
+}

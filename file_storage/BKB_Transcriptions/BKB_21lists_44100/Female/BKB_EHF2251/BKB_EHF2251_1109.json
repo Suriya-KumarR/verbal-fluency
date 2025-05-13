@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1109.wav",
+  "words": [
+    {
+      "word": "wore_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "yellow_1",
+      "start_time": 699,
+      "end_time": 1019,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "shirt_1",
+      "start_time": 1019,
+      "end_time": 1379,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1907.wav",
+  "words": [
+    {
+      "word": "grocer_1",
+      "start_time": 239,
+      "end_time": 699,
+      "duration": 459,
+      "qc": true
+    },
+    {
+      "word": "sells_1",
+      "start_time": 699,
+      "end_time": 1159,
+      "duration": 459,
+      "qc": true
+    },
+    {
+      "word": "butter_1",
+      "start_time": 1159,
+      "end_time": 1480,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "grocer_1"
+    },
+    {
+      "word": "sells_1"
+    },
+    {
+      "word": "butter_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "grocer_1"
+    },
+    {
+      "word": "sells_1"
+    },
+    {
+      "word": "butter_1"
+    }
+  ],
+  "incorrect words": []
+}

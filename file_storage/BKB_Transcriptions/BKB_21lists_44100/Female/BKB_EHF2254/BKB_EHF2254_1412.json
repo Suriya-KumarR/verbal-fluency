@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1412.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 300,
+      "end_time": 699,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "washed_1",
+      "start_time": 699,
+      "end_time": 1120,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "plates_1",
+      "start_time": 1379,
+      "end_time": 1740,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "washed_1"
+    },
+    {
+      "word": "plates_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "washed_1"
+    },
+    {
+      "word": "plates_1"
+    }
+  ],
+  "incorrect words": []
+}

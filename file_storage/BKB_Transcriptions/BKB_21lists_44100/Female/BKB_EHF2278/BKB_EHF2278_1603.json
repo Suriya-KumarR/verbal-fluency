@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1603.wav",
+  "words": [
+    {
+      "word": "closed_1",
+      "start_time": 300,
+      "end_time": 740,
+      "duration": 439,
+      "qc": true
+    },
+    {
+      "word": "eyes_1",
+      "start_time": 1080,
+      "end_time": 1580,
+      "duration": 500,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "closed_1"
+    },
+    {
+      "word": "eyes_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "closed_1"
+    },
+    {
+      "word": "eyes_1"
+    }
+  ],
+  "incorrect words": []
+}

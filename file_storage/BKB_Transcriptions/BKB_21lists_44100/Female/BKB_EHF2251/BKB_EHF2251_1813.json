@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1813.wav",
+  "words": [
+    {
+      "word": "police_1",
+      "start_time": 360,
+      "end_time": 699,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "helped_1",
+      "start_time": 699,
+      "end_time": 1000,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "driver_1",
+      "start_time": 1179,
+      "end_time": 1480,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

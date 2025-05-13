@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_2111.wav",
+  "words": [
+    {
+      "word": "frightened_1",
+      "start_time": 360,
+      "end_time": 720,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "sister_1",
+      "start_time": 980,
+      "end_time": 1299,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "frightened_1"
+    },
+    {
+      "word": "sister_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "frightened_1"
+    },
+    {
+      "word": "sister_1"
+    }
+  ],
+  "incorrect words": []
+}

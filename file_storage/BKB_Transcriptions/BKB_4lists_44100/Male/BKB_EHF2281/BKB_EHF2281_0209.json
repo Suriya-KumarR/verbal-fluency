@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2281_0209.wav",
+  "words": [
+    {
+      "word": "taking_1",
+      "start_time": 500,
+      "end_time": 800,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "coat_1",
+      "start_time": 1000,
+      "end_time": 1360,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "taking_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "taking_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "incorrect words": []
+}

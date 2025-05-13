@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1405.wav",
+  "words": [
+    {
+      "word": "old_1",
+      "start_time": 219,
+      "end_time": 600,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "woman_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 1360,
+      "end_time": 1740,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "old_1"
+    },
+    {
+      "word": "woman_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "old_1"
+    },
+    {
+      "word": "woman_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "incorrect words": []
+}

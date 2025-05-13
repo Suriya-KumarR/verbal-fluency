@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0106.wav",
+  "words": [
+    {
+      "word": "buying_1",
+      "start_time": 500,
+      "end_time": 819,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1159,
+      "end_time": 1460,
+      "duration": 300,
+      "qc": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1315.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 300,
+      "end_time": 540,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "heard_1",
+      "start_time": 540,
+      "end_time": 920,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "baby_1",
+      "start_time": 1120,
+      "end_time": 1379,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "heard_1"
+    },
+    {
+      "word": "baby_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "heard_1"
+    },
+    {
+      "word": "baby_1"
+    }
+  ],
+  "incorrect words": []
+}

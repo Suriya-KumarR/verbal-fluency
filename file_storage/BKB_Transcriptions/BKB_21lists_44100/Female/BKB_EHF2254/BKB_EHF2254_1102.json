@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1102.wav",
+  "words": [
+    {
+      "word": "dogs_1",
+      "start_time": 280,
+      "end_time": 699,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "went_1",
+      "start_time": 699,
+      "end_time": 980,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "walk_1",
+      "start_time": 1740,
+      "end_time": 1759,
+      "duration": 19,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dogs_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "walk_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dogs_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "walk_1"
+    }
+  ],
+  "incorrect words": []
+}

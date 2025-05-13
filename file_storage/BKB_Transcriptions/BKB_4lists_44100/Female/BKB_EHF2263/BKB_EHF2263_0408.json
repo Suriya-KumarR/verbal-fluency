@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2263_0408.wav",
+  "words": [
+    {
+      "word": "lemons_1",
+      "start_time": 0,
+      "end_time": 540,
+      "duration": 540,
+      "qc": true
+    },
+    {
+      "word": "grow_1",
+      "start_time": 540,
+      "end_time": 779,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "trees_1",
+      "start_time": 1039,
+      "end_time": 1399,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lemons_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "trees_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lemons_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "trees_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0208.wav",
+  "words": [
+    {
+      "word": "snow_1",
+      "start_time": 0,
+      "end_time": 519,
+      "duration": 519,
+      "qc": true
+    },
+    {
+      "word": "falls_1",
+      "start_time": 519,
+      "end_time": 860,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "christmas_1",
+      "start_time": 1100,
+      "end_time": 1440,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "snow_1"
+    },
+    {
+      "word": "falls_1"
+    },
+    {
+      "word": "christmas_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "snow_1"
+    },
+    {
+      "word": "falls_1"
+    },
+    {
+      "word": "christmas_1"
+    }
+  ],
+  "incorrect words": []
+}

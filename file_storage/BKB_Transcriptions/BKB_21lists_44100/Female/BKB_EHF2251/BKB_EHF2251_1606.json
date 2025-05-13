@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1606.wav",
+  "words": [
+    {
+      "word": "called_1",
+      "start_time": 280,
+      "end_time": 540,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "ambulance_1",
+      "start_time": 899,
+      "end_time": 1159,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

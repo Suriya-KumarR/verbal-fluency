@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2269_0111.wav",
+  "words": [
+    {
+      "word": "bag_1",
+      "start_time": 259,
+      "end_time": 560,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "fell_1",
+      "start_time": 560,
+      "end_time": 740,
+      "duration": 180,
+      "qc": false
+    },
+    {
+      "word": "ground_1",
+      "start_time": 1100,
+      "end_time": 1399,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "bag_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "ground_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "bag_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "ground_1"
+    }
+  ],
+  "incorrect words": []
+}

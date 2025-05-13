@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2274_0307.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 239,
+      "end_time": 620,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "walking_1",
+      "start_time": 899,
+      "end_time": 1220,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "home_1",
+      "start_time": 1220,
+      "end_time": 1559,
+      "duration": 339,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "walking_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "walking_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "incorrect words": []
+}

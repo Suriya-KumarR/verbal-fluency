@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_0909.wav",
+  "words": [
+    {
+      "word": "shoes_1",
+      "start_time": 280,
+      "end_time": 660,
+      "duration": 380,
+      "qc": false
+    },
+    {
+      "word": "dirty_1",
+      "start_time": 1100,
+      "end_time": 1360,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "shoes_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "dirty_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "shoes_1"
+    },
+    {
+      "word": "dirty_1"
+    }
+  ],
+  "incorrect words": []
+}

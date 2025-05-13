@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2281_0214.wav",
+  "words": [
+    {
+      "word": "little_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "baby_1",
+      "start_time": 500,
+      "end_time": 819,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "sleeping_1",
+      "start_time": 1019,
+      "end_time": 1379,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "little_1"
+    },
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "sleeping_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "little_1"
+    },
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "sleeping_1"
+    }
+  ],
+  "incorrect words": []
+}

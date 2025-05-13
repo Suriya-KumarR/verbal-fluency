@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0101.wav",
+  "words": [
+    {
+      "word": "clown_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "funny_1",
+      "start_time": 1159,
+      "end_time": 1320,
+      "duration": 160,
+      "qc": false
+    },
+    {
+      "word": "face_1",
+      "start_time": 1320,
+      "end_time": 1840,
+      "duration": 519,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "clown_1"
+    },
+    {
+      "word": "funny_1"
+    },
+    {
+      "word": "face_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "clown_1"
+    },
+    {
+      "word": "funny_1"
+    },
+    {
+      "word": "face_1"
+    }
+  ],
+  "incorrect words": []
+}

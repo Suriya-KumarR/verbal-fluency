@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_0814.wav",
+  "words": [
+    {
+      "word": "football_1",
+      "start_time": 460,
+      "end_time": 579,
+      "duration": 119,
+      "qc": false
+    },
+    {
+      "word": "player_1",
+      "start_time": 579,
+      "end_time": 959,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "lost_1",
+      "start_time": 959,
+      "end_time": 1299,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "shoe_1",
+      "start_time": 1679,
+      "end_time": 1700,
+      "duration": 20,
+      "qc": false
+    }
+  ]
+}

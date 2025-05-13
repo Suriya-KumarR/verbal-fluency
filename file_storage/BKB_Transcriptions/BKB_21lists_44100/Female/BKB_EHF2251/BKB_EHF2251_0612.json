@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0612.wav",
+  "words": [
+    {
+      "word": "sharp_1",
+      "start_time": 280,
+      "end_time": 519,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "knife_1",
+      "start_time": 519,
+      "end_time": 860,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "dangerous_1",
+      "start_time": 1080,
+      "end_time": 1460,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

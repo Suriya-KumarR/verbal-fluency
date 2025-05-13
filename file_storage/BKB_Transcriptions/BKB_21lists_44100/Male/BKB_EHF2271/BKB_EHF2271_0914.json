@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0914.wav",
+  "words": [
+    {
+      "word": "train_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "moving_1",
+      "start_time": 800,
+      "end_time": 1039,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "fast_1",
+      "start_time": 1039,
+      "end_time": 1559,
+      "duration": 519,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "train_1"
+    },
+    {
+      "word": "moving_1"
+    },
+    {
+      "word": "fast_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "train_1"
+    },
+    {
+      "word": "moving_1"
+    },
+    {
+      "word": "fast_1"
+    }
+  ],
+  "incorrect words": []
+}

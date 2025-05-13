@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1115.wav",
+  "words": [
+    {
+      "word": "fish_1",
+      "start_time": 379,
+      "end_time": 519,
+      "duration": 139,
+      "qc": false
+    },
+    {
+      "word": "swam_1",
+      "start_time": 519,
+      "end_time": 819,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "pond_1",
+      "start_time": 1100,
+      "end_time": 1440,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "fish_1"
+    },
+    {
+      "word": "swam_1"
+    },
+    {
+      "word": "pond_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "fish_1"
+    },
+    {
+      "word": "swam_1"
+    },
+    {
+      "word": "pond_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1315.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 340,
+      "end_time": 540,
+      "duration": 200,
+      "qc": false
+    },
+    {
+      "word": "heard_1",
+      "start_time": 540,
+      "end_time": 819,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "baby_1",
+      "start_time": 1019,
+      "end_time": 1240,
+      "duration": 220,
+      "qc": true
+    }
+  ]
+}

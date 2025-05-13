@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_0512.wav",
+  "words": [
+    {
+      "word": "somebody_1",
+      "start_time": 0,
+      "end_time": 699,
+      "duration": 699,
+      "qc": true
+    },
+    {
+      "word": "took_1",
+      "start_time": 699,
+      "end_time": 1019,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "money_1",
+      "start_time": 1340,
+      "end_time": 1600,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "somebody_1"
+    },
+    {
+      "word": "took_1"
+    },
+    {
+      "word": "money_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "somebody_1"
+    },
+    {
+      "word": "took_1"
+    },
+    {
+      "word": "money_1"
+    }
+  ],
+  "incorrect words": []
+}

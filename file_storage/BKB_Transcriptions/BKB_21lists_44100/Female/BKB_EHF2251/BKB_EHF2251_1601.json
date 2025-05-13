@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1601.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 280,
+      "end_time": 699,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "waved_1",
+      "start_time": 699,
+      "end_time": 1019,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "train_1",
+      "start_time": 1399,
+      "end_time": 1759,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1304.wav",
+  "words": [
+    {
+      "word": "argued_1",
+      "start_time": 400,
+      "end_time": 699,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "sister_1",
+      "start_time": 1159,
+      "end_time": 1539,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

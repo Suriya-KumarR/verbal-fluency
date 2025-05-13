@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0503.wav",
+  "words": [
+    {
+      "word": "running_1",
+      "start_time": 460,
+      "end_time": 639,
+      "duration": 179,
+      "qc": false
+    },
+    {
+      "word": "past_1",
+      "start_time": 639,
+      "end_time": 1039,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "house_1",
+      "start_time": 1259,
+      "end_time": 1580,
+      "duration": 320,
+      "qc": false
+    }
+  ]
+}

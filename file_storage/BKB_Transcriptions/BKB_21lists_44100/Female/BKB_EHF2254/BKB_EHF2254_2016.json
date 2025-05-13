@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_2016.wav",
+  "words": [
+    {
+      "word": "flowers_1",
+      "start_time": 319,
+      "end_time": 740,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "grow_1",
+      "start_time": 740,
+      "end_time": 1100,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "pot_1",
+      "start_time": 1440,
+      "end_time": 1740,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "the_1"
+    },
+    {
+      "word": "flowers_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "pot_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "flowers_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "pot_1"
+    }
+  ],
+  "incorrect words": []
+}

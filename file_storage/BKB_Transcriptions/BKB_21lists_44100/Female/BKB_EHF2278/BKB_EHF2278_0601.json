@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0601.wav",
+  "words": [
+    {
+      "word": "paint_1",
+      "start_time": 239,
+      "end_time": 540,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "dripped_1",
+      "start_time": 540,
+      "end_time": 920,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "ground_1",
+      "start_time": 1240,
+      "end_time": 1539,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "paint_1"
+    },
+    {
+      "word": "dripped_1"
+    },
+    {
+      "word": "ground_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "paint_1"
+    },
+    {
+      "word": "dripped_1"
+    },
+    {
+      "word": "ground_1"
+    }
+  ],
+  "incorrect words": []
+}

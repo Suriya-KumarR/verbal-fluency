@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0815.wav",
+  "words": [
+    {
+      "word": "three_1",
+      "start_time": 259,
+      "end_time": 639,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "girls_1",
+      "start_time": 639,
+      "end_time": 1019,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "listening_1",
+      "start_time": 1179,
+      "end_time": 1539,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "three_1"
+    },
+    {
+      "word": "girls_1"
+    },
+    {
+      "word": "listening_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "three_1"
+    },
+    {
+      "word": "girls_1"
+    },
+    {
+      "word": "listening_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,40 @@
+{
+  "audio_path": "BKB_EHF2279_0412.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 560,
+      "duration": 560,
+      "qc": false
+    },
+    {
+      "word": "kneeling_1",
+      "start_time": 560,
+      "end_time": 920,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "kneeling_1"
+    },
+    {
+      "word": "down_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "kneeling_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

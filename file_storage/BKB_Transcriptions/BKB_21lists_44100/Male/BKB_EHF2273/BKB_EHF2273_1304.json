@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2273_1304.wav",
+  "words": [
+    {
+      "word": "argued_1",
+      "start_time": 419,
+      "end_time": 740,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "sister_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "argued_1"
+    },
+    {
+      "word": "with_1"
+    },
+    {
+      "word": "sister_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "argued_1"
+    },
+    {
+      "word": "sister_1"
+    }
+  ],
+  "incorrect words": []
+}

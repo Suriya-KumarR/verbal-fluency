@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0213.wav",
+  "words": [
+    {
+      "word": "sticks_1",
+      "start_time": 340,
+      "end_time": 699,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "tree_1",
+      "start_time": 1279,
+      "end_time": 1620,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1116.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "wrote_1",
+      "start_time": 479,
+      "end_time": 800,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "letter_1",
+      "start_time": 1080,
+      "end_time": 1220,
+      "duration": 139,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "wrote_1"
+    },
+    {
+      "word": "letter_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "wrote_1"
+    },
+    {
+      "word": "letter_1"
+    }
+  ],
+  "incorrect words": []
+}

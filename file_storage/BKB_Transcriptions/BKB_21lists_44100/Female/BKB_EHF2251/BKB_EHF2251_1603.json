@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1603.wav",
+  "words": [
+    {
+      "word": "closed_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "eyes_1",
+      "start_time": 959,
+      "end_time": 1320,
+      "duration": 360,
+      "qc": false
+    }
+  ]
+}

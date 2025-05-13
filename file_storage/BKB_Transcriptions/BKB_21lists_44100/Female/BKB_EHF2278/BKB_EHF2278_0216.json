@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2278_0216.wav",
+  "words": [
+    {
+      "word": "school_1",
+      "start_time": 0,
+      "end_time": 500,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "finished_1",
+      "start_time": 500,
+      "end_time": 860,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "early_1",
+      "start_time": 860,
+      "end_time": 1200,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "today_1",
+      "start_time": 1200,
+      "end_time": 1500,
+      "duration": 299,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "school_1"
+    },
+    {
+      "word": "finished_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "school_1"
+    },
+    {
+      "word": "finished_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "today_1"
+    }
+  ]
+}

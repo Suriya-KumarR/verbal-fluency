@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_0510.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 280,
+      "end_time": 560,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "made_1",
+      "start_time": 560,
+      "end_time": 879,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "angry_1",
+      "start_time": 1139,
+      "end_time": 1360,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "noise_1",
+      "start_time": 1360,
+      "end_time": 1799,
+      "duration": 439,
+      "qc": true
+    }
+  ]
+}

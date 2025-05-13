@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2257_0201.wav",
+  "words": [
+    {
+      "word": "latter_1",
+      "start_time": 259,
+      "end_time": 579,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "near_1",
+      "start_time": 800,
+      "end_time": 920,
+      "duration": 120,
+      "qc": false
+    },
+    {
+      "word": "door_1",
+      "start_time": 1159,
+      "end_time": 1320,
+      "duration": 160,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "ladder_1"
+    },
+    {
+      "word": "near_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "near_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "latter_1"
+    }
+  ]
+}

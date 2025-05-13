@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2266_0203.wav",
+  "words": [
+    {
+      "word": "ball_1",
+      "start_time": 400,
+      "end_time": 699,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "went_1",
+      "start_time": 699,
+      "end_time": 939,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "goal_1",
+      "start_time": 1399,
+      "end_time": 1720,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "ball_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "into_1"
+    },
+    {
+      "word": "goal_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ball_1"
+    },
+    {
+      "word": "went_1"
+    },
+    {
+      "word": "goal_1"
+    }
+  ],
+  "incorrect words": []
+}

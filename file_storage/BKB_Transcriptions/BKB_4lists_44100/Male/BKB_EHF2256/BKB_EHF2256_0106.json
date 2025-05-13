@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2256_0106.wav",
+  "words": [
+    {
+      "word": "buying_1",
+      "start_time": 540,
+      "end_time": 879,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1200,
+      "end_time": 1440,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "buying_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "buying_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1813.wav",
+  "words": [
+    {
+      "word": "police_1",
+      "start_time": 340,
+      "end_time": 660,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "helped_1",
+      "start_time": 660,
+      "end_time": 980,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "driver_1",
+      "start_time": 1200,
+      "end_time": 1519,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "police_1"
+    },
+    {
+      "word": "helped_1"
+    },
+    {
+      "word": "driver_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "police_1"
+    },
+    {
+      "word": "helped_1"
+    },
+    {
+      "word": "driver_1"
+    }
+  ],
+  "incorrect words": []
+}

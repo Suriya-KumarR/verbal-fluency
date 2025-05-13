@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1713.wav",
+  "words": [
+    {
+      "word": "milkman_1",
+      "start_time": 239,
+      "end_time": 720,
+      "duration": 480,
+      "qc": true
+    },
+    {
+      "word": "brought_1",
+      "start_time": 720,
+      "end_time": 959,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "cream_1",
+      "start_time": 1139,
+      "end_time": 1500,
+      "duration": 360,
+      "qc": false
+    }
+  ]
+}

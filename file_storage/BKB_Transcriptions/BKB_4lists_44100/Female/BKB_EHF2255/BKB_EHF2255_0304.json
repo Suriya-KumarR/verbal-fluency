@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2255_0304.wav",
+  "words": [
+    {
+      "word": "farmer_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "keeps_1",
+      "start_time": 639,
+      "end_time": 980,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "bowl_1",
+      "start_time": 1139,
+      "end_time": 1299,
+      "duration": 159,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "farmer_1"
+    },
+    {
+      "word": "keeps_1"
+    },
+    {
+      "word": "bull_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "farmer_1"
+    },
+    {
+      "word": "keeps_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "bowl_1"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2271_1312.wav",
+  "words": [
+    {
+      "word": "plant_1",
+      "start_time": 379,
+      "end_time": 680,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "hanging_1",
+      "start_time": 920,
+      "end_time": 1240,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "door_1",
+      "start_time": 1799,
+      "end_time": 2079,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "plant_1"
+    },
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "above_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "plant_1"
+    },
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "incorrect words": []
+}

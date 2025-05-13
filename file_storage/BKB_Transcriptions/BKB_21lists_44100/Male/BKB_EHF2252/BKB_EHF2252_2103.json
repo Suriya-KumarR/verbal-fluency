@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_2103.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 159,
+      "end_time": 379,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "came_1",
+      "start_time": 379,
+      "end_time": 620,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "room_1",
+      "start_time": 1000,
+      "end_time": 1279,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "room_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "room_1"
+    }
+  ],
+  "incorrect words": []
+}

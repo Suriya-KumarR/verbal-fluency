@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1508.wav",
+  "words": [
+    {
+      "word": "bumped_1",
+      "start_time": 319,
+      "end_time": 540,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "head_1",
+      "start_time": 839,
+      "end_time": 1159,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "bumped_1"
+    },
+    {
+      "word": "head_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "bumped_1"
+    },
+    {
+      "word": "head_1"
+    }
+  ],
+  "incorrect words": []
+}

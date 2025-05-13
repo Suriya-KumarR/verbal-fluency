@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0202.wav",
+  "words": [
+    {
+      "word": "lovely_1",
+      "start_time": 800,
+      "end_time": 1019,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "day_1",
+      "start_time": 1019,
+      "end_time": 1340,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

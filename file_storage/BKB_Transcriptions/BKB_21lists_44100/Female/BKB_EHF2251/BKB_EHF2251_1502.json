@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1502.wav",
+  "words": [
+    {
+      "word": "fire_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "hot_1",
+      "start_time": 1240,
+      "end_time": 1559,
+      "duration": 319,
+      "qc": false
+    }
+  ]
+}

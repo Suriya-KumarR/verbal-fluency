@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0504.wav",
+  "words": [
+    {
+      "word": "train_1",
+      "start_time": 379,
+      "end_time": 699,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "bad_1",
+      "start_time": 1039,
+      "end_time": 1220,
+      "duration": 180,
+      "qc": false
+    },
+    {
+      "word": "accident_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "train_1"
+    },
+    {
+      "word": "bad_1"
+    },
+    {
+      "word": "accident_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "train_1"
+    },
+    {
+      "word": "bad_1"
+    },
+    {
+      "word": "accident_1"
+    }
+  ],
+  "incorrect words": []
+}

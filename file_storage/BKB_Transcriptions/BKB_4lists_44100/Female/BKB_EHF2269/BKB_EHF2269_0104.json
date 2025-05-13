@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2269_0104.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "like_1",
+      "start_time": 419,
+      "end_time": 720,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "strawberries_1",
+      "start_time": 720,
+      "end_time": 1179,
+      "duration": 459,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "like_1"
+    },
+    {
+      "word": "strawberries_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "like_1"
+    },
+    {
+      "word": "strawberries_1"
+    }
+  ],
+  "incorrect words": []
+}

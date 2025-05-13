@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1905.wav",
+  "words": [
+    {
+      "word": "clearing_1",
+      "start_time": 419,
+      "end_time": 740,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "table_1",
+      "start_time": 959,
+      "end_time": 1259,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

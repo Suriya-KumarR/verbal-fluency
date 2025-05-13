@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_2013.wav",
+  "words": [
+    {
+      "word": "brushed_1",
+      "start_time": 360,
+      "end_time": 639,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "hair_1",
+      "start_time": 839,
+      "end_time": 1159,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "brushed_1"
+    },
+    {
+      "word": "hair_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "brushed_1"
+    },
+    {
+      "word": "hair_1"
+    }
+  ],
+  "incorrect words": []
+}

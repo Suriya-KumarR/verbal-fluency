@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_1211.wav",
+  "words": [
+    {
+      "word": "carried_1",
+      "start_time": 319,
+      "end_time": 720,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "shopping_1",
+      "start_time": 1059,
+      "end_time": 1419,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "bags_1",
+      "start_time": 1419,
+      "end_time": 1940,
+      "duration": 520,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "carried_1"
+    },
+    {
+      "word": "shopping_1"
+    },
+    {
+      "word": "bags_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "carried_1"
+    },
+    {
+      "word": "shopping_1"
+    },
+    {
+      "word": "bags_1"
+    }
+  ],
+  "incorrect words": []
+}

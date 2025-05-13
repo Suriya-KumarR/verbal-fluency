@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_2010.wav",
+  "words": [
+    {
+      "word": "oven_1",
+      "start_time": 340,
+      "end_time": 519,
+      "duration": 179,
+      "qc": false
+    },
+    {
+      "word": "hot_1",
+      "start_time": 1039,
+      "end_time": 1279,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

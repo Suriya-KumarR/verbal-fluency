@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1205.wav",
+  "words": [
+    {
+      "word": "faucets_1",
+      "start_time": 300,
+      "end_time": 720,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "sink_1",
+      "start_time": 1500,
+      "end_time": 1659,
+      "duration": 159,
+      "qc": false
+    }
+  ]
+}

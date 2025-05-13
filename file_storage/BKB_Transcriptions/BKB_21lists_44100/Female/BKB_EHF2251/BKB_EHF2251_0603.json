@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0603.wav",
+  "words": [
+    {
+      "word": "laughed_1",
+      "start_time": 419,
+      "end_time": 740,
+      "duration": 320,
+      "qc": true
+    },
+    {
+      "word": "story_1",
+      "start_time": 1179,
+      "end_time": 1500,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

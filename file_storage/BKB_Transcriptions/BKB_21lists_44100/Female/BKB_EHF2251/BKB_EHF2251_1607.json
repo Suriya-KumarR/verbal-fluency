@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1607.wav",
+  "words": [
+    {
+      "word": "paying_1",
+      "start_time": 479,
+      "end_time": 699,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1080,
+      "end_time": 1419,
+      "duration": 339,
+      "qc": false
+    }
+  ]
+}

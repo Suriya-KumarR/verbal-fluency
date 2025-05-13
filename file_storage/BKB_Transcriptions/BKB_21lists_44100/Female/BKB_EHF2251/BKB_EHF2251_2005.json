@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_2005.wav",
+  "words": [
+    {
+      "word": "dishcloth_1",
+      "start_time": 360,
+      "end_time": 899,
+      "duration": 539,
+      "qc": false
+    },
+    {
+      "word": "wet_1",
+      "start_time": 1419,
+      "end_time": 1720,
+      "duration": 300,
+      "qc": false
+    }
+  ]
+}

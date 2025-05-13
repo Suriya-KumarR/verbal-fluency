@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1512.wav",
+  "words": [
+    {
+      "word": "daughter_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "set_1",
+      "start_time": 500,
+      "end_time": 779,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "table_1",
+      "start_time": 980,
+      "end_time": 1240,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

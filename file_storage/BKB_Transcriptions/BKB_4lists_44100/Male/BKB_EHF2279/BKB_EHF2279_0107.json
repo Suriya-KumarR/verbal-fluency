@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2279_0107.wav",
+  "words": [
+    {
+      "word": "green_1",
+      "start_time": 340,
+      "end_time": 600,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "tomatoes_1",
+      "start_time": 600,
+      "end_time": 939,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "small_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "green_1"
+    },
+    {
+      "word": "tomatoes_1"
+    },
+    {
+      "word": "small_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "green_1"
+    },
+    {
+      "word": "tomatoes_1"
+    },
+    {
+      "word": "small_1"
+    }
+  ],
+  "incorrect words": []
+}

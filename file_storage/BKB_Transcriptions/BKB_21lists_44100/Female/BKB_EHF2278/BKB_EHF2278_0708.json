@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0708.wav",
+  "words": [
+    {
+      "word": "young_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "people_1",
+      "start_time": 479,
+      "end_time": 879,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "dancing_1",
+      "start_time": 1080,
+      "end_time": 1440,
+      "duration": 360,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "young_1"
+    },
+    {
+      "word": "people_1"
+    },
+    {
+      "word": "dancing_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "young_1"
+    },
+    {
+      "word": "people_1"
+    },
+    {
+      "word": "dancing_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1507.wav",
+  "words": [
+    {
+      "word": "nice_1",
+      "start_time": 360,
+      "end_time": 699,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "people_1",
+      "start_time": 699,
+      "end_time": 1039,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "coming_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

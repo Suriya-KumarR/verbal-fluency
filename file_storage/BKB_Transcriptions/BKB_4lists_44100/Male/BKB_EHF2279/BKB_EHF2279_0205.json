@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2279_0205.wav",
+  "words": [
+    {
+      "word": "cut_1",
+      "start_time": 360,
+      "end_time": 540,
+      "duration": 180,
+      "qc": true
+    },
+    {
+      "word": "finger_1",
+      "start_time": 800,
+      "end_time": 1120,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "finger_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "finger_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2277_0206.wav",
+  "words": [
+    {
+      "word": "thin_1",
+      "start_time": 239,
+      "end_time": 540,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "dog_1",
+      "start_time": 540,
+      "end_time": 740,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "hungry_1",
+      "start_time": 959,
+      "end_time": 1240,
+      "duration": 280,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "thin_1"
+    },
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "hungry_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "thin_1"
+    },
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "hungry_1"
+    }
+  ],
+  "incorrect words": []
+}

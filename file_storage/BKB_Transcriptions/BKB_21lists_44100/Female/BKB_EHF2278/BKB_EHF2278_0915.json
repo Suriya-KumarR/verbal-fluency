@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0915.wav",
+  "words": [
+    {
+      "word": "child_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "drank_1",
+      "start_time": 579,
+      "end_time": 879,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "milk_1",
+      "start_time": 1179,
+      "end_time": 1399,
+      "duration": 220,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "child_1"
+    },
+    {
+      "word": "drank_1"
+    },
+    {
+      "word": "milk_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "child_1"
+    },
+    {
+      "word": "drank_1"
+    },
+    {
+      "word": "milk_1"
+    }
+  ],
+  "incorrect words": []
+}

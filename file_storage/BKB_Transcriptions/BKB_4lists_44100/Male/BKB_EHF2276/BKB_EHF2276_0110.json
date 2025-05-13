@@ -1,0 +1,53 @@
+{
+  "audio_path": "BKB_EHF2276_0110.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 379,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "looking_1",
+      "start_time": 379,
+      "end_time": 600,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "clock_1",
+      "start_time": 1080,
+      "end_time": 1460,
+      "duration": 379,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "looking_1"
+    },
+    {
+      "word": "at_1"
+    },
+    {
+      "word": "clock_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "looking_1"
+    },
+    {
+      "word": "clock_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1514.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 579,
+      "duration": 579,
+      "qc": true
+    },
+    {
+      "word": "tied_1",
+      "start_time": 579,
+      "end_time": 980,
+      "duration": 400,
+      "qc": false
+    },
+    {
+      "word": "string_1",
+      "start_time": 1340,
+      "end_time": 1679,
+      "duration": 339,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "tied_1"
+    },
+    {
+      "word": "string_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "tied_1"
+    },
+    {
+      "word": "string_1"
+    }
+  ],
+  "incorrect words": []
+}

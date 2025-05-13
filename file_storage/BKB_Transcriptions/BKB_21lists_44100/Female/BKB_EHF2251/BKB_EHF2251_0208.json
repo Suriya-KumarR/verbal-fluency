@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0208.wav",
+  "words": [
+    {
+      "word": "snow_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "falls_1",
+      "start_time": 479,
+      "end_time": 819,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "christmas_1",
+      "start_time": 1059,
+      "end_time": 1360,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

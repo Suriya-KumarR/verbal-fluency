@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2256_0314.wav",
+  "words": [
+    {
+      "word": "drinks_1",
+      "start_time": 360,
+      "end_time": 720,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "cup_1",
+      "start_time": 1179,
+      "end_time": 1500,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "drinks_1"
+    },
+    {
+      "word": "cup_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "drinks_1"
+    },
+    {
+      "word": "cup_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_2010.wav",
+  "words": [
+    {
+      "word": "oven_1",
+      "start_time": 300,
+      "end_time": 540,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "hot_1",
+      "start_time": 1019,
+      "end_time": 1279,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "oven_1"
+    },
+    {
+      "word": "too_1"
+    },
+    {
+      "word": "hot_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "oven_1"
+    },
+    {
+      "word": "hot_1"
+    }
+  ],
+  "incorrect words": []
+}

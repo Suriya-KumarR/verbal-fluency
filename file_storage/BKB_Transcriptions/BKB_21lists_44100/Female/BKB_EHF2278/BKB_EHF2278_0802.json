@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0802.wav",
+  "words": [
+    {
+      "word": "friend_1",
+      "start_time": 300,
+      "end_time": 560,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "came_1",
+      "start_time": 560,
+      "end_time": 920,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "lunch_1",
+      "start_time": 1200,
+      "end_time": 1500,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "friend_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "lunch_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "friend_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "lunch_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_1206.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 500,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "paid_1",
+      "start_time": 500,
+      "end_time": 920,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "gate_1",
+      "start_time": 1179,
+      "end_time": 1559,
+      "duration": 379,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "paid_1"
+    },
+    {
+      "word": "at_1"
+    },
+    {
+      "word": "gate_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "paid_1"
+    },
+    {
+      "word": "gate_1"
+    }
+  ],
+  "incorrect words": []
+}

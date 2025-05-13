@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1005.wav",
+  "words": [
+    {
+      "word": "followed_1",
+      "start_time": 439,
+      "end_time": 639,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "path_1",
+      "start_time": 879,
+      "end_time": 1179,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "followed_1"
+    },
+    {
+      "word": "path_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "followed_1"
+    },
+    {
+      "word": "path_1"
+    }
+  ],
+  "incorrect words": []
+}

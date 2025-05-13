@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1803.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "shut_1",
+      "start_time": 479,
+      "end_time": 779,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "window_1",
+      "start_time": 980,
+      "end_time": 1220,
+      "duration": 240,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "shut_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "shut_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0207.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 200,
+      "end_time": 419,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "knew_1",
+      "start_time": 419,
+      "end_time": 620,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "game_1",
+      "start_time": 819,
+      "end_time": 1039,
+      "duration": 219,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "knew_1"
+    },
+    {
+      "word": "game_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "knew_1"
+    },
+    {
+      "word": "game_1"
+    }
+  ],
+  "incorrect words": []
+}

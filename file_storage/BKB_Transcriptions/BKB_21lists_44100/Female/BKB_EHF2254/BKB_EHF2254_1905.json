@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1905.wav",
+  "words": [
+    {
+      "word": "clearing_1",
+      "start_time": 540,
+      "end_time": 939,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "table_1",
+      "start_time": 1200,
+      "end_time": 1580,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "clearing_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "clearing_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "incorrect words": []
+}

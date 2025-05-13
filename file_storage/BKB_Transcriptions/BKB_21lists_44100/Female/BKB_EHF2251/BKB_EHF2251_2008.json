@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2008.wav",
+  "words": [
+    {
+      "word": "sat_1",
+      "start_time": 319,
+      "end_time": 600,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "wooden_1",
+      "start_time": 1139,
+      "end_time": 1159,
+      "duration": 19,
+      "qc": false
+    },
+    {
+      "word": "bench_1",
+      "start_time": 1159,
+      "end_time": 1580,
+      "duration": 420,
+      "qc": true
+    }
+  ]
+}

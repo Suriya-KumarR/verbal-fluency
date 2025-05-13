@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0104.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "like_1",
+      "start_time": 479,
+      "end_time": 860,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "strawberries_1",
+      "start_time": 860,
+      "end_time": 1259,
+      "duration": 399,
+      "qc": true
+    }
+  ]
+}

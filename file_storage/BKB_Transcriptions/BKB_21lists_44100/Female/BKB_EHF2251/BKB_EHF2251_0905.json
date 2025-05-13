@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0905.wav",
+  "words": [
+    {
+      "word": "table_1",
+      "start_time": 280,
+      "end_time": 540,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "three_1",
+      "start_time": 860,
+      "end_time": 1179,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "legs_1",
+      "start_time": 1179,
+      "end_time": 1539,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

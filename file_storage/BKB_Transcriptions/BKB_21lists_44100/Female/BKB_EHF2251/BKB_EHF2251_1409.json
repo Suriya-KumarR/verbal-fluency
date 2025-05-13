@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1409.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 280,
+      "end_time": 540,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "played_1",
+      "start_time": 540,
+      "end_time": 899,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "baby_1",
+      "start_time": 1259,
+      "end_time": 1500,
+      "duration": 240,
+      "qc": true
+    }
+  ]
+}

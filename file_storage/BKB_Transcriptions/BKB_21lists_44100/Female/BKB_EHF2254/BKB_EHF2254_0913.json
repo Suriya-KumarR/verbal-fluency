@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_0913.wav",
+  "words": [
+    {
+      "word": "dinner_1",
+      "start_time": 239,
+      "end_time": 439,
+      "duration": 200,
+      "qc": false
+    },
+    {
+      "word": "plate_1",
+      "start_time": 439,
+      "end_time": 740,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "hot_1",
+      "start_time": 980,
+      "end_time": 1340,
+      "duration": 360,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dinner_1"
+    },
+    {
+      "word": "plate_1"
+    },
+    {
+      "word": "hot_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dinner_1"
+    },
+    {
+      "word": "plate_1"
+    },
+    {
+      "word": "hot_1"
+    }
+  ],
+  "incorrect words": []
+}

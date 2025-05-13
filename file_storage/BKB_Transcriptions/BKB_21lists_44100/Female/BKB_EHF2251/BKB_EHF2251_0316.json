@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0316.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 259,
+      "end_time": 600,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "kicked_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "table_1",
+      "start_time": 1120,
+      "end_time": 1440,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2273_1003.wav",
+  "words": [
+    {
+      "word": "looked_1",
+      "start_time": 280,
+      "end_time": 560,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "mirror_1",
+      "start_time": 980,
+      "end_time": 1220,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "looked_1"
+    },
+    {
+      "word": "in_1"
+    },
+    {
+      "word": "mirror_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "looked_1"
+    },
+    {
+      "word": "mirror_1"
+    }
+  ],
+  "incorrect words": []
+}

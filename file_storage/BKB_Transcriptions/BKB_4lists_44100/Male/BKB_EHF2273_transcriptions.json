@@ -1,0 +1,2989 @@
+{
+    "Items": [
+        {
+            "audio_path": "BKB_EHF2273_0309.wav",
+            "words": [
+                {
+                    "word": "milk_1",
+                    "start_time": 0,
+                    "end_time": 400,
+                    "duration": 400,
+                    "qc": true
+                },
+                {
+                    "word": "comes_1",
+                    "start_time": 400,
+                    "end_time": 740,
+                    "duration": 340,
+                    "qc": true
+                },
+                {
+                    "word": "carton_1",
+                    "start_time": 1100,
+                    "end_time": 1320,
+                    "duration": 220,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "milk_1"
+                },
+                {
+                    "word": "comes_1"
+                },
+                {
+                    "word": "carton_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "milk_1"
+                },
+                {
+                    "word": "comes_1"
+                },
+                {
+                    "word": "carton_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0308.wav",
+            "words": [
+                {
+                    "word": "needed_1",
+                    "start_time": 319,
+                    "end_time": 639,
+                    "duration": 319,
+                    "qc": true
+                },
+                {
+                    "word": "vacation_1",
+                    "start_time": 920,
+                    "end_time": 1340,
+                    "duration": 420,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "needed_1"
+                },
+                {
+                    "word": "his_1"
+                },
+                {
+                    "word": "vacation_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "needed_1"
+                },
+                {
+                    "word": "vacation_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0108.wav",
+            "words": [
+                {
+                    "word": "played_1",
+                    "start_time": 239,
+                    "end_time": 500,
+                    "duration": 260,
+                    "qc": true
+                },
+                {
+                    "word": "train_1",
+                    "start_time": 860,
+                    "end_time": 1240,
+                    "duration": 379,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "he_1"
+                },
+                {
+                    "word": "played_1"
+                },
+                {
+                    "word": "train_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "played_1"
+                },
+                {
+                    "word": "train_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0109.wav",
+            "words": [
+                {
+                    "word": "mailman_1",
+                    "start_time": 239,
+                    "end_time": 759,
+                    "duration": 519,
+                    "qc": true
+                },
+                {
+                    "word": "shut_1",
+                    "start_time": 759,
+                    "end_time": 1059,
+                    "duration": 299,
+                    "qc": true
+                },
+                {
+                    "word": "gate_1",
+                    "start_time": 1220,
+                    "end_time": 1419,
+                    "duration": 199,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "mailman_1"
+                },
+                {
+                    "word": "shut_1"
+                },
+                {
+                    "word": "gate_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "mailman_1"
+                },
+                {
+                    "word": "shut_1"
+                },
+                {
+                    "word": "gate_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0409.wav",
+            "words": [
+                {
+                    "word": "found_1",
+                    "start_time": 319,
+                    "end_time": 620,
+                    "duration": 300,
+                    "qc": false
+                },
+                {
+                    "word": "brother_1",
+                    "start_time": 839,
+                    "end_time": 1139,
+                    "duration": 300,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "he_1"
+                },
+                {
+                    "word": "found_1"
+                },
+                {
+                    "word": "brother_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "found_1"
+                },
+                {
+                    "word": "brother_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0408.wav",
+            "words": [
+                {
+                    "word": "lemons_1",
+                    "start_time": 0,
+                    "end_time": 540,
+                    "duration": 540,
+                    "qc": true
+                },
+                {
+                    "word": "grow_1",
+                    "start_time": 540,
+                    "end_time": 779,
+                    "duration": 239,
+                    "qc": true
+                },
+                {
+                    "word": "trees_1",
+                    "start_time": 1019,
+                    "end_time": 1340,
+                    "duration": 320,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "lemons_1"
+                },
+                {
+                    "word": "grow_1"
+                },
+                {
+                    "word": "trees_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "lemons_1"
+                },
+                {
+                    "word": "grow_1"
+                },
+                {
+                    "word": "trees_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0209.wav",
+            "words": [
+                {
+                    "word": "taking_1",
+                    "start_time": 439,
+                    "end_time": 759,
+                    "duration": 319,
+                    "qc": true
+                },
+                {
+                    "word": "coat_1",
+                    "start_time": 939,
+                    "end_time": 1240,
+                    "duration": 300,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "she_1"
+                },
+                {
+                    "word": "taking_1"
+                },
+                {
+                    "word": "coat_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "taking_1"
+                },
+                {
+                    "word": "coat_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0208.wav",
+            "words": [
+                {
+                    "word": "snow_1",
+                    "start_time": 0,
+                    "end_time": 460,
+                    "duration": 460,
+                    "qc": false
+                },
+                {
+                    "word": "falls_1",
+                    "start_time": 460,
+                    "end_time": 800,
+                    "duration": 340,
+                    "qc": false
+                },
+                {
+                    "word": "christmas_1",
+                    "start_time": 1120,
+                    "end_time": 1580,
+                    "duration": 460,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "snow_1"
+                },
+                {
+                    "word": "falls_1"
+                },
+                {
+                    "word": "christmas_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "snow_1"
+                },
+                {
+                    "word": "falls_1"
+                },
+                {
+                    "word": "christmas_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0211.wav",
+            "words": [
+                {
+                    "word": "mouse_1",
+                    "start_time": 239,
+                    "end_time": 519,
+                    "duration": 279,
+                    "qc": false
+                },
+                {
+                    "word": "ran_1",
+                    "start_time": 519,
+                    "end_time": 839,
+                    "duration": 319,
+                    "qc": false
+                },
+                {
+                    "word": "hole_1",
+                    "start_time": 1200,
+                    "end_time": 1480,
+                    "duration": 279,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "mouse_1"
+                },
+                {
+                    "word": "ran_1"
+                },
+                {
+                    "word": "down_1"
+                },
+                {
+                    "word": "hole_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "mouse_1"
+                },
+                {
+                    "word": "ran_1"
+                },
+                {
+                    "word": "hole_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0205.wav",
+            "words": [
+                {
+                    "word": "cut_1",
+                    "start_time": 280,
+                    "end_time": 519,
+                    "duration": 239,
+                    "qc": true
+                },
+                {
+                    "word": "finger_1",
+                    "start_time": 759,
+                    "end_time": 1080,
+                    "duration": 320,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "he_1"
+                },
+                {
+                    "word": "cut_1"
+                },
+                {
+                    "word": "finger_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "cut_1"
+                },
+                {
+                    "word": "finger_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0403.wav",
+            "words": [
+                {
+                    "word": "old_1",
+                    "start_time": 239,
+                    "end_time": 439,
+                    "duration": 200,
+                    "qc": true
+                },
+                {
+                    "word": "man_1",
+                    "start_time": 439,
+                    "end_time": 720,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "worried_1",
+                    "start_time": 920,
+                    "end_time": 1259,
+                    "duration": 339,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "old_1"
+                },
+                {
+                    "word": "man_1"
+                },
+                {
+                    "word": "worried_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "old_1"
+                },
+                {
+                    "word": "man_1"
+                },
+                {
+                    "word": "worried_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0416.wav",
+            "words": [
+                {
+                    "word": "mud_1",
+                    "start_time": 239,
+                    "end_time": 519,
+                    "duration": 279,
+                    "qc": false
+                },
+                {
+                    "word": "stuck_1",
+                    "start_time": 519,
+                    "end_time": 819,
+                    "duration": 300,
+                    "qc": true
+                },
+                {
+                    "word": "shoe_1",
+                    "start_time": 1179,
+                    "end_time": 1440,
+                    "duration": 260,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "mud_1"
+                },
+                {
+                    "word": "stuck_1"
+                },
+                {
+                    "word": "shoe_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "mud_1"
+                },
+                {
+                    "word": "stuck_1"
+                },
+                {
+                    "word": "shoe_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0402.wav",
+            "words": [
+                {
+                    "word": "machine_1",
+                    "start_time": 200,
+                    "end_time": 579,
+                    "duration": 379,
+                    "qc": false
+                },
+                {
+                    "word": "noisy_1",
+                    "start_time": 1100,
+                    "end_time": 1500,
+                    "duration": 399,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "machine_1"
+                },
+                {
+                    "word": "very_1"
+                },
+                {
+                    "word": "noisy_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "machine_1"
+                },
+                {
+                    "word": "noisy_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0204.wav",
+            "words": [
+                {
+                    "word": "old_1",
+                    "start_time": 239,
+                    "end_time": 579,
+                    "duration": 339,
+                    "qc": true
+                },
+                {
+                    "word": "gloves_1",
+                    "start_time": 579,
+                    "end_time": 920,
+                    "duration": 340,
+                    "qc": true
+                },
+                {
+                    "word": "dirty_1",
+                    "start_time": 1139,
+                    "end_time": 1360,
+                    "duration": 220,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "old_1"
+                },
+                {
+                    "word": "gloves_1"
+                },
+                {
+                    "word": "dirty_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "old_1"
+                },
+                {
+                    "word": "gloves_1"
+                },
+                {
+                    "word": "dirty_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0210.wav",
+            "words": [
+                {
+                    "word": "police_1",
+                    "start_time": 239,
+                    "end_time": 579,
+                    "duration": 339,
+                    "qc": true
+                },
+                {
+                    "word": "chased_1",
+                    "start_time": 579,
+                    "end_time": 939,
+                    "duration": 360,
+                    "qc": true
+                },
+                {
+                    "word": "car_1",
+                    "start_time": 1179,
+                    "end_time": 1419,
+                    "duration": 240,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "police_1"
+                },
+                {
+                    "word": "chased_1"
+                },
+                {
+                    "word": "car_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "police_1"
+                },
+                {
+                    "word": "chased_1"
+                },
+                {
+                    "word": "car_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0206.wav",
+            "words": [
+                {
+                    "word": "thin_1",
+                    "start_time": 300,
+                    "end_time": 639,
+                    "duration": 339,
+                    "qc": false
+                },
+                {
+                    "word": "dog_1",
+                    "start_time": 639,
+                    "end_time": 959,
+                    "duration": 319,
+                    "qc": true
+                },
+                {
+                    "word": "hungry_1",
+                    "start_time": 1299,
+                    "end_time": 1519,
+                    "duration": 220,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "thin_1"
+                },
+                {
+                    "word": "dog_1"
+                },
+                {
+                    "word": "hungry_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "thin_1"
+                },
+                {
+                    "word": "dog_1"
+                },
+                {
+                    "word": "hungry_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0212.wav",
+            "words": [
+                {
+                    "word": "lady_1",
+                    "start_time": 239,
+                    "end_time": 479,
+                    "duration": 239,
+                    "qc": false
+                },
+                {
+                    "word": "making_1",
+                    "start_time": 759,
+                    "end_time": 980,
+                    "duration": 220,
+                    "qc": true
+                },
+                {
+                    "word": "toy_1",
+                    "start_time": 1240,
+                    "end_time": 1399,
+                    "duration": 159,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "lady_1"
+                },
+                {
+                    "word": "making_1"
+                },
+                {
+                    "word": "toy_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "lady_1"
+                },
+                {
+                    "word": "making_1"
+                },
+                {
+                    "word": "toy_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0414.wav",
+            "words": [
+                {
+                    "word": "cook_1",
+                    "start_time": 300,
+                    "end_time": 540,
+                    "duration": 240,
+                    "qc": true
+                },
+                {
+                    "word": "making_1",
+                    "start_time": 819,
+                    "end_time": 1080,
+                    "duration": 260,
+                    "qc": true
+                },
+                {
+                    "word": "cake_1",
+                    "start_time": 1279,
+                    "end_time": 1519,
+                    "duration": 240,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "cook_1"
+                },
+                {
+                    "word": "making_1"
+                },
+                {
+                    "word": "cake_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "cook_1"
+                },
+                {
+                    "word": "making_1"
+                },
+                {
+                    "word": "cake_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0401.wav",
+            "words": [
+                {
+                    "word": "wife_1",
+                    "start_time": 280,
+                    "end_time": 660,
+                    "duration": 380,
+                    "qc": true
+                },
+                {
+                    "word": "helped_1",
+                    "start_time": 660,
+                    "end_time": 1100,
+                    "duration": 439,
+                    "qc": true
+                },
+                {
+                    "word": "husband_1",
+                    "start_time": 1320,
+                    "end_time": 1559,
+                    "duration": 239,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "wife_1"
+                },
+                {
+                    "word": "helped_1"
+                },
+                {
+                    "word": "husband_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "wife_1"
+                },
+                {
+                    "word": "helped_1"
+                },
+                {
+                    "word": "husband_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0415.wav",
+            "words": [
+                {
+                    "word": "child_1",
+                    "start_time": 259,
+                    "end_time": 639,
+                    "duration": 379,
+                    "qc": true
+                },
+                {
+                    "word": "grabbed_1",
+                    "start_time": 639,
+                    "end_time": 1019,
+                    "duration": 379,
+                    "qc": true
+                },
+                {
+                    "word": "toy_1",
+                    "start_time": 1340,
+                    "end_time": 1539,
+                    "duration": 199,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "child_1"
+                },
+                {
+                    "word": "grabbed_1"
+                },
+                {
+                    "word": "toy_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "child_1"
+                },
+                {
+                    "word": "grabbed_1"
+                },
+                {
+                    "word": "toy_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0213.wav",
+            "words": [
+                {
+                    "word": "sticks_1",
+                    "start_time": 340,
+                    "end_time": 720,
+                    "duration": 380,
+                    "qc": true
+                },
+                {
+                    "word": "tree_1",
+                    "start_time": 1340,
+                    "end_time": 1639,
+                    "duration": 299,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "sticks_1"
+                },
+                {
+                    "word": "under_1"
+                },
+                {
+                    "word": "tree_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "sticks_1"
+                },
+                {
+                    "word": "tree_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0207.wav",
+            "words": [
+                {
+                    "word": "boy_1",
+                    "start_time": 259,
+                    "end_time": 600,
+                    "duration": 340,
+                    "qc": true
+                },
+                {
+                    "word": "knew_1",
+                    "start_time": 600,
+                    "end_time": 939,
+                    "duration": 339,
+                    "qc": false
+                },
+                {
+                    "word": "game_1",
+                    "start_time": 1139,
+                    "end_time": 1480,
+                    "duration": 340,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "knew_1"
+                },
+                {
+                    "word": "game_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "knew_1"
+                },
+                {
+                    "word": "game_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0203.wav",
+            "words": [
+                {
+                    "word": "ball_1",
+                    "start_time": 259,
+                    "end_time": 560,
+                    "duration": 300,
+                    "qc": false
+                },
+                {
+                    "word": "went_1",
+                    "start_time": 560,
+                    "end_time": 779,
+                    "duration": 219,
+                    "qc": false
+                },
+                {
+                    "word": "goal_1",
+                    "start_time": 1120,
+                    "end_time": 1399,
+                    "duration": 279,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "ball_1"
+                },
+                {
+                    "word": "went_1"
+                },
+                {
+                    "word": "into_1"
+                },
+                {
+                    "word": "goal_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "ball_1"
+                },
+                {
+                    "word": "went_1"
+                },
+                {
+                    "word": "goal_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0411.wav",
+            "words": [
+                {
+                    "word": "jelly_1",
+                    "start_time": 259,
+                    "end_time": 540,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "jar_1",
+                    "start_time": 540,
+                    "end_time": 879,
+                    "duration": 339,
+                    "qc": false
+                },
+                {
+                    "word": "full_1",
+                    "start_time": 1179,
+                    "end_time": 1379,
+                    "duration": 200,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "jelly_1"
+                },
+                {
+                    "word": "jar_1"
+                },
+                {
+                    "word": "full_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "jelly_1"
+                },
+                {
+                    "word": "jar_1"
+                },
+                {
+                    "word": "full_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0405.wav",
+            "words": [
+                {
+                    "word": "house_1",
+                    "start_time": 239,
+                    "end_time": 439,
+                    "duration": 200,
+                    "qc": false
+                },
+                {
+                    "word": "nice_1",
+                    "start_time": 819,
+                    "end_time": 1039,
+                    "duration": 219,
+                    "qc": false
+                },
+                {
+                    "word": "garden_1",
+                    "start_time": 1039,
+                    "end_time": 1340,
+                    "duration": 300,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "house_1"
+                },
+                {
+                    "word": "nice_1"
+                },
+                {
+                    "word": "garden_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "house_1"
+                },
+                {
+                    "word": "nice_1"
+                },
+                {
+                    "word": "garden_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0404.wav",
+            "words": [
+                {
+                    "word": "boy_1",
+                    "start_time": 280,
+                    "end_time": 560,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "ran_1",
+                    "start_time": 560,
+                    "end_time": 920,
+                    "duration": 360,
+                    "qc": false
+                },
+                {
+                    "word": "path_1",
+                    "start_time": 1360,
+                    "end_time": 1740,
+                    "duration": 379,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "ran_1"
+                },
+                {
+                    "word": "down_1"
+                },
+                {
+                    "word": "path_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "ran_1"
+                },
+                {
+                    "word": "path_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0410.wav",
+            "words": [
+                {
+                    "word": "animals_1",
+                    "start_time": 419,
+                    "end_time": 899,
+                    "duration": 479,
+                    "qc": true
+                },
+                {
+                    "word": "sleep_1",
+                    "start_time": 899,
+                    "end_time": 1320,
+                    "duration": 420,
+                    "qc": true
+                },
+                {
+                    "word": "straw_1",
+                    "start_time": 1700,
+                    "end_time": 1899,
+                    "duration": 199,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "animals_1"
+                },
+                {
+                    "word": "sleep_1"
+                },
+                {
+                    "word": "on_1"
+                },
+                {
+                    "word": "straw_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "animals_1"
+                },
+                {
+                    "word": "sleep_1"
+                },
+                {
+                    "word": "straw_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0216.wav",
+            "words": [
+                {
+                    "word": "school_1",
+                    "start_time": 0,
+                    "end_time": 540,
+                    "duration": 540,
+                    "qc": true
+                },
+                {
+                    "word": "finished_1",
+                    "start_time": 540,
+                    "end_time": 1080,
+                    "duration": 540,
+                    "qc": true
+                },
+                {
+                    "word": "early_1",
+                    "start_time": 1080,
+                    "end_time": 1480,
+                    "duration": 399,
+                    "qc": true
+                },
+                {
+                    "word": "today_1",
+                    "start_time": 1480,
+                    "end_time": 1820,
+                    "duration": 340,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "school_1"
+                },
+                {
+                    "word": "finished_1"
+                },
+                {
+                    "word": "early_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "school_1"
+                },
+                {
+                    "word": "finished_1"
+                },
+                {
+                    "word": "early_1"
+                }
+            ],
+            "incorrect words": [
+                {
+                    "word": "today_1"
+                }
+            ]
+        },
+        {
+            "audio_path": "BKB_EHF2273_0202.wav",
+            "words": [
+                {
+                    "word": "lovely_1",
+                    "start_time": 600,
+                    "end_time": 800,
+                    "duration": 199,
+                    "qc": true
+                },
+                {
+                    "word": "day_1",
+                    "start_time": 800,
+                    "end_time": 1080,
+                    "duration": 280,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "lovely_1"
+                },
+                {
+                    "word": "day_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "lovely_1"
+                },
+                {
+                    "word": "day_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0214.wav",
+            "words": [
+                {
+                    "word": "little_1",
+                    "start_time": 219,
+                    "end_time": 479,
+                    "duration": 259,
+                    "qc": true
+                },
+                {
+                    "word": "baby_1",
+                    "start_time": 479,
+                    "end_time": 819,
+                    "duration": 340,
+                    "qc": true
+                },
+                {
+                    "word": "sleeping_1",
+                    "start_time": 1139,
+                    "end_time": 1480,
+                    "duration": 340,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "little_1"
+                },
+                {
+                    "word": "baby_1"
+                },
+                {
+                    "word": "sleeping_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "little_1"
+                },
+                {
+                    "word": "baby_1"
+                },
+                {
+                    "word": "sleeping_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0406.wav",
+            "words": [
+                {
+                    "word": "spoke_1",
+                    "start_time": 360,
+                    "end_time": 639,
+                    "duration": 279,
+                    "qc": true
+                },
+                {
+                    "word": "son_1",
+                    "start_time": 1080,
+                    "end_time": 1320,
+                    "duration": 240,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "she_1"
+                },
+                {
+                    "word": "spoke_1"
+                },
+                {
+                    "word": "to_1"
+                },
+                {
+                    "word": "son_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "spoke_1"
+                },
+                {
+                    "word": "son_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0412.wav",
+            "words": [
+                {
+                    "word": "kneeling_1",
+                    "start_time": 460,
+                    "end_time": 800,
+                    "duration": 340,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "kneeling_1"
+                },
+                {
+                    "word": "down_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "kneeling_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0413.wav",
+            "words": [
+                {
+                    "word": "girl_1",
+                    "start_time": 280,
+                    "end_time": 519,
+                    "duration": 239,
+                    "qc": true
+                },
+                {
+                    "word": "lost_1",
+                    "start_time": 519,
+                    "end_time": 839,
+                    "duration": 319,
+                    "qc": false
+                },
+                {
+                    "word": "doll_1",
+                    "start_time": 1100,
+                    "end_time": 1360,
+                    "duration": 259,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "girl_1"
+                },
+                {
+                    "word": "lost_1"
+                },
+                {
+                    "word": "doll_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "girl_1"
+                },
+                {
+                    "word": "lost_1"
+                },
+                {
+                    "word": "doll_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0407.wav",
+            "words": [
+                {
+                    "word": "crossing_1",
+                    "start_time": 319,
+                    "end_time": 699,
+                    "duration": 379,
+                    "qc": true
+                },
+                {
+                    "word": "street_1",
+                    "start_time": 899,
+                    "end_time": 1159,
+                    "duration": 259,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "crossing_1"
+                },
+                {
+                    "word": "street_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "crossing_1"
+                },
+                {
+                    "word": "street_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0201.wav",
+            "words": [
+                {
+                    "word": "ladder_1",
+                    "start_time": 219,
+                    "end_time": 579,
+                    "duration": 359,
+                    "qc": false
+                },
+                {
+                    "word": "near_1",
+                    "start_time": 860,
+                    "end_time": 980,
+                    "duration": 120,
+                    "qc": false
+                },
+                {
+                    "word": "door_1",
+                    "start_time": 1220,
+                    "end_time": 1360,
+                    "duration": 139,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "ladder_1"
+                },
+                {
+                    "word": "near_1"
+                },
+                {
+                    "word": "door_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "ladder_1"
+                },
+                {
+                    "word": "near_1"
+                },
+                {
+                    "word": "door_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0215.wav",
+            "words": [
+                {
+                    "word": "watching_1",
+                    "start_time": 400,
+                    "end_time": 759,
+                    "duration": 359,
+                    "qc": true
+                },
+                {
+                    "word": "train_1",
+                    "start_time": 959,
+                    "end_time": 1240,
+                    "duration": 280,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "watching_1"
+                },
+                {
+                    "word": "train_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "watching_1"
+                },
+                {
+                    "word": "train_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0306.wav",
+            "words": [
+                {
+                    "word": "lady_1",
+                    "start_time": 200,
+                    "end_time": 460,
+                    "duration": 260,
+                    "qc": false
+                },
+                {
+                    "word": "wore_1",
+                    "start_time": 460,
+                    "end_time": 800,
+                    "duration": 340,
+                    "qc": false
+                },
+                {
+                    "word": "coat_1",
+                    "start_time": 1000,
+                    "end_time": 1259,
+                    "duration": 259,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "lady_1"
+                },
+                {
+                    "word": "wore_1"
+                },
+                {
+                    "word": "coat_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "lady_1"
+                },
+                {
+                    "word": "wore_1"
+                },
+                {
+                    "word": "coat_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0312.wav",
+            "words": [
+                {
+                    "word": "boy_1",
+                    "start_time": 259,
+                    "end_time": 540,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "running_1",
+                    "start_time": 839,
+                    "end_time": 1059,
+                    "duration": 219,
+                    "qc": true
+                },
+                {
+                    "word": "away_1",
+                    "start_time": 1059,
+                    "end_time": 1320,
+                    "duration": 260,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "running_1"
+                },
+                {
+                    "word": "away_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "running_1"
+                },
+                {
+                    "word": "away_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0104.wav",
+            "words": [
+                {
+                    "word": "children_1",
+                    "start_time": 0,
+                    "end_time": 379,
+                    "duration": 379,
+                    "qc": true
+                },
+                {
+                    "word": "like_1",
+                    "start_time": 379,
+                    "end_time": 740,
+                    "duration": 360,
+                    "qc": false
+                },
+                {
+                    "word": "strawberries_1",
+                    "start_time": 740,
+                    "end_time": 1200,
+                    "duration": 460,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "children_1"
+                },
+                {
+                    "word": "like_1"
+                },
+                {
+                    "word": "strawberries_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "children_1"
+                },
+                {
+                    "word": "like_1"
+                },
+                {
+                    "word": "strawberries_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0110.wav",
+            "words": [
+                {
+                    "word": "theyre_1",
+                    "start_time": 0,
+                    "end_time": 419,
+                    "duration": 419,
+                    "qc": false
+                },
+                {
+                    "word": "looking_1",
+                    "start_time": 419,
+                    "end_time": 560,
+                    "duration": 140,
+                    "qc": false
+                },
+                {
+                    "word": "clock_1",
+                    "start_time": 959,
+                    "end_time": 1240,
+                    "duration": 280,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "looking_1"
+                },
+                {
+                    "word": "at_1"
+                },
+                {
+                    "word": "clock_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "looking_1"
+                },
+                {
+                    "word": "clock_1"
+                }
+            ],
+            "incorrect words": [
+                {
+                    "word": "theyre_1"
+                }
+            ]
+        },
+        {
+            "audio_path": "BKB_EHF2273_0111.wav",
+            "words": [
+                {
+                    "word": "bag_1",
+                    "start_time": 280,
+                    "end_time": 579,
+                    "duration": 299,
+                    "qc": false
+                },
+                {
+                    "word": "fell_1",
+                    "start_time": 579,
+                    "end_time": 779,
+                    "duration": 199,
+                    "qc": true
+                },
+                {
+                    "word": "ground_1",
+                    "start_time": 1139,
+                    "end_time": 1340,
+                    "duration": 200,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "bag_1"
+                },
+                {
+                    "word": "fell_1"
+                },
+                {
+                    "word": "ground_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "bag_1"
+                },
+                {
+                    "word": "fell_1"
+                },
+                {
+                    "word": "ground_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0105.wav",
+            "words": [
+                {
+                    "word": "house_1",
+                    "start_time": 200,
+                    "end_time": 500,
+                    "duration": 299,
+                    "qc": true
+                },
+                {
+                    "word": "nine_1",
+                    "start_time": 740,
+                    "end_time": 1039,
+                    "duration": 299,
+                    "qc": false
+                },
+                {
+                    "word": "rooms_1",
+                    "start_time": 1039,
+                    "end_time": 1340,
+                    "duration": 300,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "house_1"
+                },
+                {
+                    "word": "nine_1"
+                },
+                {
+                    "word": "rooms_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "house_1"
+                },
+                {
+                    "word": "nine_1"
+                },
+                {
+                    "word": "rooms_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0313.wav",
+            "words": [
+                {
+                    "word": "father_1",
+                    "start_time": 0,
+                    "end_time": 479,
+                    "duration": 479,
+                    "qc": true
+                },
+                {
+                    "word": "looked_1",
+                    "start_time": 479,
+                    "end_time": 699,
+                    "duration": 219,
+                    "qc": false
+                },
+                {
+                    "word": "book_1",
+                    "start_time": 1059,
+                    "end_time": 1299,
+                    "duration": 240,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "father_1"
+                },
+                {
+                    "word": "looked_1"
+                },
+                {
+                    "word": "book_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "father_1"
+                },
+                {
+                    "word": "looked_1"
+                },
+                {
+                    "word": "book_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0307.wav",
+            "words": [
+                {
+                    "word": "children_1",
+                    "start_time": 280,
+                    "end_time": 680,
+                    "duration": 400,
+                    "qc": true
+                },
+                {
+                    "word": "walking_1",
+                    "start_time": 1000,
+                    "end_time": 1299,
+                    "duration": 299,
+                    "qc": false
+                },
+                {
+                    "word": "home_1",
+                    "start_time": 1299,
+                    "end_time": 1559,
+                    "duration": 259,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "children_1"
+                },
+                {
+                    "word": "walking_1"
+                },
+                {
+                    "word": "home_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "children_1"
+                },
+                {
+                    "word": "walking_1"
+                },
+                {
+                    "word": "home_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0311.wav",
+            "words": [
+                {
+                    "word": "ate_1",
+                    "start_time": 300,
+                    "end_time": 540,
+                    "duration": 240,
+                    "qc": false
+                },
+                {
+                    "word": "lemon_1",
+                    "start_time": 740,
+                    "end_time": 1000,
+                    "duration": 259,
+                    "qc": false
+                },
+                {
+                    "word": "pie_1",
+                    "start_time": 1000,
+                    "end_time": 1360,
+                    "duration": 360,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "ate_1"
+                },
+                {
+                    "word": "lemon_1"
+                },
+                {
+                    "word": "pie_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "ate_1"
+                },
+                {
+                    "word": "lemon_1"
+                },
+                {
+                    "word": "pie_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0305.wav",
+            "words": [
+                {
+                    "word": "say_1",
+                    "start_time": 300,
+                    "end_time": 560,
+                    "duration": 259,
+                    "qc": false
+                },
+                {
+                    "word": "silly_1",
+                    "start_time": 860,
+                    "end_time": 1120,
+                    "duration": 259,
+                    "qc": true
+                },
+                {
+                    "word": "things_1",
+                    "start_time": 1120,
+                    "end_time": 1519,
+                    "duration": 399,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "say_1"
+                },
+                {
+                    "word": "silly_1"
+                },
+                {
+                    "word": "things_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "say_1"
+                },
+                {
+                    "word": "silly_1"
+                },
+                {
+                    "word": "things_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0113.wav",
+            "words": [
+                {
+                    "word": "cat_1",
+                    "start_time": 219,
+                    "end_time": 500,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "sitting_1",
+                    "start_time": 839,
+                    "end_time": 1100,
+                    "duration": 260,
+                    "qc": false
+                },
+                {
+                    "word": "bed_1",
+                    "start_time": 1519,
+                    "end_time": 1740,
+                    "duration": 220,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "cat_1"
+                },
+                {
+                    "word": "sitting_1"
+                },
+                {
+                    "word": "on_1"
+                },
+                {
+                    "word": "bed_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "cat_1"
+                },
+                {
+                    "word": "sitting_1"
+                },
+                {
+                    "word": "bed_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0107.wav",
+            "words": [
+                {
+                    "word": "green_1",
+                    "start_time": 219,
+                    "end_time": 579,
+                    "duration": 359,
+                    "qc": false
+                },
+                {
+                    "word": "tomatoes_1",
+                    "start_time": 579,
+                    "end_time": 1019,
+                    "duration": 439,
+                    "qc": true
+                },
+                {
+                    "word": "small_1",
+                    "start_time": 1299,
+                    "end_time": 1539,
+                    "duration": 240,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "green_1"
+                },
+                {
+                    "word": "tomatoes_1"
+                },
+                {
+                    "word": "small_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "green_1"
+                },
+                {
+                    "word": "tomatoes_1"
+                },
+                {
+                    "word": "small_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0106.wav",
+            "words": [
+                {
+                    "word": "buying_1",
+                    "start_time": 379,
+                    "end_time": 699,
+                    "duration": 319,
+                    "qc": true
+                },
+                {
+                    "word": "bread_1",
+                    "start_time": 1039,
+                    "end_time": 1240,
+                    "duration": 200,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "they_1"
+                },
+                {
+                    "word": "buying_1"
+                },
+                {
+                    "word": "bread_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "buying_1"
+                },
+                {
+                    "word": "bread_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0112.wav",
+            "words": [
+                {
+                    "word": "boy_1",
+                    "start_time": 200,
+                    "end_time": 479,
+                    "duration": 279,
+                    "qc": true
+                },
+                {
+                    "word": "handstand_1",
+                    "start_time": 819,
+                    "end_time": 1519,
+                    "duration": 699,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "did_1"
+                },
+                {
+                    "word": "handstand_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "boy_1"
+                },
+                {
+                    "word": "handstand_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0304.wav",
+            "words": [
+                {
+                    "word": "farmer_1",
+                    "start_time": 280,
+                    "end_time": 579,
+                    "duration": 299,
+                    "qc": false
+                },
+                {
+                    "word": "keeps_1",
+                    "start_time": 579,
+                    "end_time": 1000,
+                    "duration": 420,
+                    "qc": true
+                },
+                {
+                    "word": "bull_1",
+                    "start_time": 1240,
+                    "end_time": 1460,
+                    "duration": 220,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "farmer_1"
+                },
+                {
+                    "word": "keeps_1"
+                },
+                {
+                    "word": "bull_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "farmer_1"
+                },
+                {
+                    "word": "keeps_1"
+                },
+                {
+                    "word": "bull_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0310.wav",
+            "words": [
+                {
+                    "word": "man_1",
+                    "start_time": 200,
+                    "end_time": 560,
+                    "duration": 359,
+                    "qc": true
+                },
+                {
+                    "word": "cleaned_1",
+                    "start_time": 560,
+                    "end_time": 899,
+                    "duration": 339,
+                    "qc": true
+                },
+                {
+                    "word": "shoes_1",
+                    "start_time": 1120,
+                    "end_time": 1419,
+                    "duration": 299,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "man_1"
+                },
+                {
+                    "word": "cleaned_1"
+                },
+                {
+                    "word": "shoes_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "man_1"
+                },
+                {
+                    "word": "cleaned_1"
+                },
+                {
+                    "word": "shoes_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0314.wav",
+            "words": [
+                {
+                    "word": "drinks_1",
+                    "start_time": 319,
+                    "end_time": 699,
+                    "duration": 379,
+                    "qc": true
+                },
+                {
+                    "word": "cup_1",
+                    "start_time": 1139,
+                    "end_time": 1379,
+                    "duration": 240,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "she_1"
+                },
+                {
+                    "word": "drinks_1"
+                },
+                {
+                    "word": "cup_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "drinks_1"
+                },
+                {
+                    "word": "cup_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0116.wav",
+            "words": [
+                {
+                    "word": "ice_1",
+                    "start_time": 259,
+                    "end_time": 500,
+                    "duration": 240,
+                    "qc": false
+                },
+                {
+                    "word": "cream_1",
+                    "start_time": 500,
+                    "end_time": 759,
+                    "duration": 259,
+                    "qc": false
+                },
+                {
+                    "word": "pink_1",
+                    "start_time": 1000,
+                    "end_time": 1259,
+                    "duration": 259,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "ice_1"
+                },
+                {
+                    "word": "cream_1"
+                },
+                {
+                    "word": "pink_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "ice_1"
+                },
+                {
+                    "word": "cream_1"
+                },
+                {
+                    "word": "pink_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0102.wav",
+            "words": [
+                {
+                    "word": "car_1",
+                    "start_time": 219,
+                    "end_time": 479,
+                    "duration": 259,
+                    "qc": true
+                },
+                {
+                    "word": "engine_1",
+                    "start_time": 479,
+                    "end_time": 839,
+                    "duration": 359,
+                    "qc": true
+                },
+                {
+                    "word": "running_1",
+                    "start_time": 1019,
+                    "end_time": 1279,
+                    "duration": 259,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "car_1"
+                },
+                {
+                    "word": "engine_1"
+                },
+                {
+                    "word": "running_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "car_1"
+                },
+                {
+                    "word": "engine_1"
+                },
+                {
+                    "word": "running_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0103.wav",
+            "words": [
+                {
+                    "word": "cut_1",
+                    "start_time": 379,
+                    "end_time": 579,
+                    "duration": 199,
+                    "qc": true
+                },
+                {
+                    "word": "knife_1",
+                    "start_time": 1000,
+                    "end_time": 1279,
+                    "duration": 279,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "she_1"
+                },
+                {
+                    "word": "cut_1"
+                },
+                {
+                    "word": "knife_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "cut_1"
+                },
+                {
+                    "word": "knife_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0301.wav",
+            "words": [
+                {
+                    "word": "glass_1",
+                    "start_time": 219,
+                    "end_time": 500,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "bowl_1",
+                    "start_time": 500,
+                    "end_time": 839,
+                    "duration": 339,
+                    "qc": false
+                },
+                {
+                    "word": "broke_1",
+                    "start_time": 839,
+                    "end_time": 1200,
+                    "duration": 360,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "glass_1"
+                },
+                {
+                    "word": "bowl_1"
+                },
+                {
+                    "word": "broke_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "glass_1"
+                },
+                {
+                    "word": "bowl_1"
+                },
+                {
+                    "word": "broke_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0315.wav",
+            "words": [
+                {
+                    "word": "room_1",
+                    "start_time": 300,
+                    "end_time": 660,
+                    "duration": 360,
+                    "qc": true
+                },
+                {
+                    "word": "getting_1",
+                    "start_time": 980,
+                    "end_time": 1179,
+                    "duration": 199,
+                    "qc": true
+                },
+                {
+                    "word": "cold_1",
+                    "start_time": 1179,
+                    "end_time": 1539,
+                    "duration": 360,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "room_1"
+                },
+                {
+                    "word": "getting_1"
+                },
+                {
+                    "word": "cold_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "room_1"
+                },
+                {
+                    "word": "getting_1"
+                },
+                {
+                    "word": "cold_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0303.wav",
+            "words": [
+                {
+                    "word": "teapot_1",
+                    "start_time": 319,
+                    "end_time": 779,
+                    "duration": 459,
+                    "qc": true
+                },
+                {
+                    "word": "hot_1",
+                    "start_time": 1320,
+                    "end_time": 1539,
+                    "duration": 219,
+                    "qc": false
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "teapot_1"
+                },
+                {
+                    "word": "very_1"
+                },
+                {
+                    "word": "hot_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "teapot_1"
+                },
+                {
+                    "word": "hot_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0101.wav",
+            "words": [
+                {
+                    "word": "clown_1",
+                    "start_time": 280,
+                    "end_time": 560,
+                    "duration": 280,
+                    "qc": true
+                },
+                {
+                    "word": "funny_1",
+                    "start_time": 980,
+                    "end_time": 1139,
+                    "duration": 159,
+                    "qc": false
+                },
+                {
+                    "word": "face_1",
+                    "start_time": 1139,
+                    "end_time": 1539,
+                    "duration": 399,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "clown_1"
+                },
+                {
+                    "word": "funny_1"
+                },
+                {
+                    "word": "face_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "clown_1"
+                },
+                {
+                    "word": "funny_1"
+                },
+                {
+                    "word": "face_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0115.wav",
+            "words": [
+                {
+                    "word": "rain_1",
+                    "start_time": 239,
+                    "end_time": 519,
+                    "duration": 279,
+                    "qc": true
+                },
+                {
+                    "word": "came_1",
+                    "start_time": 519,
+                    "end_time": 860,
+                    "duration": 340,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "rain_1"
+                },
+                {
+                    "word": "came_1"
+                },
+                {
+                    "word": "down_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "rain_1"
+                },
+                {
+                    "word": "came_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0114.wav",
+            "words": [
+                {
+                    "word": "truck_1",
+                    "start_time": 259,
+                    "end_time": 560,
+                    "duration": 300,
+                    "qc": true
+                },
+                {
+                    "word": "carried_1",
+                    "start_time": 560,
+                    "end_time": 980,
+                    "duration": 420,
+                    "qc": true
+                },
+                {
+                    "word": "fruit_1",
+                    "start_time": 980,
+                    "end_time": 1259,
+                    "duration": 279,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "truck_1"
+                },
+                {
+                    "word": "carried_1"
+                },
+                {
+                    "word": "fruit_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "truck_1"
+                },
+                {
+                    "word": "carried_1"
+                },
+                {
+                    "word": "fruit_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0316.wav",
+            "words": [
+                {
+                    "word": "girl_1",
+                    "start_time": 280,
+                    "end_time": 639,
+                    "duration": 359,
+                    "qc": true
+                },
+                {
+                    "word": "kicked_1",
+                    "start_time": 639,
+                    "end_time": 959,
+                    "duration": 319,
+                    "qc": true
+                },
+                {
+                    "word": "table_1",
+                    "start_time": 1220,
+                    "end_time": 1460,
+                    "duration": 240,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "girl_1"
+                },
+                {
+                    "word": "kicked_1"
+                },
+                {
+                    "word": "table_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "girl_1"
+                },
+                {
+                    "word": "kicked_1"
+                },
+                {
+                    "word": "table_1"
+                }
+            ],
+            "incorrect words": []
+        },
+        {
+            "audio_path": "BKB_EHF2273_0302.wav",
+            "words": [
+                {
+                    "word": "dog_1",
+                    "start_time": 239,
+                    "end_time": 560,
+                    "duration": 320,
+                    "qc": true
+                },
+                {
+                    "word": "played_1",
+                    "start_time": 560,
+                    "end_time": 879,
+                    "duration": 319,
+                    "qc": true
+                },
+                {
+                    "word": "stick_1",
+                    "start_time": 1320,
+                    "end_time": 1500,
+                    "duration": 179,
+                    "qc": true
+                }
+            ],
+            "ground truth": [
+                {
+                    "word": "dog_1"
+                },
+                {
+                    "word": "played_1"
+                },
+                {
+                    "word": "stick_1"
+                }
+            ],
+            "correct words": [
+                {
+                    "word": "dog_1"
+                },
+                {
+                    "word": "played_1"
+                },
+                {
+                    "word": "stick_1"
+                }
+            ],
+            "incorrect words": []
+        }
+    ]
+}

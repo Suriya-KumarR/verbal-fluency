@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2281_0314.wav",
+  "words": [
+    {
+      "word": "drinks_1",
+      "start_time": 340,
+      "end_time": 699,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "cup_1",
+      "start_time": 1159,
+      "end_time": 1480,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "drinks_1"
+    },
+    {
+      "word": "cup_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "drinks_1"
+    },
+    {
+      "word": "cup_1"
+    }
+  ],
+  "incorrect words": []
+}

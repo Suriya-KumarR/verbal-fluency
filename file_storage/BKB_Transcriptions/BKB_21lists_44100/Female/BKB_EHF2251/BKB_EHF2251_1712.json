@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_1712.wav",
+  "words": [
+    {
+      "word": "brown_1",
+      "start_time": 439,
+      "end_time": 779,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "leaves_1",
+      "start_time": 779,
+      "end_time": 1179,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "fell_1",
+      "start_time": 1179,
+      "end_time": 1480,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "tree_1",
+      "start_time": 1840,
+      "end_time": 2099,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

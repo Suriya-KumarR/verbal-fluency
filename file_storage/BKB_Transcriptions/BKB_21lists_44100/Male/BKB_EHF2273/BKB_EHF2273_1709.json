@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1709.wav",
+  "words": [
+    {
+      "word": "chocolate_1",
+      "start_time": 899,
+      "end_time": 1159,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "pudding_1",
+      "start_time": 1159,
+      "end_time": 1440,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "chocolate_1"
+    },
+    {
+      "word": "pudding_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "chocolate_1"
+    },
+    {
+      "word": "pudding_1"
+    }
+  ],
+  "incorrect words": []
+}

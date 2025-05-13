@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1910.wav",
+  "words": [
+    {
+      "word": "hurt_1",
+      "start_time": 319,
+      "end_time": 519,
+      "duration": 199,
+      "qc": true
+    },
+    {
+      "word": "hand_1",
+      "start_time": 720,
+      "end_time": 1120,
+      "duration": 399,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "hurt_1"
+    },
+    {
+      "word": "hand_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "hurt_1"
+    },
+    {
+      "word": "hand_1"
+    }
+  ],
+  "incorrect words": []
+}

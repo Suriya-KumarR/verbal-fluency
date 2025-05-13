@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2252_1201.wav",
+  "words": [
+    {
+      "word": "food_1",
+      "start_time": 259,
+      "end_time": 579,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "costs_1",
+      "start_time": 579,
+      "end_time": 1059,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "lot_1",
+      "start_time": 1220,
+      "end_time": 1419,
+      "duration": 199,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "food_1"
+    },
+    {
+      "word": "cost_1"
+    },
+    {
+      "word": "lot_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "food_1"
+    },
+    {
+      "word": "lot_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "costs_1"
+    }
+  ]
+}

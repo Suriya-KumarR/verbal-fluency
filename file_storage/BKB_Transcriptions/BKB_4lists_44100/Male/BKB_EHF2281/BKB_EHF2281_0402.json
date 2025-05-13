@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2281_0402.wav",
+  "words": [
+    {
+      "word": "machine_1",
+      "start_time": 239,
+      "end_time": 560,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "noisy_1",
+      "start_time": 1139,
+      "end_time": 1519,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "machine_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "noisy_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "machine_1"
+    },
+    {
+      "word": "noisy_1"
+    }
+  ],
+  "incorrect words": []
+}

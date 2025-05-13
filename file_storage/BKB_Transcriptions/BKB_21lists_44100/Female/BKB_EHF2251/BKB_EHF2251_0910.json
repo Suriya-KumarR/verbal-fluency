@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0910.wav",
+  "words": [
+    {
+      "word": "went_1",
+      "start_time": 280,
+      "end_time": 479,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "vacation_1",
+      "start_time": 860,
+      "end_time": 1200,
+      "duration": 340,
+      "qc": false
+    }
+  ]
+}

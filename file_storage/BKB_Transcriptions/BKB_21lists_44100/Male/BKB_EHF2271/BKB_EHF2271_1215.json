@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2271_1215.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 280,
+      "end_time": 540,
+      "duration": 260,
+      "qc": true
+    },
+    {
+      "word": "toy_1",
+      "start_time": 1039,
+      "end_time": 1220,
+      "duration": 180,
+      "qc": false
+    },
+    {
+      "word": "dragon_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "had_1"
+    },
+    {
+      "word": "toy_1"
+    },
+    {
+      "word": "dragon_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "toy_1"
+    },
+    {
+      "word": "dragon_1"
+    }
+  ],
+  "incorrect words": []
+}

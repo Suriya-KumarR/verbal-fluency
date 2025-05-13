@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_0712.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 579,
+      "duration": 579,
+      "qc": true
+    },
+    {
+      "word": "forgot_1",
+      "start_time": 579,
+      "end_time": 939,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1179,
+      "end_time": 1519,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "forgot_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "forgot_1"
+    },
+    {
+      "word": "bread_1"
+    }
+  ],
+  "incorrect words": []
+}

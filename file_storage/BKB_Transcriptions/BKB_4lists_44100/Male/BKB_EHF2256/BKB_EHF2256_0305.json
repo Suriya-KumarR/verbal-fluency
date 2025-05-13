@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2256_0305.wav",
+  "words": [
+    {
+      "word": "say_1",
+      "start_time": 400,
+      "end_time": 759,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "silly_1",
+      "start_time": 1139,
+      "end_time": 1440,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "things_1",
+      "start_time": 1440,
+      "end_time": 1940,
+      "duration": 500,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "say_1"
+    },
+    {
+      "word": "silly_1"
+    },
+    {
+      "word": "things_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "say_1"
+    },
+    {
+      "word": "silly_1"
+    },
+    {
+      "word": "things_1"
+    }
+  ],
+  "incorrect words": []
+}

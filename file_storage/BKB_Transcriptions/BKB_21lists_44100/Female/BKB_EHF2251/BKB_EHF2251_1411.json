@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1411.wav",
+  "words": [
+    {
+      "word": "helping_1",
+      "start_time": 519,
+      "end_time": 720,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "friend_1",
+      "start_time": 1000,
+      "end_time": 1120,
+      "duration": 120,
+      "qc": false
+    }
+  ]
+}

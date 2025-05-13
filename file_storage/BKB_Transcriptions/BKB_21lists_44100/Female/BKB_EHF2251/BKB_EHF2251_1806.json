@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1806.wav",
+  "words": [
+    {
+      "word": "rain_1",
+      "start_time": 0,
+      "end_time": 460,
+      "duration": 460,
+      "qc": true
+    },
+    {
+      "word": "falls_1",
+      "start_time": 460,
+      "end_time": 779,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "clouds_1",
+      "start_time": 1179,
+      "end_time": 1519,
+      "duration": 340,
+      "qc": false
+    }
+  ]
+}

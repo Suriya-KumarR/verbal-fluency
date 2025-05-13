@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2278_2009.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 500,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "made_1",
+      "start_time": 500,
+      "end_time": 839,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "curtains_1",
+      "start_time": 1100,
+      "end_time": 1419,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "made_1"
+    },
+    {
+      "word": "some_1"
+    },
+    {
+      "word": "curtains_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "made_1"
+    },
+    {
+      "word": "curtains_1"
+    }
+  ],
+  "incorrect words": []
+}

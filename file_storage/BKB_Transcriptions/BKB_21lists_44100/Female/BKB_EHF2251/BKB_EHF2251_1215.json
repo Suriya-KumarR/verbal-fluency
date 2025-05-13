@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1215.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 280,
+      "end_time": 500,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "toy_1",
+      "start_time": 980,
+      "end_time": 1120,
+      "duration": 139,
+      "qc": false
+    },
+    {
+      "word": "dragon_1",
+      "start_time": 1120,
+      "end_time": 1419,
+      "duration": 299,
+      "qc": true
+    }
+  ]
+}

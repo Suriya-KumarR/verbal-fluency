@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1202.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 319,
+      "end_time": 519,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "washing_1",
+      "start_time": 759,
+      "end_time": 1019,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "hair_1",
+      "start_time": 1279,
+      "end_time": 1539,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

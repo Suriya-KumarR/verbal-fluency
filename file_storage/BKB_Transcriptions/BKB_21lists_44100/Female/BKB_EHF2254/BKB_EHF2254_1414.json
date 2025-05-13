@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1414.wav",
+  "words": [
+    {
+      "word": "sign_1",
+      "start_time": 300,
+      "end_time": 699,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "showed_1",
+      "start_time": 699,
+      "end_time": 1039,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "way_1",
+      "start_time": 1259,
+      "end_time": 1539,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "sign_1"
+    },
+    {
+      "word": "showed_1"
+    },
+    {
+      "word": "way_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sign_1"
+    },
+    {
+      "word": "showed_1"
+    },
+    {
+      "word": "way_1"
+    }
+  ],
+  "incorrect words": []
+}

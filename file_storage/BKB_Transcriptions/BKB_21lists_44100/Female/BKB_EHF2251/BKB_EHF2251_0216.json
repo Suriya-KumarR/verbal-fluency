@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_0216.wav",
+  "words": [
+    {
+      "word": "school_1",
+      "start_time": 0,
+      "end_time": 540,
+      "duration": 540,
+      "qc": true
+    },
+    {
+      "word": "finished_1",
+      "start_time": 540,
+      "end_time": 1019,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "early_1",
+      "start_time": 1019,
+      "end_time": 1399,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "today_1",
+      "start_time": 1399,
+      "end_time": 1799,
+      "duration": 399,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1303.wav",
+  "words": [
+    {
+      "word": "playing_1",
+      "start_time": 379,
+      "end_time": 699,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "park_1",
+      "start_time": 939,
+      "end_time": 1179,
+      "duration": 239,
+      "qc": false
+    }
+  ]
+}

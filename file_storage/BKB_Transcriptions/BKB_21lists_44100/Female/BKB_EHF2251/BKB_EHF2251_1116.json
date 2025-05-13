@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1116.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 519,
+      "duration": 519,
+      "qc": true
+    },
+    {
+      "word": "wrote_1",
+      "start_time": 519,
+      "end_time": 740,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "letter_1",
+      "start_time": 1000,
+      "end_time": 1120,
+      "duration": 120,
+      "qc": false
+    }
+  ]
+}

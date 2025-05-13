@@ -1,0 +1,40 @@
+{
+  "audio_path": "BKB_EHF2273_1908.wav",
+  "words": [
+    {
+      "word": "bathwater_1",
+      "start_time": 219,
+      "end_time": 800,
+      "duration": 580,
+      "qc": true
+    },
+    {
+      "word": "warm_1",
+      "start_time": 1039,
+      "end_time": 1379,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "bath_1"
+    },
+    {
+      "word": "water_1"
+    },
+    {
+      "word": "warm_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "warm_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "bathwater_1"
+    }
+  ]
+}

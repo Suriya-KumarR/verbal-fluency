@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1405.wav",
+  "words": [
+    {
+      "word": "old_1",
+      "start_time": 300,
+      "end_time": 620,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "woman_1",
+      "start_time": 620,
+      "end_time": 899,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 1299,
+      "end_time": 1639,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

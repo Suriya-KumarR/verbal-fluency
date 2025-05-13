@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1114.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 460,
+      "duration": 460,
+      "qc": true
+    },
+    {
+      "word": "picked_1",
+      "start_time": 460,
+      "end_time": 759,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "flowers_1",
+      "start_time": 1139,
+      "end_time": 1559,
+      "duration": 419,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "picked_1"
+    },
+    {
+      "word": "flowers_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "picked_1"
+    },
+    {
+      "word": "flowers_1"
+    }
+  ],
+  "incorrect words": []
+}

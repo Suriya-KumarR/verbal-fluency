@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2276_0210.wav",
+  "words": [
+    {
+      "word": "police_1",
+      "start_time": 219,
+      "end_time": 639,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "chase_1",
+      "start_time": 639,
+      "end_time": 980,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "car_1",
+      "start_time": 1179,
+      "end_time": 1440,
+      "duration": 260,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "police_1"
+    },
+    {
+      "word": "chased_1"
+    },
+    {
+      "word": "car_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "police_1"
+    },
+    {
+      "word": "car_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "chase_1"
+    }
+  ]
+}

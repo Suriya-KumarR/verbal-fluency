@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1711.wav",
+  "words": [
+    {
+      "word": "calling_1",
+      "start_time": 519,
+      "end_time": 819,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "daughter_1",
+      "start_time": 1100,
+      "end_time": 1419,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "calling_1"
+    },
+    {
+      "word": "daughter_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "calling_1"
+    },
+    {
+      "word": "daughter_1"
+    }
+  ],
+  "incorrect words": []
+}

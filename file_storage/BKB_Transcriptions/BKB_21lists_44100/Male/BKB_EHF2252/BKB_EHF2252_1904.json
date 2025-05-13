@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_1904.wav",
+  "words": [
+    {
+      "word": "washing_1",
+      "start_time": 319,
+      "end_time": 579,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "machine_1",
+      "start_time": 579,
+      "end_time": 959,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "broke_1",
+      "start_time": 959,
+      "end_time": 1279,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "washing_1"
+    },
+    {
+      "word": "machine_1"
+    },
+    {
+      "word": "broke_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "washing_1"
+    },
+    {
+      "word": "machine_1"
+    },
+    {
+      "word": "broke_1"
+    }
+  ],
+  "incorrect words": []
+}

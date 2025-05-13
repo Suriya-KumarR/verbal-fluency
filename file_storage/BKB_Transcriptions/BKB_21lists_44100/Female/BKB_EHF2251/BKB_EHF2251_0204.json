@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0204.wav",
+  "words": [
+    {
+      "word": "old_1",
+      "start_time": 219,
+      "end_time": 560,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "gloves_1",
+      "start_time": 560,
+      "end_time": 839,
+      "duration": 279,
+      "qc": true
+    },
+    {
+      "word": "dirty_1",
+      "start_time": 1080,
+      "end_time": 1279,
+      "duration": 199,
+      "qc": false
+    }
+  ]
+}

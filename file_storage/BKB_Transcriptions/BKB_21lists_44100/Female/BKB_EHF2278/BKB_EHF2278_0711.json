@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0711.wav",
+  "words": [
+    {
+      "word": "ball_1",
+      "start_time": 360,
+      "end_time": 579,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "bouncing_1",
+      "start_time": 899,
+      "end_time": 1159,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "high_1",
+      "start_time": 1580,
+      "end_time": 1899,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "ball_1"
+    },
+    {
+      "word": "bouncing_1"
+    },
+    {
+      "word": "high_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ball_1"
+    },
+    {
+      "word": "bouncing_1"
+    },
+    {
+      "word": "high_1"
+    }
+  ],
+  "incorrect words": []
+}

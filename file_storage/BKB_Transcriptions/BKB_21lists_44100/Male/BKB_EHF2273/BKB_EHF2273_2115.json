@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_2115.wav",
+  "words": [
+    {
+      "word": "man_1",
+      "start_time": 319,
+      "end_time": 579,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "painting_1",
+      "start_time": 800,
+      "end_time": 1080,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "sign_1",
+      "start_time": 1360,
+      "end_time": 1539,
+      "duration": 179,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "painting_1"
+    },
+    {
+      "word": "sign_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "painting_1"
+    },
+    {
+      "word": "sign_1"
+    }
+  ],
+  "incorrect words": []
+}

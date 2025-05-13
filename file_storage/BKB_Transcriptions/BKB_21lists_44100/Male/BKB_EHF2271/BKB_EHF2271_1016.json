@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1016.wav",
+  "words": [
+    {
+      "word": "chicken_1",
+      "start_time": 300,
+      "end_time": 519,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "laid_1",
+      "start_time": 519,
+      "end_time": 860,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "eggs_1",
+      "start_time": 1139,
+      "end_time": 1480,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "chicken_1"
+    },
+    {
+      "word": "laid_1"
+    },
+    {
+      "word": "eggs_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "chicken_1"
+    },
+    {
+      "word": "laid_1"
+    },
+    {
+      "word": "eggs_1"
+    }
+  ],
+  "incorrect words": []
+}

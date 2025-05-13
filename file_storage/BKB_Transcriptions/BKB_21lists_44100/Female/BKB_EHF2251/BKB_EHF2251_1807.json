@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1807.wav",
+  "words": [
+    {
+      "word": "talked_1",
+      "start_time": 340,
+      "end_time": 620,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "doll_1",
+      "start_time": 980,
+      "end_time": 1220,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_1903.wav",
+  "words": [
+    {
+      "word": "baby_1",
+      "start_time": 280,
+      "end_time": 560,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "rug_1",
+      "start_time": 1059,
+      "end_time": 1259,
+      "duration": 200,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "is_1"
+    },
+    {
+      "word": "rug_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "rug_1"
+    }
+  ],
+  "incorrect words": []
+}

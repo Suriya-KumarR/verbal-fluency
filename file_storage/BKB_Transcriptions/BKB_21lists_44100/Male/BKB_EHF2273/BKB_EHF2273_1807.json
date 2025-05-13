@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1807.wav",
+  "words": [
+    {
+      "word": "talked_1",
+      "start_time": 460,
+      "end_time": 699,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "doll_1",
+      "start_time": 1200,
+      "end_time": 1440,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "talked_1"
+    },
+    {
+      "word": "doll_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "talked_1"
+    },
+    {
+      "word": "doll_1"
+    }
+  ],
+  "incorrect words": []
+}

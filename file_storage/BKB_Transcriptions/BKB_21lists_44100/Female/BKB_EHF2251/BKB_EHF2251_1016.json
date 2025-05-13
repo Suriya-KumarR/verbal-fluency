@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1016.wav",
+  "words": [
+    {
+      "word": "chicken_1",
+      "start_time": 300,
+      "end_time": 540,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "laid_1",
+      "start_time": 540,
+      "end_time": 879,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "eggs_1",
+      "start_time": 1179,
+      "end_time": 1500,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_2013.wav",
+  "words": [
+    {
+      "word": "brushed_1",
+      "start_time": 379,
+      "end_time": 680,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "hair_1",
+      "start_time": 899,
+      "end_time": 1200,
+      "duration": 300,
+      "qc": false
+    }
+  ]
+}

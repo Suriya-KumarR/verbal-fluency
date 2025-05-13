@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_2107.wav",
+  "words": [
+    {
+      "word": "made_1",
+      "start_time": 400,
+      "end_time": 600,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "bed_1",
+      "start_time": 800,
+      "end_time": 1059,
+      "duration": 259,
+      "qc": true
+    }
+  ]
+}

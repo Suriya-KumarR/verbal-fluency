@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2271_0604.wav",
+  "words": [
+    {
+      "word": "men_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "wear_1",
+      "start_time": 419,
+      "end_time": 699,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "long_1",
+      "start_time": 699,
+      "end_time": 1000,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "pants_1",
+      "start_time": 1000,
+      "end_time": 1460,
+      "duration": 460,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "men_1"
+    },
+    {
+      "word": "wear_1"
+    },
+    {
+      "word": "long_1"
+    },
+    {
+      "word": "pants_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "men_1"
+    },
+    {
+      "word": "wear_1"
+    },
+    {
+      "word": "long_1"
+    },
+    {
+      "word": "pants_1"
+    }
+  ],
+  "incorrect words": []
+}

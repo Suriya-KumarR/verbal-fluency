@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_1415.wav",
+  "words": [
+    {
+      "word": "grass_1",
+      "start_time": 259,
+      "end_time": 560,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "getting_1",
+      "start_time": 779,
+      "end_time": 939,
+      "duration": 160,
+      "qc": false
+    },
+    {
+      "word": "long_1",
+      "start_time": 939,
+      "end_time": 1320,
+      "duration": 380,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "grass_1"
+    },
+    {
+      "word": "getting_1"
+    },
+    {
+      "word": "long_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "grass_1"
+    },
+    {
+      "word": "getting_1"
+    },
+    {
+      "word": "long_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0305.wav",
+  "words": [
+    {
+      "word": "say_1",
+      "start_time": 379,
+      "end_time": 699,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "silly_1",
+      "start_time": 1000,
+      "end_time": 1340,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "things_1",
+      "start_time": 1340,
+      "end_time": 1840,
+      "duration": 500,
+      "qc": true
+    }
+  ]
+}

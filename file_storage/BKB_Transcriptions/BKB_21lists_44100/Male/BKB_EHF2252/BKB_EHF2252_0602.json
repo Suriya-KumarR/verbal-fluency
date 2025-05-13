@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0602.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "stirred_1",
+      "start_time": 479,
+      "end_time": 720,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "tea_1",
+      "start_time": 959,
+      "end_time": 1179,
+      "duration": 219,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "stirred_1"
+    },
+    {
+      "word": "tea_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "stirred_1"
+    },
+    {
+      "word": "tea_1"
+    }
+  ],
+  "incorrect words": []
+}

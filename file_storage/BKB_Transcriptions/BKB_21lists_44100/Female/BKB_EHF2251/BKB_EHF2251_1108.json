@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1108.wav",
+  "words": [
+    {
+      "word": "little_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "girl_1",
+      "start_time": 479,
+      "end_time": 720,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "happy_1",
+      "start_time": 1019,
+      "end_time": 1340,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

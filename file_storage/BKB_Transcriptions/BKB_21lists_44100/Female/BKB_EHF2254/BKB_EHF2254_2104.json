@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_2104.wav",
+  "words": [
+    {
+      "word": "pushing_1",
+      "start_time": 519,
+      "end_time": 819,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "old_1",
+      "start_time": 1139,
+      "end_time": 1399,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "car_1",
+      "start_time": 1399,
+      "end_time": 1740,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "pushing_1"
+    },
+    {
+      "word": "old_1"
+    },
+    {
+      "word": "car_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "pushing_1"
+    },
+    {
+      "word": "old_1"
+    },
+    {
+      "word": "car_1"
+    }
+  ],
+  "incorrect words": []
+}

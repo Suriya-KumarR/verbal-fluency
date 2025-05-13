@@ -1,0 +1,40 @@
+{
+  "audio_path": "BKB_EHF2260_0208.wav",
+  "words": [
+    {
+      "word": "snowfalls_1",
+      "start_time": 0,
+      "end_time": 699,
+      "duration": 699,
+      "qc": true
+    },
+    {
+      "word": "christmas_1",
+      "start_time": 939,
+      "end_time": 1360,
+      "duration": 420,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "snow_1"
+    },
+    {
+      "word": "falls_1"
+    },
+    {
+      "word": "christmas_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "christmas_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "snowfalls_1"
+    }
+  ]
+}

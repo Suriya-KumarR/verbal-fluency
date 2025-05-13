@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2252_1804.wav",
+  "words": [
+    {
+      "word": "skating_1",
+      "start_time": 419,
+      "end_time": 699,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "friend_1",
+      "start_time": 1120,
+      "end_time": 1440,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "skating_1"
+    },
+    {
+      "word": "with_1"
+    },
+    {
+      "word": "friend_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "skating_1"
+    },
+    {
+      "word": "friend_1"
+    }
+  ],
+  "incorrect words": []
+}

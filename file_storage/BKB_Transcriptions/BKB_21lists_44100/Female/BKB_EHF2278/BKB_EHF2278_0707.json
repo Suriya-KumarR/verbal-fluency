@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2278_0707.wav",
+  "words": [
+    {
+      "word": "washed_1",
+      "start_time": 419,
+      "end_time": 680,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "cold_1",
+      "start_time": 980,
+      "end_time": 1200,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "water_1",
+      "start_time": 1200,
+      "end_time": 1519,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "washed_1"
+    },
+    {
+      "word": "cold_1"
+    },
+    {
+      "word": "water_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "washed_1"
+    },
+    {
+      "word": "cold_1"
+    },
+    {
+      "word": "water_1"
+    }
+  ],
+  "incorrect words": []
+}

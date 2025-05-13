@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1611.wav",
+  "words": [
+    {
+      "word": "stared_1",
+      "start_time": 319,
+      "end_time": 720,
+      "duration": 400,
+      "qc": false
+    },
+    {
+      "word": "picture_1",
+      "start_time": 1019,
+      "end_time": 1379,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "stared_1"
+    },
+    {
+      "word": "picture_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "stared_1"
+    },
+    {
+      "word": "picture_1"
+    }
+  ],
+  "incorrect words": []
+}

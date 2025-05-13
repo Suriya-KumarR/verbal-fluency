@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_1604.wav",
+  "words": [
+    {
+      "word": "raincoat_1",
+      "start_time": 259,
+      "end_time": 779,
+      "duration": 519,
+      "qc": false
+    },
+    {
+      "word": "wet_1",
+      "start_time": 1340,
+      "end_time": 1559,
+      "duration": 219,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "raincoat_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "wet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "raincoat_1"
+    },
+    {
+      "word": "wet_1"
+    }
+  ],
+  "incorrect words": []
+}

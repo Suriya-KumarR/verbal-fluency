@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_1503.wav",
+  "words": [
+    {
+      "word": "sucking_1",
+      "start_time": 460,
+      "end_time": 740,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "thumb_1",
+      "start_time": 1019,
+      "end_time": 1279,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "sucking_1"
+    },
+    {
+      "word": "thumb_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sucking_1"
+    },
+    {
+      "word": "thumb_1"
+    }
+  ],
+  "incorrect words": []
+}

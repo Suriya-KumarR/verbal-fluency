@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1103.wav",
+  "words": [
+    {
+      "word": "washing_1",
+      "start_time": 500,
+      "end_time": 779,
+      "duration": 279,
+      "qc": false
+    },
+    {
+      "word": "dress_1",
+      "start_time": 1100,
+      "end_time": 1460,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "washing_1"
+    },
+    {
+      "word": "dress_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "washing_1"
+    },
+    {
+      "word": "dress_1"
+    }
+  ],
+  "incorrect words": []
+}

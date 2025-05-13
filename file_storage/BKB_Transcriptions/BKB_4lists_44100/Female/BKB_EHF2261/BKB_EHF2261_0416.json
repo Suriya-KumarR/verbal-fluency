@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2261_0416.wav",
+  "words": [
+    {
+      "word": "mud_1",
+      "start_time": 239,
+      "end_time": 460,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "stuck_1",
+      "start_time": 460,
+      "end_time": 699,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "shoe_1",
+      "start_time": 1039,
+      "end_time": 1299,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mud_1"
+    },
+    {
+      "word": "stuck_1"
+    },
+    {
+      "word": "shoe_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mud_1"
+    },
+    {
+      "word": "stuck_1"
+    },
+    {
+      "word": "shoe_1"
+    }
+  ],
+  "incorrect words": []
+}

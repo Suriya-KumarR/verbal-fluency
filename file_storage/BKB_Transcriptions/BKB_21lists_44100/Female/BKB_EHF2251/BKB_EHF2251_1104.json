@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1104.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 259,
+      "end_time": 579,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "stayed_1",
+      "start_time": 579,
+      "end_time": 839,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "lunch_1",
+      "start_time": 1120,
+      "end_time": 1419,
+      "duration": 299,
+      "qc": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_1205.wav",
+  "words": [
+    {
+      "word": "faucets_1",
+      "start_time": 259,
+      "end_time": 720,
+      "duration": 460,
+      "qc": true
+    },
+    {
+      "word": "sink_1",
+      "start_time": 1639,
+      "end_time": 1639,
+      "duration": 0,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "faucets_1"
+    },
+    {
+      "word": "above_1"
+    },
+    {
+      "word": "sink_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "faucets_1"
+    },
+    {
+      "word": "sink_1"
+    }
+  ],
+  "incorrect words": []
+}

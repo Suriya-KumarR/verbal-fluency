@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0805.wav",
+  "words": [
+    {
+      "word": "family_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "bought_1",
+      "start_time": 639,
+      "end_time": 879,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "house_1",
+      "start_time": 1100,
+      "end_time": 1360,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "family_1"
+    },
+    {
+      "word": "bought_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "family_1"
+    },
+    {
+      "word": "bought_1"
+    },
+    {
+      "word": "house_1"
+    }
+  ],
+  "incorrect words": []
+}

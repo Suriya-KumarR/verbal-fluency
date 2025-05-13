@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1312.wav",
+  "words": [
+    {
+      "word": "plant_1",
+      "start_time": 300,
+      "end_time": 660,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "hanging_1",
+      "start_time": 939,
+      "end_time": 1220,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "door_1",
+      "start_time": 1799,
+      "end_time": 2039,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

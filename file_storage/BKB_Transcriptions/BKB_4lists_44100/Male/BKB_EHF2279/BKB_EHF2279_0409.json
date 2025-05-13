@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2279_0409.wav",
+  "words": [
+    {
+      "word": "found_1",
+      "start_time": 419,
+      "end_time": 660,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "brother_1",
+      "start_time": 899,
+      "end_time": 1179,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "found_1"
+    },
+    {
+      "word": "brother_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "found_1"
+    },
+    {
+      "word": "brother_1"
+    }
+  ],
+  "incorrect words": []
+}

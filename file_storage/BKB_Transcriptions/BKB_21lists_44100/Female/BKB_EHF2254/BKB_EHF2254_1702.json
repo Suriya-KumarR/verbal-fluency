@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1702.wav",
+  "words": [
+    {
+      "word": "drinks_1",
+      "start_time": 360,
+      "end_time": 660,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "mug_1",
+      "start_time": 1259,
+      "end_time": 1559,
+      "duration": 299,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "drinks_1"
+    },
+    {
+      "word": "mug_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "drinks_1"
+    },
+    {
+      "word": "mug_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0403.wav",
+  "words": [
+    {
+      "word": "old_1",
+      "start_time": 259,
+      "end_time": 600,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "man_1",
+      "start_time": 600,
+      "end_time": 959,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "swirried_1",
+      "start_time": 1120,
+      "end_time": 1559,
+      "duration": 439,
+      "qc": true
+    }
+  ]
+}

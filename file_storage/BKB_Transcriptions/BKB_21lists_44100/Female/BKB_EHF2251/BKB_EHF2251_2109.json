@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_2109.wav",
+  "words": [
+    {
+      "word": "cow_1",
+      "start_time": 239,
+      "end_time": 519,
+      "duration": 279,
+      "qc": false
+    },
+    {
+      "word": "grass_1",
+      "start_time": 1019,
+      "end_time": 1419,
+      "duration": 399,
+      "qc": true
+    }
+  ]
+}

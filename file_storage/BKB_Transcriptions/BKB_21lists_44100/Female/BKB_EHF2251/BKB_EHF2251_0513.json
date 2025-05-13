@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0513.wav",
+  "words": [
+    {
+      "word": "light_1",
+      "start_time": 419,
+      "end_time": 600,
+      "duration": 180,
+      "qc": false
+    },
+    {
+      "word": "went_1",
+      "start_time": 600,
+      "end_time": 819,
+      "duration": 219,
+      "qc": false
+    }
+  ]
+}

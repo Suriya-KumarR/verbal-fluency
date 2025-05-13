@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1901.wav",
+  "words": [
+    {
+      "word": "family_1",
+      "start_time": 280,
+      "end_time": 720,
+      "duration": 440,
+      "qc": true
+    },
+    {
+      "word": "likes_1",
+      "start_time": 720,
+      "end_time": 1179,
+      "duration": 459,
+      "qc": true
+    },
+    {
+      "word": "fish_1",
+      "start_time": 1179,
+      "end_time": 1679,
+      "duration": 500,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "family_1"
+    },
+    {
+      "word": "likes_1"
+    },
+    {
+      "word": "fish_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "family_1"
+    },
+    {
+      "word": "likes_1"
+    },
+    {
+      "word": "fish_1"
+    }
+  ],
+  "incorrect words": []
+}

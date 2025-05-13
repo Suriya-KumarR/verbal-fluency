@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0102.wav",
+  "words": [
+    {
+      "word": "car_1",
+      "start_time": 319,
+      "end_time": 699,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "engine_1",
+      "start_time": 699,
+      "end_time": 1039,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "running_1",
+      "start_time": 1279,
+      "end_time": 1539,
+      "duration": 259,
+      "qc": true
+    }
+  ]
+}

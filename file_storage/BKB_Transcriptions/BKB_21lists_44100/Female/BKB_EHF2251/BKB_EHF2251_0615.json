@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0615.wav",
+  "words": [
+    {
+      "word": "broom_1",
+      "start_time": 219,
+      "end_time": 600,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "stood_1",
+      "start_time": 600,
+      "end_time": 879,
+      "duration": 279,
+      "qc": false
+    },
+    {
+      "word": "corner_1",
+      "start_time": 1120,
+      "end_time": 1419,
+      "duration": 299,
+      "qc": true
+    }
+  ]
+}

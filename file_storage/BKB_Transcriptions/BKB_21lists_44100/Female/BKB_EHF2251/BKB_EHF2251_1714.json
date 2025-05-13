@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1714.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 340,
+      "end_time": 560,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "ran_1",
+      "start_time": 560,
+      "end_time": 819,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "along_1",
+      "start_time": 819,
+      "end_time": 1220,
+      "duration": 400,
+      "qc": true
+    }
+  ]
+}

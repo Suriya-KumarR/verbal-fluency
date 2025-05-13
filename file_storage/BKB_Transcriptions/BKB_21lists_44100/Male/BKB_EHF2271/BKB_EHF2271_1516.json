@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1516.wav",
+  "words": [
+    {
+      "word": "puppy_1",
+      "start_time": 259,
+      "end_time": 479,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "plays_1",
+      "start_time": 479,
+      "end_time": 819,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "ball_1",
+      "start_time": 1220,
+      "end_time": 1480,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "puppy_1"
+    },
+    {
+      "word": "plays_1"
+    },
+    {
+      "word": "ball_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "puppy_1"
+    },
+    {
+      "word": "plays_1"
+    },
+    {
+      "word": "ball_1"
+    }
+  ],
+  "incorrect words": []
+}

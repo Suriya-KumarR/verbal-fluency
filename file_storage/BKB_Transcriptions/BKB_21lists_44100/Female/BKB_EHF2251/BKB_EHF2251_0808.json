@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0808.wav",
+  "words": [
+    {
+      "word": "shopping_1",
+      "start_time": 340,
+      "end_time": 680,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "cheese_1",
+      "start_time": 959,
+      "end_time": 1340,
+      "duration": 380,
+      "qc": true
+    }
+  ]
+}

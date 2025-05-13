@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1115.wav",
+  "words": [
+    {
+      "word": "fish_1",
+      "start_time": 319,
+      "end_time": 560,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "swam_1",
+      "start_time": 560,
+      "end_time": 1000,
+      "duration": 439,
+      "qc": false
+    },
+    {
+      "word": "pond_1",
+      "start_time": 1299,
+      "end_time": 1639,
+      "duration": 340,
+      "qc": false
+    }
+  ]
+}

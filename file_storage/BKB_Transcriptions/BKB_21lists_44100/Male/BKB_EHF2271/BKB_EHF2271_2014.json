@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2271_2014.wav",
+  "words": [
+    {
+      "word": "two_1",
+      "start_time": 239,
+      "end_time": 479,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "children_1",
+      "start_time": 479,
+      "end_time": 819,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "laughing_1",
+      "start_time": 1039,
+      "end_time": 1340,
+      "duration": 300,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "two_1"
+    },
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "are_1"
+    },
+    {
+      "word": "laughing_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "two_1"
+    },
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "laughing_1"
+    }
+  ],
+  "incorrect words": []
+}

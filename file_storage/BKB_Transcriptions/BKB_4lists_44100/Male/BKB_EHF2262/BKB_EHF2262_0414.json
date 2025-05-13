@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2262_0414.wav",
+  "words": [
+    {
+      "word": "cook_1",
+      "start_time": 219,
+      "end_time": 519,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "making_1",
+      "start_time": 779,
+      "end_time": 1080,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "cake_1",
+      "start_time": 1299,
+      "end_time": 1519,
+      "duration": 220,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cook_1"
+    },
+    {
+      "word": "making_1"
+    },
+    {
+      "word": "cake_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cook_1"
+    },
+    {
+      "word": "making_1"
+    },
+    {
+      "word": "cake_1"
+    }
+  ],
+  "incorrect words": []
+}

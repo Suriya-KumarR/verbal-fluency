@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0505.wav",
+  "words": [
+    {
+      "word": "kitchen_1",
+      "start_time": 280,
+      "end_time": 519,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "sink_1",
+      "start_time": 519,
+      "end_time": 879,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "empty_1",
+      "start_time": 1139,
+      "end_time": 1379,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

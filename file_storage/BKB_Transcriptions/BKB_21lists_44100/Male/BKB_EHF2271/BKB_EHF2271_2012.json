@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_2012.wav",
+  "words": [
+    {
+      "word": "raincoat_1",
+      "start_time": 259,
+      "end_time": 720,
+      "duration": 460,
+      "qc": true
+    },
+    {
+      "word": "hanging_1",
+      "start_time": 920,
+      "end_time": 1179,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "raincoat_1"
+    },
+    {
+      "word": "hanging_1"
+    },
+    {
+      "word": "up_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "raincoat_1"
+    },
+    {
+      "word": "hanging_1"
+    }
+  ],
+  "incorrect words": []
+}

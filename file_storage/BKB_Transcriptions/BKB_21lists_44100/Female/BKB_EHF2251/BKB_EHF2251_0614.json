@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0614.wav",
+  "words": [
+    {
+      "word": "smart_1",
+      "start_time": 259,
+      "end_time": 620,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "girls_1",
+      "start_time": 620,
+      "end_time": 939,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "reading_1",
+      "start_time": 1120,
+      "end_time": 1379,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

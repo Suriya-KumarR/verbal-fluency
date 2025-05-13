@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2270_0116.wav",
+  "words": [
+    {
+      "word": "ice_1",
+      "start_time": 259,
+      "end_time": 479,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "cream_1",
+      "start_time": 479,
+      "end_time": 699,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "pink_1",
+      "start_time": 939,
+      "end_time": 1220,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "ice_1"
+    },
+    {
+      "word": "cream_1"
+    },
+    {
+      "word": "pink_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ice_1"
+    },
+    {
+      "word": "cream_1"
+    },
+    {
+      "word": "pink_1"
+    }
+  ],
+  "incorrect words": []
+}

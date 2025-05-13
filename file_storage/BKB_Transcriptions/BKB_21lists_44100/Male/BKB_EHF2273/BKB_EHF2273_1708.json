@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1708.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 300,
+      "end_time": 600,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "sat_1",
+      "start_time": 600,
+      "end_time": 939,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "chair_1",
+      "start_time": 1320,
+      "end_time": 1500,
+      "duration": 179,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "sat_1"
+    },
+    {
+      "word": "chair_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "sat_1"
+    },
+    {
+      "word": "chair_1"
+    }
+  ],
+  "incorrect words": []
+}

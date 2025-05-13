@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0203.wav",
+  "words": [
+    {
+      "word": "ball_1",
+      "start_time": 360,
+      "end_time": 579,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "went_1",
+      "start_time": 579,
+      "end_time": 839,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "goal_1",
+      "start_time": 1279,
+      "end_time": 1600,
+      "duration": 320,
+      "qc": false
+    }
+  ]
+}

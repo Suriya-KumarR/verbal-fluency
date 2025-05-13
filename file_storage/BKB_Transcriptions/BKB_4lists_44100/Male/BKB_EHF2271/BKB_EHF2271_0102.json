@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0102.wav",
+  "words": [
+    {
+      "word": "car_1",
+      "start_time": 239,
+      "end_time": 540,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "engine_1",
+      "start_time": 540,
+      "end_time": 800,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "running_1",
+      "start_time": 980,
+      "end_time": 1240,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "car_1"
+    },
+    {
+      "word": "engine_1"
+    },
+    {
+      "word": "running_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "car_1"
+    },
+    {
+      "word": "engine_1"
+    },
+    {
+      "word": "running_1"
+    }
+  ],
+  "incorrect words": []
+}

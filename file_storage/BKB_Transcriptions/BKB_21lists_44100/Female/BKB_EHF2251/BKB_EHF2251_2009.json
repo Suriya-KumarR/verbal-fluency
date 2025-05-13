@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2009.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "made_1",
+      "start_time": 419,
+      "end_time": 680,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "curtains_1",
+      "start_time": 939,
+      "end_time": 1220,
+      "duration": 280,
+      "qc": false
+    }
+  ]
+}

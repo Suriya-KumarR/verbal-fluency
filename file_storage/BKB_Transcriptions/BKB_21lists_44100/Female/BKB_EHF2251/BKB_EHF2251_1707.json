@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1707.wav",
+  "words": [
+    {
+      "word": "baby_1",
+      "start_time": 300,
+      "end_time": 540,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "wants_1",
+      "start_time": 540,
+      "end_time": 899,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "bottle_1",
+      "start_time": 1159,
+      "end_time": 1419,
+      "duration": 259,
+      "qc": false
+    }
+  ]
+}

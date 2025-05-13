@@ -1,0 +1,53 @@
+{
+  "audio_path": "BKB_EHF2276_0211.wav",
+  "words": [
+    {
+      "word": "amals_1",
+      "start_time": 0,
+      "end_time": 600,
+      "duration": 600,
+      "qc": false
+    },
+    {
+      "word": "ran_1",
+      "start_time": 600,
+      "end_time": 860,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "hall_1",
+      "start_time": 1340,
+      "end_time": 1659,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mouse_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "down_1"
+    },
+    {
+      "word": "hole_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ran_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "amals_1"
+    },
+    {
+      "word": "hall_1"
+    }
+  ]
+}

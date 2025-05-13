@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0615.wav",
+  "words": [
+    {
+      "word": "broom_1",
+      "start_time": 300,
+      "end_time": 600,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "stood_1",
+      "start_time": 600,
+      "end_time": 839,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "corner_1",
+      "start_time": 1120,
+      "end_time": 1399,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "broom_1"
+    },
+    {
+      "word": "stood_1"
+    },
+    {
+      "word": "corner_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "broom_1"
+    },
+    {
+      "word": "stood_1"
+    },
+    {
+      "word": "corner_1"
+    }
+  ],
+  "incorrect words": []
+}

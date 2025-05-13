@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0702.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 239,
+      "end_time": 439,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "came_1",
+      "start_time": 439,
+      "end_time": 699,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "back_1",
+      "start_time": 699,
+      "end_time": 1000,
+      "duration": 300,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "back_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "back_1"
+    }
+  ],
+  "incorrect words": []
+}

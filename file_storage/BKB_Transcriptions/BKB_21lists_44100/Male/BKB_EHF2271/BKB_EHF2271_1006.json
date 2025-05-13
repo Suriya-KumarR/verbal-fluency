@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1006.wav",
+  "words": [
+    {
+      "word": "kitchen_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "clock_1",
+      "start_time": 519,
+      "end_time": 819,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "wrong_1",
+      "start_time": 1059,
+      "end_time": 1379,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "kitchen_1"
+    },
+    {
+      "word": "clock_1"
+    },
+    {
+      "word": "wrong_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "kitchen_1"
+    },
+    {
+      "word": "clock_1"
+    },
+    {
+      "word": "wrong_1"
+    }
+  ],
+  "incorrect words": []
+}

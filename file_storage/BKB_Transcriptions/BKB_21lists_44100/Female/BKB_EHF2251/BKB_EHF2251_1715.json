@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1715.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 479,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "read_1",
+      "start_time": 479,
+      "end_time": 699,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "paper_1",
+      "start_time": 1019,
+      "end_time": 1159,
+      "duration": 139,
+      "qc": false
+    }
+  ]
+}

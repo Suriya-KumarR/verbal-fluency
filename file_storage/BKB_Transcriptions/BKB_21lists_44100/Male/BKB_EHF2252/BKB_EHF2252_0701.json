@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0701.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "dropped_1",
+      "start_time": 639,
+      "end_time": 939,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "bag_1",
+      "start_time": 1379,
+      "end_time": 1440,
+      "duration": 60,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "dropped_1"
+    },
+    {
+      "word": "bag_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "children_1"
+    },
+    {
+      "word": "dropped_1"
+    },
+    {
+      "word": "bag_1"
+    }
+  ],
+  "incorrect words": []
+}

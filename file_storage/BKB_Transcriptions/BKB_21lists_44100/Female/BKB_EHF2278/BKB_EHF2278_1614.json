@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2278_1614.wav",
+  "words": [
+    {
+      "word": "car_1",
+      "start_time": 239,
+      "end_time": 600,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "going_1",
+      "start_time": 839,
+      "end_time": 1120,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "fast_1",
+      "start_time": 1539,
+      "end_time": 1980,
+      "duration": 440,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "car_1"
+    },
+    {
+      "word": "going_1"
+    },
+    {
+      "word": "too_1"
+    },
+    {
+      "word": "fast_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "car_1"
+    },
+    {
+      "word": "going_1"
+    },
+    {
+      "word": "fast_1"
+    }
+  ],
+  "incorrect words": []
+}

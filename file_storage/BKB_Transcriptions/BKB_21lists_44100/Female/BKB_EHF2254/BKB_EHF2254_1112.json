@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_1112.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 259,
+      "end_time": 560,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "got_1",
+      "start_time": 560,
+      "end_time": 899,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "bed_1",
+      "start_time": 1240,
+      "end_time": 1600,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "got_1"
+    },
+    {
+      "word": "into_1"
+    },
+    {
+      "word": "bed_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "got_1"
+    },
+    {
+      "word": "bed_1"
+    }
+  ],
+  "incorrect words": []
+}

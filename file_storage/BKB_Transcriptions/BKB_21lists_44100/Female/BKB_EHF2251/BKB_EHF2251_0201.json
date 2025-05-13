@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0201.wav",
+  "words": [
+    {
+      "word": "ladder_1",
+      "start_time": 219,
+      "end_time": 500,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "near_1",
+      "start_time": 759,
+      "end_time": 839,
+      "duration": 79,
+      "qc": false
+    },
+    {
+      "word": "door_1",
+      "start_time": 1100,
+      "end_time": 1259,
+      "duration": 159,
+      "qc": false
+    }
+  ]
+}

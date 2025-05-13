@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_1609.wav",
+  "words": [
+    {
+      "word": "men_1",
+      "start_time": 540,
+      "end_time": 800,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "shave_1",
+      "start_time": 800,
+      "end_time": 1159,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "morning_1",
+      "start_time": 1399,
+      "end_time": 1639,
+      "duration": 240,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "men_1"
+    },
+    {
+      "word": "shave_1"
+    },
+    {
+      "word": "morning_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "men_1"
+    },
+    {
+      "word": "shave_1"
+    },
+    {
+      "word": "morning_1"
+    }
+  ],
+  "incorrect words": []
+}

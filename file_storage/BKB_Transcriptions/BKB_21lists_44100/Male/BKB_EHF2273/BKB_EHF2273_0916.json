@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0916.wav",
+  "words": [
+    {
+      "word": "car_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "hit_1",
+      "start_time": 579,
+      "end_time": 759,
+      "duration": 180,
+      "qc": true
+    },
+    {
+      "word": "wall_1",
+      "start_time": 1000,
+      "end_time": 1179,
+      "duration": 179,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "car_1"
+    },
+    {
+      "word": "hit_1"
+    },
+    {
+      "word": "wall_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "car_1"
+    },
+    {
+      "word": "hit_1"
+    },
+    {
+      "word": "wall_1"
+    }
+  ],
+  "incorrect words": []
+}

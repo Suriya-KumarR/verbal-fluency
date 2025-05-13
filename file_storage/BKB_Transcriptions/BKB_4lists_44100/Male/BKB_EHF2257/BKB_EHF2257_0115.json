@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2257_0115.wav",
+  "words": [
+    {
+      "word": "rain_1",
+      "start_time": 340,
+      "end_time": 579,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "came_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "rain_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "down_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "rain_1"
+    },
+    {
+      "word": "came_1"
+    }
+  ],
+  "incorrect words": []
+}

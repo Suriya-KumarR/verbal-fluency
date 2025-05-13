@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1810.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 259,
+      "end_time": 500,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "eating_1",
+      "start_time": 759,
+      "end_time": 1000,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "meat_1",
+      "start_time": 1379,
+      "end_time": 1580,
+      "duration": 200,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "eating_1"
+    },
+    {
+      "word": "meat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "eating_1"
+    },
+    {
+      "word": "meat_1"
+    }
+  ],
+  "incorrect words": []
+}

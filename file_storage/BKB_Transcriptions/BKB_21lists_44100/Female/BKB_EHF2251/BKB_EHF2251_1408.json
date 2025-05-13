@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1408.wav",
+  "words": [
+    {
+      "word": "kitchen_1",
+      "start_time": 259,
+      "end_time": 540,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "window_1",
+      "start_time": 540,
+      "end_time": 879,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "clean_1",
+      "start_time": 1179,
+      "end_time": 1480,
+      "duration": 300,
+      "qc": true
+    }
+  ]
+}

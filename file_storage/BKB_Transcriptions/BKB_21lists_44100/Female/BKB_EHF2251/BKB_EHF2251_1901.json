@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1901.wav",
+  "words": [
+    {
+      "word": "family_1",
+      "start_time": 259,
+      "end_time": 639,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "likes_1",
+      "start_time": 639,
+      "end_time": 980,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "fish_1",
+      "start_time": 980,
+      "end_time": 1320,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

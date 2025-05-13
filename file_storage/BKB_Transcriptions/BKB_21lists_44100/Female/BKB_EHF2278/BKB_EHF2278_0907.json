@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0907.wav",
+  "words": [
+    {
+      "word": "five_1",
+      "start_time": 300,
+      "end_time": 720,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "men_1",
+      "start_time": 720,
+      "end_time": 899,
+      "duration": 179,
+      "qc": false
+    },
+    {
+      "word": "working_1",
+      "start_time": 1120,
+      "end_time": 1379,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "five_1"
+    },
+    {
+      "word": "men_1"
+    },
+    {
+      "word": "working_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "five_1"
+    },
+    {
+      "word": "men_1"
+    },
+    {
+      "word": "working_1"
+    }
+  ],
+  "incorrect words": []
+}

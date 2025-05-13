@@ -1,0 +1,62 @@
+{
+  "audio_path": "BKB_EHF2271_0814.wav",
+  "words": [
+    {
+      "word": "football_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "player_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "lost_1",
+      "start_time": 899,
+      "end_time": 1159,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "shoe_1",
+      "start_time": 1580,
+      "end_time": 1639,
+      "duration": 59,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "football_1"
+    },
+    {
+      "word": "player_1"
+    },
+    {
+      "word": "lost_1"
+    },
+    {
+      "word": "shoe_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "football_1"
+    },
+    {
+      "word": "player_1"
+    },
+    {
+      "word": "lost_1"
+    },
+    {
+      "word": "shoe_1"
+    }
+  ],
+  "incorrect words": []
+}

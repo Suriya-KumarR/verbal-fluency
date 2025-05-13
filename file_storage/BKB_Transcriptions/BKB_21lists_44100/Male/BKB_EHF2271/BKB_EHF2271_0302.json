@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0302.wav",
+  "words": [
+    {
+      "word": "dog_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "played_1",
+      "start_time": 479,
+      "end_time": 699,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "stick_1",
+      "start_time": 1080,
+      "end_time": 1299,
+      "duration": 219,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "played_1"
+    },
+    {
+      "word": "stick_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dog_1"
+    },
+    {
+      "word": "played_1"
+    },
+    {
+      "word": "stick_1"
+    }
+  ],
+  "incorrect words": []
+}

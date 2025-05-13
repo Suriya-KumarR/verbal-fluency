@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0914.wav",
+  "words": [
+    {
+      "word": "train_1",
+      "start_time": 239,
+      "end_time": 479,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "moving_1",
+      "start_time": 699,
+      "end_time": 939,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "fast_1",
+      "start_time": 939,
+      "end_time": 1440,
+      "duration": 500,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2278_1513.wav",
+  "words": [
+    {
+      "word": "walked_1",
+      "start_time": 419,
+      "end_time": 660,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "across_1",
+      "start_time": 660,
+      "end_time": 1159,
+      "duration": 499,
+      "qc": true
+    },
+    {
+      "word": "grass_1",
+      "start_time": 1840,
+      "end_time": 1860,
+      "duration": 19,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "walked_1"
+    },
+    {
+      "word": "across_1"
+    },
+    {
+      "word": "grass_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "walked_1"
+    },
+    {
+      "word": "across_1"
+    },
+    {
+      "word": "grass_1"
+    }
+  ],
+  "incorrect words": []
+}

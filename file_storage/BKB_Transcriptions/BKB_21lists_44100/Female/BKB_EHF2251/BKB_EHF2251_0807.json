@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0807.wav",
+  "words": [
+    {
+      "word": "ball_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "broke_1",
+      "start_time": 479,
+      "end_time": 759,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "window_1",
+      "start_time": 1120,
+      "end_time": 1259,
+      "duration": 139,
+      "qc": false
+    }
+  ]
+}

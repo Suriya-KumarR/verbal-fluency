@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2271_1712.wav",
+  "words": [
+    {
+      "word": "brown_1",
+      "start_time": 439,
+      "end_time": 779,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "leaves_1",
+      "start_time": 779,
+      "end_time": 1139,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "fell_1",
+      "start_time": 1139,
+      "end_time": 1399,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "tree_1",
+      "start_time": 1879,
+      "end_time": 2160,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "some_1"
+    },
+    {
+      "word": "brown_1"
+    },
+    {
+      "word": "tree_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "brown_1"
+    },
+    {
+      "word": "tree_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "leaves_1"
+    },
+    {
+      "word": "fell_1"
+    }
+  ]
+}

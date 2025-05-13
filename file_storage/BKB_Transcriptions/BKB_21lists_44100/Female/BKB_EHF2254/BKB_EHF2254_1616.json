@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1616.wav",
+  "words": [
+    {
+      "word": "painter_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "used_1",
+      "start_time": 579,
+      "end_time": 920,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "brush_1",
+      "start_time": 1320,
+      "end_time": 1460,
+      "duration": 139,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "painter_1"
+    },
+    {
+      "word": "used_1"
+    },
+    {
+      "word": "brush_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "painter_1"
+    },
+    {
+      "word": "used_1"
+    },
+    {
+      "word": "brush_1"
+    }
+  ],
+  "incorrect words": []
+}

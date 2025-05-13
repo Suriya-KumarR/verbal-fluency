@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2265_0413.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 340,
+      "end_time": 600,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "lost_1",
+      "start_time": 600,
+      "end_time": 980,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "doll_1",
+      "start_time": 1220,
+      "end_time": 1480,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "lost_1"
+    },
+    {
+      "word": "doll_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "lost_1"
+    },
+    {
+      "word": "doll_1"
+    }
+  ],
+  "incorrect words": []
+}

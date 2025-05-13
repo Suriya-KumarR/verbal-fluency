@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1706.wav",
+  "words": [
+    {
+      "word": "people_1",
+      "start_time": 0,
+      "end_time": 319,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "going_1",
+      "start_time": 540,
+      "end_time": 779,
+      "duration": 239,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 779,
+      "end_time": 1120,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "people_1"
+    },
+    {
+      "word": "going_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "people_1"
+    },
+    {
+      "word": "going_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "incorrect words": []
+}

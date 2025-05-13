@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2273_1613.wav",
+  "words": [
+    {
+      "word": "oven_1",
+      "start_time": 360,
+      "end_time": 620,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "door_1",
+      "start_time": 620,
+      "end_time": 1000,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "opened_1",
+      "start_time": 1460,
+      "end_time": 1799,
+      "duration": 339,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "oven_1"
+    },
+    {
+      "word": "door_1"
+    },
+    {
+      "word": "open_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "oven_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "opened_1"
+    }
+  ]
+}

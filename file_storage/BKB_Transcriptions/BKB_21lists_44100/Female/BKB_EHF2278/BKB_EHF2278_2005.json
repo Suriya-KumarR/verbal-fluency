@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_2005.wav",
+  "words": [
+    {
+      "word": "dishcloth_1",
+      "start_time": 340,
+      "end_time": 899,
+      "duration": 559,
+      "qc": false
+    },
+    {
+      "word": "wet_1",
+      "start_time": 1419,
+      "end_time": 1700,
+      "duration": 280,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "dishcloth_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "wet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "dishcloth_1"
+    },
+    {
+      "word": "wet_1"
+    }
+  ],
+  "incorrect words": []
+}

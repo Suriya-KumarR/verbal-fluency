@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0715.wav",
+  "words": [
+    {
+      "word": "holding_1",
+      "start_time": 500,
+      "end_time": 800,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "nose_1",
+      "start_time": 1059,
+      "end_time": 1500,
+      "duration": 440,
+      "qc": true
+    }
+  ]
+}

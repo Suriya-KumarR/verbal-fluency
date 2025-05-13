@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1306.wav",
+  "words": [
+    {
+      "word": "potatoes_1",
+      "start_time": 0,
+      "end_time": 699,
+      "duration": 699,
+      "qc": true
+    },
+    {
+      "word": "grow_1",
+      "start_time": 699,
+      "end_time": 879,
+      "duration": 180,
+      "qc": false
+    },
+    {
+      "word": "ground_1",
+      "start_time": 1159,
+      "end_time": 1539,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "potatoes_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "ground_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "potatoes_1"
+    },
+    {
+      "word": "grow_1"
+    },
+    {
+      "word": "ground_1"
+    }
+  ],
+  "incorrect words": []
+}

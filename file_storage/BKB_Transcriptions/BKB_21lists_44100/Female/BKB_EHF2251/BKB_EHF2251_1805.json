@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1805.wav",
+  "words": [
+    {
+      "word": "apple_1",
+      "start_time": 340,
+      "end_time": 620,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "pie_1",
+      "start_time": 620,
+      "end_time": 860,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "good_1",
+      "start_time": 1159,
+      "end_time": 1419,
+      "duration": 259,
+      "qc": true
+    }
+  ]
+}

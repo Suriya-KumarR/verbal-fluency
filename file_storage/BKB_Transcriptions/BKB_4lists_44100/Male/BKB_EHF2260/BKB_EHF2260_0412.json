@@ -1,0 +1,29 @@
+{
+  "audio_path": "BKB_EHF2260_0412.wav",
+  "words": [
+    {
+      "word": "kneeling_1",
+      "start_time": 419,
+      "end_time": 720,
+      "duration": 300,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "kneeling_1"
+    },
+    {
+      "word": "down_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "kneeling_1"
+    }
+  ],
+  "incorrect words": []
+}

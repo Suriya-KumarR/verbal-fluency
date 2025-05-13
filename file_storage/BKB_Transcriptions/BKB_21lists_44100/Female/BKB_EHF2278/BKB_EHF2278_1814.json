@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1814.wav",
+  "words": [
+    {
+      "word": "snow_1",
+      "start_time": 319,
+      "end_time": 500,
+      "duration": 180,
+      "qc": false
+    },
+    {
+      "word": "roof_1",
+      "start_time": 1159,
+      "end_time": 1379,
+      "duration": 220,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "snow_1"
+    },
+    {
+      "word": "is_1"
+    },
+    {
+      "word": "roof_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "snow_1"
+    },
+    {
+      "word": "roof_1"
+    }
+  ],
+  "incorrect words": []
+}

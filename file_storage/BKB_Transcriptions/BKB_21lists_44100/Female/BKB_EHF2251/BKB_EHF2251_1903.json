@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1903.wav",
+  "words": [
+    {
+      "word": "baby_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "rug_1",
+      "start_time": 1059,
+      "end_time": 1299,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

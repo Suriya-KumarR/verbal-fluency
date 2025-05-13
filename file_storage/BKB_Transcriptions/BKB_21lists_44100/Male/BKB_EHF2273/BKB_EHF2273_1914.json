@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1914.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "held_1",
+      "start_time": 579,
+      "end_time": 899,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "mirror_1",
+      "start_time": 1080,
+      "end_time": 1320,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "held_1"
+    },
+    {
+      "word": "mirror_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "held_1"
+    },
+    {
+      "word": "mirror_1"
+    }
+  ],
+  "incorrect words": []
+}

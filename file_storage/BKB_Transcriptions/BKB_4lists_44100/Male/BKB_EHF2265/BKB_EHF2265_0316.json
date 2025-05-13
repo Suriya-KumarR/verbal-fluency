@@ -1,0 +1,60 @@
+{
+  "audio_path": "BKB_EHF2265_0316.wav",
+  "words": [
+    {
+      "word": "let_1",
+      "start_time": 0,
+      "end_time": 79,
+      "duration": 79,
+      "qc": false
+    },
+    {
+      "word": "girl_1",
+      "start_time": 340,
+      "end_time": 699,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "kick_1",
+      "start_time": 699,
+      "end_time": 1000,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "table_1",
+      "start_time": 1299,
+      "end_time": 1620,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "kicked_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "let_1"
+    },
+    {
+      "word": "kick_1"
+    }
+  ]
+}

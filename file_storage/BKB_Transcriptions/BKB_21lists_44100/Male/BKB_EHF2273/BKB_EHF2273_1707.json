@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1707.wav",
+  "words": [
+    {
+      "word": "baby_1",
+      "start_time": 340,
+      "end_time": 600,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "wants_1",
+      "start_time": 600,
+      "end_time": 920,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "bottle_1",
+      "start_time": 1320,
+      "end_time": 1460,
+      "duration": 139,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "wants_1"
+    },
+    {
+      "word": "bottle_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "wants_1"
+    },
+    {
+      "word": "bottle_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1501.wav",
+  "words": [
+    {
+      "word": "man_1",
+      "start_time": 239,
+      "end_time": 460,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "turning_1",
+      "start_time": 699,
+      "end_time": 920,
+      "duration": 220,
+      "qc": true
+    },
+    {
+      "word": "faucet_1",
+      "start_time": 1179,
+      "end_time": 1620,
+      "duration": 440,
+      "qc": true
+    }
+  ]
+}

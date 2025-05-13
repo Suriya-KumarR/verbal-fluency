@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0108.wav",
+  "words": [
+    {
+      "word": "played_1",
+      "start_time": 340,
+      "end_time": 620,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "train_1",
+      "start_time": 1080,
+      "end_time": 1440,
+      "duration": 360,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2258_0410.wav",
+  "words": [
+    {
+      "word": "animals_1",
+      "start_time": 519,
+      "end_time": 1039,
+      "duration": 519,
+      "qc": true
+    },
+    {
+      "word": "sleep_1",
+      "start_time": 1039,
+      "end_time": 1399,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "straw_1",
+      "start_time": 1879,
+      "end_time": 2099,
+      "duration": 219,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "animals_1"
+    },
+    {
+      "word": "sleep_1"
+    },
+    {
+      "word": "on_1"
+    },
+    {
+      "word": "straw_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "animals_1"
+    },
+    {
+      "word": "sleep_1"
+    },
+    {
+      "word": "straw_1"
+    }
+  ],
+  "incorrect words": []
+}

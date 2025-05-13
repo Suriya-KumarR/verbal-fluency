@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0707.wav",
+  "words": [
+    {
+      "word": "washed_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "cold_1",
+      "start_time": 1000,
+      "end_time": 1200,
+      "duration": 200,
+      "qc": false
+    },
+    {
+      "word": "water_1",
+      "start_time": 1200,
+      "end_time": 1600,
+      "duration": 399,
+      "qc": true
+    }
+  ]
+}

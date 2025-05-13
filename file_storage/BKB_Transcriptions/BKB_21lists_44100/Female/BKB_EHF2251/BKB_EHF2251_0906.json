@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0906.wav",
+  "words": [
+    {
+      "word": "letter_1",
+      "start_time": 300,
+      "end_time": 460,
+      "duration": 159,
+      "qc": true
+    },
+    {
+      "word": "fell_1",
+      "start_time": 460,
+      "end_time": 720,
+      "duration": 260,
+      "qc": false
+    },
+    {
+      "word": "floor_1",
+      "start_time": 1059,
+      "end_time": 1240,
+      "duration": 180,
+      "qc": false
+    }
+  ]
+}

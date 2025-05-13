@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2277_0316.wav",
+  "words": [
+    {
+      "word": "girl_1",
+      "start_time": 280,
+      "end_time": 500,
+      "duration": 219,
+      "qc": true
+    },
+    {
+      "word": "kicked_1",
+      "start_time": 500,
+      "end_time": 759,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "table_1",
+      "start_time": 899,
+      "end_time": 1240,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "kicked_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "girl_1"
+    },
+    {
+      "word": "kicked_1"
+    },
+    {
+      "word": "table_1"
+    }
+  ],
+  "incorrect words": []
+}

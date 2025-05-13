@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2281_0202.wav",
+  "words": [
+    {
+      "word": "lovely_1",
+      "start_time": 600,
+      "end_time": 819,
+      "duration": 219,
+      "qc": false
+    },
+    {
+      "word": "day_1",
+      "start_time": 819,
+      "end_time": 1100,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "lovely_1"
+    },
+    {
+      "word": "day_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lovely_1"
+    },
+    {
+      "word": "day_1"
+    }
+  ],
+  "incorrect words": []
+}

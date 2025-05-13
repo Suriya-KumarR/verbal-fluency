@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0710.wav",
+  "words": [
+    {
+      "word": "two_1",
+      "start_time": 419,
+      "end_time": 779,
+      "duration": 359,
+      "qc": false
+    },
+    {
+      "word": "empty_1",
+      "start_time": 779,
+      "end_time": 1100,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "bottles_1",
+      "start_time": 1100,
+      "end_time": 1440,
+      "duration": 340,
+      "qc": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0716.wav",
+  "words": [
+    {
+      "word": "new_1",
+      "start_time": 319,
+      "end_time": 519,
+      "duration": 199,
+      "qc": true
+    },
+    {
+      "word": "road_1",
+      "start_time": 519,
+      "end_time": 720,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "map_1",
+      "start_time": 1159,
+      "end_time": 1360,
+      "duration": 200,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "new_1"
+    },
+    {
+      "word": "road_1"
+    },
+    {
+      "word": "map_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "new_1"
+    },
+    {
+      "word": "road_1"
+    },
+    {
+      "word": "map_1"
+    }
+  ],
+  "incorrect words": []
+}

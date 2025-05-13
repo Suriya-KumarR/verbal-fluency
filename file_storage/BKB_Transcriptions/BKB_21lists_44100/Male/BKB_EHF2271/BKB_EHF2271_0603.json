@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_0603.wav",
+  "words": [
+    {
+      "word": "laughed_1",
+      "start_time": 379,
+      "end_time": 660,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "story_1",
+      "start_time": 980,
+      "end_time": 1340,
+      "duration": 360,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "laughed_1"
+    },
+    {
+      "word": "story_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "laughed_1"
+    },
+    {
+      "word": "story_1"
+    }
+  ],
+  "incorrect words": []
+}

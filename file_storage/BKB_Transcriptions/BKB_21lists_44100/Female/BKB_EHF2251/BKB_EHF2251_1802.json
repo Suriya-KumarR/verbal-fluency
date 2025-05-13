@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1802.wav",
+  "words": [
+    {
+      "word": "like_1",
+      "start_time": 439,
+      "end_time": 720,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "orange_1",
+      "start_time": 720,
+      "end_time": 1120,
+      "duration": 399,
+      "qc": true
+    },
+    {
+      "word": "marmalade_1",
+      "start_time": 1120,
+      "end_time": 1700,
+      "duration": 580,
+      "qc": true
+    }
+  ]
+}

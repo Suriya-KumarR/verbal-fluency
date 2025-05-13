@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_0113.wav",
+  "words": [
+    {
+      "word": "cat_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "sitting_1",
+      "start_time": 860,
+      "end_time": 1100,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "bed_1",
+      "start_time": 1460,
+      "end_time": 1779,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "sitting_1"
+    },
+    {
+      "word": "on_1"
+    },
+    {
+      "word": "bed_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "sitting_1"
+    },
+    {
+      "word": "bed_1"
+    }
+  ],
+  "incorrect words": []
+}

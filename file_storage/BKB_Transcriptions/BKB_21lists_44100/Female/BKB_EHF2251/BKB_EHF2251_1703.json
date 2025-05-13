@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1703.wav",
+  "words": [
+    {
+      "word": "sky_1",
+      "start_time": 319,
+      "end_time": 540,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "blue_1",
+      "start_time": 1120,
+      "end_time": 1399,
+      "duration": 279,
+      "qc": true
+    }
+  ]
+}

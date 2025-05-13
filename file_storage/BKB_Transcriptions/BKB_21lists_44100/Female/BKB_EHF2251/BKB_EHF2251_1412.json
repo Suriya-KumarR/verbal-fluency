@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1412.wav",
+  "words": [
+    {
+      "word": "children_1",
+      "start_time": 340,
+      "end_time": 699,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "washed_1",
+      "start_time": 699,
+      "end_time": 1100,
+      "duration": 400,
+      "qc": false
+    },
+    {
+      "word": "plates_1",
+      "start_time": 1500,
+      "end_time": 1840,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1504.wav",
+  "words": [
+    {
+      "word": "shop_1",
+      "start_time": 300,
+      "end_time": 620,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "closed_1",
+      "start_time": 620,
+      "end_time": 1059,
+      "duration": 439,
+      "qc": true
+    },
+    {
+      "word": "lunch_1",
+      "start_time": 1340,
+      "end_time": 1559,
+      "duration": 219,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "shop_1"
+    },
+    {
+      "word": "closed_1"
+    },
+    {
+      "word": "lunch_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "shop_1"
+    },
+    {
+      "word": "closed_1"
+    },
+    {
+      "word": "lunch_1"
+    }
+  ],
+  "incorrect words": []
+}

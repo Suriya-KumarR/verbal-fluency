@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1015.wav",
+  "words": [
+    {
+      "word": "buckets_1",
+      "start_time": 319,
+      "end_time": 600,
+      "duration": 280,
+      "qc": false
+    },
+    {
+      "word": "hold_1",
+      "start_time": 600,
+      "end_time": 980,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "water_1",
+      "start_time": 980,
+      "end_time": 1379,
+      "duration": 399,
+      "qc": true
+    }
+  ]
+}

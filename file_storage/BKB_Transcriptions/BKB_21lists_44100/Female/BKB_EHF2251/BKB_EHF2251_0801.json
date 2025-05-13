@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0801.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "forgot_1",
+      "start_time": 479,
+      "end_time": 860,
+      "duration": 380,
+      "qc": false
+    },
+    {
+      "word": "book_1",
+      "start_time": 1139,
+      "end_time": 1399,
+      "duration": 259,
+      "qc": true
+    }
+  ]
+}

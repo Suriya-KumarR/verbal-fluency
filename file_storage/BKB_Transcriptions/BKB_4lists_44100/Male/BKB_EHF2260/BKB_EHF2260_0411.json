@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2260_0411.wav",
+  "words": [
+    {
+      "word": "jelly_1",
+      "start_time": 319,
+      "end_time": 519,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "jar_1",
+      "start_time": 519,
+      "end_time": 740,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "full_1",
+      "start_time": 1000,
+      "end_time": 1320,
+      "duration": 320,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "jelly_1"
+    },
+    {
+      "word": "jar_1"
+    },
+    {
+      "word": "full_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "jelly_1"
+    },
+    {
+      "word": "jar_1"
+    },
+    {
+      "word": "full_1"
+    }
+  ],
+  "incorrect words": []
+}

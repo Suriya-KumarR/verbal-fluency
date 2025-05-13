@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2273_0816.wav",
+  "words": [
+    {
+      "word": "coat_1",
+      "start_time": 239,
+      "end_time": 540,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "chair_1",
+      "start_time": 1019,
+      "end_time": 1259,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "coat_1"
+    },
+    {
+      "word": "is _1"
+    },
+    {
+      "word": "on_1"
+    },
+    {
+      "word": "chair_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "coat_1"
+    },
+    {
+      "word": "chair_1"
+    }
+  ],
+  "incorrect words": []
+}

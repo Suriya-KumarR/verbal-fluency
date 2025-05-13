@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2113.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "pick_1",
+      "start_time": 779,
+      "end_time": 779,
+      "duration": 0,
+      "qc": false
+    },
+    {
+      "word": "pears_1",
+      "start_time": 980,
+      "end_time": 1480,
+      "duration": 500,
+      "qc": false
+    }
+  ]
+}

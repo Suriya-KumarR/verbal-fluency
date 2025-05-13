@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0507.wav",
+  "words": [
+    {
+      "word": "used_1",
+      "start_time": 400,
+      "end_time": 759,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "spoon_1",
+      "start_time": 1100,
+      "end_time": 1480,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

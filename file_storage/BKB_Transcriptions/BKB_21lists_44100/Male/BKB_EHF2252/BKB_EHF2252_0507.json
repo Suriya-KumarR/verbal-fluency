@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2252_0507.wav",
+  "words": [
+    {
+      "word": "used_1",
+      "start_time": 379,
+      "end_time": 639,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "spoon_1",
+      "start_time": 860,
+      "end_time": 1159,
+      "duration": 299,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "used_1"
+    },
+    {
+      "word": "spoon_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "used_1"
+    },
+    {
+      "word": "spoon_1"
+    }
+  ],
+  "incorrect words": []
+}

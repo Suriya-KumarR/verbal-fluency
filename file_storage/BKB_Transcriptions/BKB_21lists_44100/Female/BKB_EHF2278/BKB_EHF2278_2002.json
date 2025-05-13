@@ -1,0 +1,29 @@
+{
+  "audio_path": "BKB_EHF2278_2002.wav",
+  "words": [
+    {
+      "word": "going_1",
+      "start_time": 439,
+      "end_time": 740,
+      "duration": 300,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "going_1"
+    },
+    {
+      "word": "out_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "going_1"
+    }
+  ],
+  "incorrect words": []
+}

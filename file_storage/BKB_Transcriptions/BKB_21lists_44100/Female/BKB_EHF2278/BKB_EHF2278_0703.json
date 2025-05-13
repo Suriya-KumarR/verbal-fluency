@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0703.wav",
+  "words": [
+    {
+      "word": "floor_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "looked_1",
+      "start_time": 639,
+      "end_time": 1019,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "clean_1",
+      "start_time": 1019,
+      "end_time": 1519,
+      "duration": 500,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "floor_1"
+    },
+    {
+      "word": "looked_1"
+    },
+    {
+      "word": "clean_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "floor_1"
+    },
+    {
+      "word": "looked_1"
+    },
+    {
+      "word": "clean_1"
+    }
+  ],
+  "incorrect words": []
+}

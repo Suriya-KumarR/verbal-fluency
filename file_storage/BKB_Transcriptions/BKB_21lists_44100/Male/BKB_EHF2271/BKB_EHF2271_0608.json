@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0608.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 280,
+      "end_time": 620,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "coming_1",
+      "start_time": 879,
+      "end_time": 1139,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 1139,
+      "end_time": 1480,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "coming_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "father_1"
+    },
+    {
+      "word": "coming_1"
+    },
+    {
+      "word": "home_1"
+    }
+  ],
+  "incorrect words": []
+}

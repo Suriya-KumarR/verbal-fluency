@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_1309.wav",
+  "words": [
+    {
+      "word": "waited_1",
+      "start_time": 379,
+      "end_time": 720,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "one_1",
+      "start_time": 1120,
+      "end_time": 1340,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "hour_1",
+      "start_time": 1340,
+      "end_time": 1779,
+      "duration": 439,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "waited_1"
+    },
+    {
+      "word": "one_1"
+    },
+    {
+      "word": "hour_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "waited_1"
+    },
+    {
+      "word": "one_1"
+    },
+    {
+      "word": "hour_1"
+    }
+  ],
+  "incorrect words": []
+}

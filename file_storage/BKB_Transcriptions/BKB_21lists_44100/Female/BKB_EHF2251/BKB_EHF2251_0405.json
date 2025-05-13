@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0405.wav",
+  "words": [
+    {
+      "word": "house_1",
+      "start_time": 280,
+      "end_time": 560,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "nice_1",
+      "start_time": 980,
+      "end_time": 1179,
+      "duration": 199,
+      "qc": false
+    },
+    {
+      "word": "garden_1",
+      "start_time": 1179,
+      "end_time": 1460,
+      "duration": 280,
+      "qc": true
+    }
+  ]
+}

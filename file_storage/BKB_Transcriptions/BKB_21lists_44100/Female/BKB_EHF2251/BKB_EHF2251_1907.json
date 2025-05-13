@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1907.wav",
+  "words": [
+    {
+      "word": "grocer_1",
+      "start_time": 259,
+      "end_time": 720,
+      "duration": 460,
+      "qc": false
+    },
+    {
+      "word": "sells_1",
+      "start_time": 720,
+      "end_time": 1120,
+      "duration": 399,
+      "qc": false
+    },
+    {
+      "word": "butter_1",
+      "start_time": 1120,
+      "end_time": 1379,
+      "duration": 259,
+      "qc": true
+    }
+  ]
+}

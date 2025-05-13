@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2271_2004.wav",
+  "words": [
+    {
+      "word": "paid_1",
+      "start_time": 379,
+      "end_time": 720,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "bill_1",
+      "start_time": 980,
+      "end_time": 1240,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "paid_1"
+    },
+    {
+      "word": "his_1"
+    },
+    {
+      "word": "bill_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "paid_1"
+    },
+    {
+      "word": "bill_1"
+    }
+  ],
+  "incorrect words": []
+}

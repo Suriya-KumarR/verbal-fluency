@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0304.wav",
+  "words": [
+    {
+      "word": "farmer_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "keeps_1",
+      "start_time": 639,
+      "end_time": 1000,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "bowl_1",
+      "start_time": 1240,
+      "end_time": 1419,
+      "duration": 179,
+      "qc": false
+    }
+  ]
+}

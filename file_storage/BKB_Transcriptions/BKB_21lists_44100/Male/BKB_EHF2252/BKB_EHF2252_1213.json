@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_1213.wav",
+  "words": [
+    {
+      "word": "picture_1",
+      "start_time": 219,
+      "end_time": 500,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "came_1",
+      "start_time": 500,
+      "end_time": 800,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "book_1",
+      "start_time": 1179,
+      "end_time": 1340,
+      "duration": 160,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "picture_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "book_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "picture_1"
+    },
+    {
+      "word": "came_1"
+    },
+    {
+      "word": "book_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1010.wav",
+  "words": [
+    {
+      "word": "riding_1",
+      "start_time": 419,
+      "end_time": 759,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "bicycles_1",
+      "start_time": 1019,
+      "end_time": 1460,
+      "duration": 440,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2263_0209.wav",
+  "words": [
+    {
+      "word": "shes_1",
+      "start_time": 0,
+      "end_time": 500,
+      "duration": 500,
+      "qc": true
+    },
+    {
+      "word": "taking_1",
+      "start_time": 500,
+      "end_time": 819,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "coat_1",
+      "start_time": 1019,
+      "end_time": 1340,
+      "duration": 320,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "she_1"
+    },
+    {
+      "word": "taking_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "taking_1"
+    },
+    {
+      "word": "coat_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "shes_1"
+    }
+  ]
+}

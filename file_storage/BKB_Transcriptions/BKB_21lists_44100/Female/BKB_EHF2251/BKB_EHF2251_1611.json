@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1611.wav",
+  "words": [
+    {
+      "word": "stared_1",
+      "start_time": 280,
+      "end_time": 620,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "picture_1",
+      "start_time": 899,
+      "end_time": 1240,
+      "duration": 340,
+      "qc": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1706.wav",
+  "words": [
+    {
+      "word": "people_1",
+      "start_time": 0,
+      "end_time": 419,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "going_1",
+      "start_time": 639,
+      "end_time": 959,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "home_1",
+      "start_time": 959,
+      "end_time": 1299,
+      "duration": 339,
+      "qc": true
+    }
+  ]
+}

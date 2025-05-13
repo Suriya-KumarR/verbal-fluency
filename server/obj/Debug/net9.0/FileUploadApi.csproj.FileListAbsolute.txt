@@ -160,4 +160,3 @@
 /Users/suriyakumar/Documents/Brain_Games/BKB_Vue/verbal-fluency/server/obj/Debug/net9.0/FileUploadApi.genruntimeconfig.cache
 /Users/suriyakumar/Documents/Brain_Games/BKB_Vue/verbal-fluency/server/obj/Debug/net9.0/ref/FileUploadApi.dll
 /Users/suriyakumar/Documents/Brain_Games/BKB_Vue/verbal-fluency/server/bin/Debug/net9.0/uploads/BKB_EHF2257_0103.wav.json
-/Users/suriyakumar/Documents/Brain_Games/BKB_Vue/verbal-fluency/server/bin/Debug/net9.0/uploads/BKB_EHF2256_0103.wav.json

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0809.wav",
+  "words": [
+    {
+      "word": "pond_1",
+      "start_time": 379,
+      "end_time": 600,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "water_1",
+      "start_time": 600,
+      "end_time": 980,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "dirty_1",
+      "start_time": 1299,
+      "end_time": 1559,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "pond_1"
+    },
+    {
+      "word": "water_1"
+    },
+    {
+      "word": "dirty_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "pond_1"
+    },
+    {
+      "word": "water_1"
+    },
+    {
+      "word": "dirty_1"
+    }
+  ],
+  "incorrect words": []
+}

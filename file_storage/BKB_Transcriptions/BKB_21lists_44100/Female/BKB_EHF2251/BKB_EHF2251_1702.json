@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1702.wav",
+  "words": [
+    {
+      "word": "drinks_1",
+      "start_time": 379,
+      "end_time": 620,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "mug_1",
+      "start_time": 1080,
+      "end_time": 1320,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

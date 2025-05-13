@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2279_0105.wav",
+  "words": [
+    {
+      "word": "house_1",
+      "start_time": 239,
+      "end_time": 500,
+      "duration": 260,
+      "qc": true
+    },
+    {
+      "word": "nine_1",
+      "start_time": 759,
+      "end_time": 1100,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "rooms_1",
+      "start_time": 1100,
+      "end_time": 1440,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "house_1"
+    },
+    {
+      "word": "nine_1"
+    },
+    {
+      "word": "rooms_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "house_1"
+    },
+    {
+      "word": "nine_1"
+    },
+    {
+      "word": "rooms_1"
+    }
+  ],
+  "incorrect words": []
+}

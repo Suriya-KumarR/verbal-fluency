@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1003.wav",
+  "words": [
+    {
+      "word": "looked_1",
+      "start_time": 300,
+      "end_time": 560,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "mirror_1",
+      "start_time": 879,
+      "end_time": 1120,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

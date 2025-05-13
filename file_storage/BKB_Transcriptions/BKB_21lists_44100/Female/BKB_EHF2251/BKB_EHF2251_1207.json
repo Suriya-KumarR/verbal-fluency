@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1207.wav",
+  "words": [
+    {
+      "word": "waiting_1",
+      "start_time": 479,
+      "end_time": 680,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "bus_1",
+      "start_time": 1139,
+      "end_time": 1519,
+      "duration": 379,
+      "qc": true
+    }
+  ]
+}

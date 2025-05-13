@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2273_0714.wav",
+  "words": [
+    {
+      "word": "orange_1",
+      "start_time": 280,
+      "end_time": 699,
+      "duration": 419,
+      "qc": true
+    },
+    {
+      "word": "sweet_1",
+      "start_time": 1299,
+      "end_time": 1620,
+      "duration": 320,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "orange_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "sweet_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "orange_1"
+    },
+    {
+      "word": "sweet_1"
+    }
+  ],
+  "incorrect words": []
+}

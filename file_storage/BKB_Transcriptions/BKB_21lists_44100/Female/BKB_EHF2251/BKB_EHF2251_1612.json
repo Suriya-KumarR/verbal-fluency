@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1612.wav",
+  "words": [
+    {
+      "word": "cat_1",
+      "start_time": 239,
+      "end_time": 560,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "drank_1",
+      "start_time": 560,
+      "end_time": 819,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "saucer_1",
+      "start_time": 1259,
+      "end_time": 1679,
+      "duration": 419,
+      "qc": false
+    }
+  ]
+}

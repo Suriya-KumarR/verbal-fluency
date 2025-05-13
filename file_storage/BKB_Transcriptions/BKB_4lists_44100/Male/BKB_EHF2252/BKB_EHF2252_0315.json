@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2252_0315.wav",
+  "words": [
+    {
+      "word": "room_1",
+      "start_time": 239,
+      "end_time": 439,
+      "duration": 200,
+      "qc": true
+    },
+    {
+      "word": "getting_1",
+      "start_time": 620,
+      "end_time": 800,
+      "duration": 180,
+      "qc": true
+    },
+    {
+      "word": "cold_1",
+      "start_time": 800,
+      "end_time": 1179,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "room_1"
+    },
+    {
+      "word": "getting_1"
+    },
+    {
+      "word": "cold_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "room_1"
+    },
+    {
+      "word": "getting_1"
+    },
+    {
+      "word": "cold_1"
+    }
+  ],
+  "incorrect words": []
+}

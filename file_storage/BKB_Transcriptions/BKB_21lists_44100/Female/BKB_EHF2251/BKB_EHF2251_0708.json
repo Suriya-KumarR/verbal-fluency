@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0708.wav",
+  "words": [
+    {
+      "word": "young_1",
+      "start_time": 219,
+      "end_time": 419,
+      "duration": 199,
+      "qc": true
+    },
+    {
+      "word": "people_1",
+      "start_time": 419,
+      "end_time": 800,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "dancing_1",
+      "start_time": 1019,
+      "end_time": 1340,
+      "duration": 320,
+      "qc": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2266_0303.wav",
+  "words": [
+    {
+      "word": "teapot_1",
+      "start_time": 379,
+      "end_time": 839,
+      "duration": 459,
+      "qc": false
+    },
+    {
+      "word": "hot_1",
+      "start_time": 1379,
+      "end_time": 1639,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "teapot_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "hot_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "teapot_1"
+    },
+    {
+      "word": "hot_1"
+    }
+  ],
+  "incorrect words": []
+}

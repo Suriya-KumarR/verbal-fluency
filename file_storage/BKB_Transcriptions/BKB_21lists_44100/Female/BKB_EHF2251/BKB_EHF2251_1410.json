@@ -1,0 +1,33 @@
+{
+  "audio_path": "BKB_EHF2251_1410.wav",
+  "words": [
+    {
+      "word": "big_1",
+      "start_time": 239,
+      "end_time": 540,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "fish_1",
+      "start_time": 540,
+      "end_time": 839,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "got_1",
+      "start_time": 839,
+      "end_time": 1100,
+      "duration": 260,
+      "qc": true
+    },
+    {
+      "word": "away_1",
+      "start_time": 1100,
+      "end_time": 1419,
+      "duration": 319,
+      "qc": true
+    }
+  ]
+}

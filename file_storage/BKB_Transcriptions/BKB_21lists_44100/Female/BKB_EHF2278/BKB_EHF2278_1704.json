@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1704.wav",
+  "words": [
+    {
+      "word": "knocked_1",
+      "start_time": 319,
+      "end_time": 540,
+      "duration": 220,
+      "qc": false
+    },
+    {
+      "word": "window_1",
+      "start_time": 959,
+      "end_time": 1159,
+      "duration": 199,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "knocked_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "knocked_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "incorrect words": []
+}

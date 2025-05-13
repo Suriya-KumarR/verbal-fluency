@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_2106.wav",
+  "words": [
+    {
+      "word": "road_1",
+      "start_time": 280,
+      "end_time": 620,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "goes_1",
+      "start_time": 620,
+      "end_time": 920,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "hill_1",
+      "start_time": 1440,
+      "end_time": 1559,
+      "duration": 119,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "road_1"
+    },
+    {
+      "word": "goes_1"
+    },
+    {
+      "word": "hill_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "road_1"
+    },
+    {
+      "word": "goes_1"
+    },
+    {
+      "word": "hill_1"
+    }
+  ],
+  "incorrect words": []
+}

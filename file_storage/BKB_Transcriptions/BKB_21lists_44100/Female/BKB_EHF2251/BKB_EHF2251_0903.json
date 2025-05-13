@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0903.wav",
+  "words": [
+    {
+      "word": "climbing_1",
+      "start_time": 439,
+      "end_time": 720,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "tree_1",
+      "start_time": 1019,
+      "end_time": 1240,
+      "duration": 220,
+      "qc": true
+    }
+  ]
+}

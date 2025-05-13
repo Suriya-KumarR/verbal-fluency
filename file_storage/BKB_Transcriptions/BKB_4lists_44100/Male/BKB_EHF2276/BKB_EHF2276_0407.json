@@ -1,0 +1,50 @@
+{
+  "audio_path": "BKB_EHF2276_0407.wav",
+  "words": [
+    {
+      "word": "theyre_1",
+      "start_time": 0,
+      "end_time": 460,
+      "duration": 460,
+      "qc": false
+    },
+    {
+      "word": "crossing_1",
+      "start_time": 460,
+      "end_time": 920,
+      "duration": 460,
+      "qc": true
+    },
+    {
+      "word": "street_1",
+      "start_time": 1139,
+      "end_time": 1480,
+      "duration": 340,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "crossing_1"
+    },
+    {
+      "word": "street_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "crossing_1"
+    },
+    {
+      "word": "street_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "theyre_1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1302.wav",
+  "words": [
+    {
+      "word": "husband_1",
+      "start_time": 300,
+      "end_time": 639,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "brought_1",
+      "start_time": 639,
+      "end_time": 959,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "flowers_1",
+      "start_time": 1259,
+      "end_time": 1580,
+      "duration": 320,
+      "qc": true
+    }
+  ]
+}

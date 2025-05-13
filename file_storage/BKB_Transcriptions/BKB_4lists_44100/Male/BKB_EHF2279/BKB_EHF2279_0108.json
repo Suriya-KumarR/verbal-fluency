@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2279_0108.wav",
+  "words": [
+    {
+      "word": "played_1",
+      "start_time": 319,
+      "end_time": 579,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "train_1",
+      "start_time": 920,
+      "end_time": 1320,
+      "duration": 400,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "played_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "played_1"
+    },
+    {
+      "word": "train_1"
+    }
+  ],
+  "incorrect words": []
+}

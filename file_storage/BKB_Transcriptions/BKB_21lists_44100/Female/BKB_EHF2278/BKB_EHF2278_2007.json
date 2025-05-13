@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_2007.wav",
+  "words": [
+    {
+      "word": "baby_1",
+      "start_time": 340,
+      "end_time": 639,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "blue_1",
+      "start_time": 1059,
+      "end_time": 1399,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "eyes_1",
+      "start_time": 1399,
+      "end_time": 1940,
+      "duration": 540,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "blue_1"
+    },
+    {
+      "word": "eyes_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "baby_1"
+    },
+    {
+      "word": "blue_1"
+    },
+    {
+      "word": "eyes_1"
+    }
+  ],
+  "incorrect words": []
+}

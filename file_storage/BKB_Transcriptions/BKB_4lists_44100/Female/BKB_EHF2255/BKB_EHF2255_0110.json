@@ -1,0 +1,42 @@
+{
+  "audio_path": "BKB_EHF2255_0110.wav",
+  "words": [
+    {
+      "word": "looking_1",
+      "start_time": 400,
+      "end_time": 680,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "clock_1",
+      "start_time": 1100,
+      "end_time": 1379,
+      "duration": 279,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "they_1"
+    },
+    {
+      "word": "looking_1"
+    },
+    {
+      "word": "at_1"
+    },
+    {
+      "word": "clock_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "looking_1"
+    },
+    {
+      "word": "clock_1"
+    }
+  ],
+  "incorrect words": []
+}

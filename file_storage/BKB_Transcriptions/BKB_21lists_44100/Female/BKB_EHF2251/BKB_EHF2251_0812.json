@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0812.wav",
+  "words": [
+    {
+      "word": "bus_1",
+      "start_time": 219,
+      "end_time": 500,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "stops_1",
+      "start_time": 500,
+      "end_time": 920,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "suddenly_1",
+      "start_time": 920,
+      "end_time": 1360,
+      "duration": 439,
+      "qc": true
+    }
+  ]
+}

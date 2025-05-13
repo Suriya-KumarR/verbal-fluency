@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0712.wav",
+  "words": [
+    {
+      "word": "father_1",
+      "start_time": 0,
+      "end_time": 439,
+      "duration": 439,
+      "qc": true
+    },
+    {
+      "word": "forgot_1",
+      "start_time": 439,
+      "end_time": 800,
+      "duration": 360,
+      "qc": false
+    },
+    {
+      "word": "bread_1",
+      "start_time": 1039,
+      "end_time": 1320,
+      "duration": 280,
+      "qc": false
+    }
+  ]
+}

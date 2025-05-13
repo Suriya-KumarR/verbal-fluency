@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_1404.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 400,
+      "duration": 400,
+      "qc": true
+    },
+    {
+      "word": "opened_1",
+      "start_time": 400,
+      "end_time": 779,
+      "duration": 379,
+      "qc": true
+    },
+    {
+      "word": "drawer_1",
+      "start_time": 1299,
+      "end_time": 1320,
+      "duration": 20,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "opened_1"
+    },
+    {
+      "word": "drawer_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "opened_1"
+    },
+    {
+      "word": "drawer_1"
+    }
+  ],
+  "incorrect words": []
+}

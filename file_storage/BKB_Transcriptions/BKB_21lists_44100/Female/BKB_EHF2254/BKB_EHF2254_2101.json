@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_2101.wav",
+  "words": [
+    {
+      "word": "pepper_1",
+      "start_time": 319,
+      "end_time": 639,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "shaker_1",
+      "start_time": 639,
+      "end_time": 959,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "empty_1",
+      "start_time": 1279,
+      "end_time": 1600,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "pepper_1"
+    },
+    {
+      "word": "shaker_1"
+    },
+    {
+      "word": "empty_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "pepper_1"
+    },
+    {
+      "word": "shaker_1"
+    },
+    {
+      "word": "empty_1"
+    }
+  ],
+  "incorrect words": []
+}

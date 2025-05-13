@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_1715.wav",
+  "words": [
+    {
+      "word": "mother_1",
+      "start_time": 0,
+      "end_time": 439,
+      "duration": 439,
+      "qc": true
+    },
+    {
+      "word": "read_1",
+      "start_time": 439,
+      "end_time": 680,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "paper_1",
+      "start_time": 1019,
+      "end_time": 1159,
+      "duration": 139,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "read_1"
+    },
+    {
+      "word": "paper_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mother_1"
+    },
+    {
+      "word": "read_1"
+    },
+    {
+      "word": "paper_1"
+    }
+  ],
+  "incorrect words": []
+}

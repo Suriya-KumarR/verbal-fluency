@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1609.wav",
+  "words": [
+    {
+      "word": "men_1",
+      "start_time": 500,
+      "end_time": 819,
+      "duration": 319,
+      "qc": false
+    },
+    {
+      "word": "shave_1",
+      "start_time": 819,
+      "end_time": 1059,
+      "duration": 239,
+      "qc": false
+    },
+    {
+      "word": "morning_1",
+      "start_time": 1299,
+      "end_time": 1620,
+      "duration": 320,
+      "qc": false
+    }
+  ]
+}

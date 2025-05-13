@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2280_0211.wav",
+  "words": [
+    {
+      "word": "mouse_1",
+      "start_time": 219,
+      "end_time": 500,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "ran_1",
+      "start_time": 500,
+      "end_time": 800,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "hole_1",
+      "start_time": 1159,
+      "end_time": 1440,
+      "duration": 280,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "mouse_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "down_1"
+    },
+    {
+      "word": "hole_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "mouse_1"
+    },
+    {
+      "word": "ran_1"
+    },
+    {
+      "word": "hole_1"
+    }
+  ],
+  "incorrect words": []
+}

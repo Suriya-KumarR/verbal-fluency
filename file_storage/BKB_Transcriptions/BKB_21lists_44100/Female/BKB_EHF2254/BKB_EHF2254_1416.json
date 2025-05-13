@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1416.wav",
+  "words": [
+    {
+      "word": "match_1",
+      "start_time": 239,
+      "end_time": 639,
+      "duration": 399,
+      "qc": false
+    },
+    {
+      "word": "fell_1",
+      "start_time": 639,
+      "end_time": 879,
+      "duration": 240,
+      "qc": false
+    },
+    {
+      "word": "floor_1",
+      "start_time": 1259,
+      "end_time": 1519,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "match_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "floor_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "match_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "floor_1"
+    }
+  ],
+  "incorrect words": []
+}

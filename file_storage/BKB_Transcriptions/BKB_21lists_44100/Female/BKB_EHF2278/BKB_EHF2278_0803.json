@@ -1,0 +1,40 @@
+{
+  "audio_path": "BKB_EHF2278_0803.wav",
+  "words": [
+    {
+      "word": "matchboxes_1",
+      "start_time": 239,
+      "end_time": 980,
+      "duration": 740,
+      "qc": false
+    },
+    {
+      "word": "empty_1",
+      "start_time": 1179,
+      "end_time": 1440,
+      "duration": 260,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "match_1"
+    },
+    {
+      "word": "boxes_1"
+    },
+    {
+      "word": "empty_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "empty_1"
+    }
+  ],
+  "incorrect words": [
+    {
+      "word": "matchboxes_1"
+    }
+  ]
+}

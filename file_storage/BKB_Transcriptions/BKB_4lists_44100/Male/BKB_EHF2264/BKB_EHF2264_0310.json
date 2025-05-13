@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2264_0310.wav",
+  "words": [
+    {
+      "word": "man_1",
+      "start_time": 180,
+      "end_time": 540,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "cleaned_1",
+      "start_time": 540,
+      "end_time": 899,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "shoes_1",
+      "start_time": 1200,
+      "end_time": 1580,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "cleaned_1"
+    },
+    {
+      "word": "shoes_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "man_1"
+    },
+    {
+      "word": "cleaned_1"
+    },
+    {
+      "word": "shoes_1"
+    }
+  ],
+  "incorrect words": []
+}

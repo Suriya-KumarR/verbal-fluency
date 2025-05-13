@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2258_0415.wav",
+  "words": [
+    {
+      "word": "child_1",
+      "start_time": 319,
+      "end_time": 740,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "grabbed_1",
+      "start_time": 740,
+      "end_time": 1139,
+      "duration": 399,
+      "qc": false
+    },
+    {
+      "word": "toy_1",
+      "start_time": 1460,
+      "end_time": 1700,
+      "duration": 240,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "child_1"
+    },
+    {
+      "word": "grabbed_1"
+    },
+    {
+      "word": "toy_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "child_1"
+    },
+    {
+      "word": "grabbed_1"
+    },
+    {
+      "word": "toy_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2276_0205.wav",
+  "words": [
+    {
+      "word": "cut_1",
+      "start_time": 300,
+      "end_time": 479,
+      "duration": 179,
+      "qc": false
+    },
+    {
+      "word": "finger_1",
+      "start_time": 740,
+      "end_time": 1059,
+      "duration": 319,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "he_1"
+    },
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "finger_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cut_1"
+    },
+    {
+      "word": "finger_1"
+    }
+  ],
+  "incorrect words": []
+}

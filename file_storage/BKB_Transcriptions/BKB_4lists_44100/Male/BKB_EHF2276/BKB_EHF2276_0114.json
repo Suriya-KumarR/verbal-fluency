@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2276_0114.wav",
+  "words": [
+    {
+      "word": "truck_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "carried_1",
+      "start_time": 579,
+      "end_time": 1000,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "fruit_1",
+      "start_time": 1000,
+      "end_time": 1440,
+      "duration": 440,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "truck_1"
+    },
+    {
+      "word": "carried_1"
+    },
+    {
+      "word": "fruit_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "truck_1"
+    },
+    {
+      "word": "carried_1"
+    },
+    {
+      "word": "fruit_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2254_2006.wav",
+  "words": [
+    {
+      "word": "cat_1",
+      "start_time": 319,
+      "end_time": 660,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "jumped_1",
+      "start_time": 660,
+      "end_time": 959,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "fence_1",
+      "start_time": 1399,
+      "end_time": 1820,
+      "duration": 420,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "jumped_1"
+    },
+    {
+      "word": "off_1"
+    },
+    {
+      "word": "fence_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cat_1"
+    },
+    {
+      "word": "jumped_1"
+    },
+    {
+      "word": "fence_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1809.wav",
+  "words": [
+    {
+      "word": "towel_1",
+      "start_time": 259,
+      "end_time": 519,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "dropped_1",
+      "start_time": 519,
+      "end_time": 860,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "floor_1",
+      "start_time": 1240,
+      "end_time": 1500,
+      "duration": 259,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "towel_1"
+    },
+    {
+      "word": "dropped_1"
+    },
+    {
+      "word": "floor_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "towel_1"
+    },
+    {
+      "word": "dropped_1"
+    },
+    {
+      "word": "floor_1"
+    }
+  ],
+  "incorrect words": []
+}

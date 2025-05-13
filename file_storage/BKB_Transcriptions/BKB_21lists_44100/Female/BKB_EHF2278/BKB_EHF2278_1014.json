@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2278_1014.wav",
+  "words": [
+    {
+      "word": "ground_1",
+      "start_time": 300,
+      "end_time": 600,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "hard_1",
+      "start_time": 1279,
+      "end_time": 1620,
+      "duration": 340,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "ground_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "hard_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ground_1"
+    },
+    {
+      "word": "hard_1"
+    }
+  ],
+  "incorrect words": []
+}

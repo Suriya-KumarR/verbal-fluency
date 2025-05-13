@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_1008.wav",
+  "words": [
+    {
+      "word": "someone_1",
+      "start_time": 0,
+      "end_time": 579,
+      "duration": 579,
+      "qc": true
+    },
+    {
+      "word": "crossing_1",
+      "start_time": 879,
+      "end_time": 1200,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "road_1",
+      "start_time": 1500,
+      "end_time": 1820,
+      "duration": 320,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "someone_1"
+    },
+    {
+      "word": "crossing_1"
+    },
+    {
+      "word": "road_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "someone_1"
+    },
+    {
+      "word": "crossing_1"
+    },
+    {
+      "word": "road_1"
+    }
+  ],
+  "incorrect words": []
+}

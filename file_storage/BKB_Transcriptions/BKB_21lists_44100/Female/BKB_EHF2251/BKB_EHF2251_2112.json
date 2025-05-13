@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_2112.wav",
+  "words": [
+    {
+      "word": "basketball_1",
+      "start_time": 259,
+      "end_time": 680,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "team_1",
+      "start_time": 680,
+      "end_time": 1039,
+      "duration": 359,
+      "qc": true
+    },
+    {
+      "word": "playing_1",
+      "start_time": 1240,
+      "end_time": 1559,
+      "duration": 319,
+      "qc": true
+    }
+  ]
+}

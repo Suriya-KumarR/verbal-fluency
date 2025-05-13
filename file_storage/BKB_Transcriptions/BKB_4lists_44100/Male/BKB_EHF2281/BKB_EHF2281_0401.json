@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2281_0401.wav",
+  "words": [
+    {
+      "word": "wife_1",
+      "start_time": 300,
+      "end_time": 600,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "helped_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "husband_1",
+      "start_time": 1139,
+      "end_time": 1440,
+      "duration": 300,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "wife_1"
+    },
+    {
+      "word": "helped_1"
+    },
+    {
+      "word": "husband_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "wife_1"
+    },
+    {
+      "word": "helped_1"
+    },
+    {
+      "word": "husband_1"
+    }
+  ],
+  "incorrect words": []
+}

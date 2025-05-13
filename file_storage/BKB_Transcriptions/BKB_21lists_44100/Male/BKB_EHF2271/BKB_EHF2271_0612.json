@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_0612.wav",
+  "words": [
+    {
+      "word": "sharp_1",
+      "start_time": 360,
+      "end_time": 600,
+      "duration": 240,
+      "qc": true
+    },
+    {
+      "word": "knife_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "dangerous_1",
+      "start_time": 1120,
+      "end_time": 1500,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "sharp_1"
+    },
+    {
+      "word": "knife_1"
+    },
+    {
+      "word": "dangerous_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "sharp_1"
+    },
+    {
+      "word": "knife_1"
+    },
+    {
+      "word": "dangerous_1"
+    }
+  ],
+  "incorrect words": []
+}

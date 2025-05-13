@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1014.wav",
+  "words": [
+    {
+      "word": "ground_1",
+      "start_time": 280,
+      "end_time": 600,
+      "duration": 320,
+      "qc": false
+    },
+    {
+      "word": "hard_1",
+      "start_time": 1259,
+      "end_time": 1700,
+      "duration": 440,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "ground_1"
+    },
+    {
+      "word": "very_1"
+    },
+    {
+      "word": "hard_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "ground_1"
+    },
+    {
+      "word": "hard_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1209.wav",
+  "words": [
+    {
+      "word": "cold_1",
+      "start_time": 839,
+      "end_time": 1220,
+      "duration": 380,
+      "qc": true
+    },
+    {
+      "word": "meat_1",
+      "start_time": 1220,
+      "end_time": 1580,
+      "duration": 360,
+      "qc": false
+    }
+  ]
+}

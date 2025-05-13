@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1308.wav",
+  "words": [
+    {
+      "word": "mouse_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "found_1",
+      "start_time": 579,
+      "end_time": 839,
+      "duration": 259,
+      "qc": false
+    },
+    {
+      "word": "cheese_1",
+      "start_time": 1059,
+      "end_time": 1440,
+      "duration": 380,
+      "qc": true
+    }
+  ]
+}

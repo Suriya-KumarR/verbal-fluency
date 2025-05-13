@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2271_1012.wav",
+  "words": [
+    {
+      "word": "milk_1",
+      "start_time": 239,
+      "end_time": 419,
+      "duration": 179,
+      "qc": true
+    },
+    {
+      "word": "front_1",
+      "start_time": 1039,
+      "end_time": 1179,
+      "duration": 139,
+      "qc": false
+    },
+    {
+      "word": "door_1",
+      "start_time": 1179,
+      "end_time": 1419,
+      "duration": 240,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "milk_1"
+    },
+    {
+      "word": "front_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "milk_1"
+    },
+    {
+      "word": "front_1"
+    },
+    {
+      "word": "door_1"
+    }
+  ],
+  "incorrect words": []
+}

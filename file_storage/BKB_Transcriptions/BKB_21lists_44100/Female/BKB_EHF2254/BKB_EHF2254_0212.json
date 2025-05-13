@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2254_0212.wav",
+  "words": [
+    {
+      "word": "lady_1",
+      "start_time": 280,
+      "end_time": 620,
+      "duration": 340,
+      "qc": false
+    },
+    {
+      "word": "making_1",
+      "start_time": 879,
+      "end_time": 1179,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "toy_1",
+      "start_time": 1440,
+      "end_time": 1700,
+      "duration": 259,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "making_1"
+    },
+    {
+      "word": "toy_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "lady_1"
+    },
+    {
+      "word": "making_1"
+    },
+    {
+      "word": "toy_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2273_0506.wav",
+  "words": [
+    {
+      "word": "boy_1",
+      "start_time": 319,
+      "end_time": 660,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "fell_1",
+      "start_time": 660,
+      "end_time": 1000,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "window_1",
+      "start_time": 1480,
+      "end_time": 1700,
+      "duration": 220,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "boy_1"
+    },
+    {
+      "word": "fell_1"
+    },
+    {
+      "word": "window_1"
+    }
+  ],
+  "incorrect words": []
+}

@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1107.wav",
+  "words": [
+    {
+      "word": "policeman_1",
+      "start_time": 280,
+      "end_time": 759,
+      "duration": 479,
+      "qc": true
+    },
+    {
+      "word": "knows_1",
+      "start_time": 759,
+      "end_time": 1059,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "way_1",
+      "start_time": 1340,
+      "end_time": 1580,
+      "duration": 240,
+      "qc": false
+    }
+  ]
+}

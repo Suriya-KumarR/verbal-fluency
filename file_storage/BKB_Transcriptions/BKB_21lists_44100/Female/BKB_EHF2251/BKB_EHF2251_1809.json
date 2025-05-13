@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1809.wav",
+  "words": [
+    {
+      "word": "towel_1",
+      "start_time": 239,
+      "end_time": 600,
+      "duration": 360,
+      "qc": true
+    },
+    {
+      "word": "dropped_1",
+      "start_time": 600,
+      "end_time": 899,
+      "duration": 299,
+      "qc": false
+    },
+    {
+      "word": "floor_1",
+      "start_time": 1259,
+      "end_time": 1480,
+      "duration": 220,
+      "qc": true
+    }
+  ]
+}

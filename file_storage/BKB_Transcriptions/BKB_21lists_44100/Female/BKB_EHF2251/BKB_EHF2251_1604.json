@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_1604.wav",
+  "words": [
+    {
+      "word": "raincoat_1",
+      "start_time": 219,
+      "end_time": 759,
+      "duration": 539,
+      "qc": true
+    },
+    {
+      "word": "wet_1",
+      "start_time": 1220,
+      "end_time": 1519,
+      "duration": 299,
+      "qc": false
+    }
+  ]
+}

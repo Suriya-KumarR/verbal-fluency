@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_0802.wav",
+  "words": [
+    {
+      "word": "friend_1",
+      "start_time": 300,
+      "end_time": 560,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "came_1",
+      "start_time": 560,
+      "end_time": 879,
+      "duration": 319,
+      "qc": true
+    },
+    {
+      "word": "lunch_1",
+      "start_time": 1220,
+      "end_time": 1559,
+      "duration": 339,
+      "qc": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0901.wav",
+  "words": [
+    {
+      "word": "book_1",
+      "start_time": 219,
+      "end_time": 479,
+      "duration": 259,
+      "qc": true
+    },
+    {
+      "word": "tells_1",
+      "start_time": 479,
+      "end_time": 819,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "story_1",
+      "start_time": 1039,
+      "end_time": 1320,
+      "duration": 280,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "book_1"
+    },
+    {
+      "word": "tells_1"
+    },
+    {
+      "word": "story_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "book_1"
+    },
+    {
+      "word": "tells_1"
+    },
+    {
+      "word": "story_1"
+    }
+  ],
+  "incorrect words": []
+}

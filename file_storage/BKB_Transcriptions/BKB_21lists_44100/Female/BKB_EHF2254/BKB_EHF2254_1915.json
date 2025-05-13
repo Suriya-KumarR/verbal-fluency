@@ -1,0 +1,39 @@
+{
+  "audio_path": "BKB_EHF2254_1915.wav",
+  "words": [
+    {
+      "word": "cup_1",
+      "start_time": 319,
+      "end_time": 600,
+      "duration": 280,
+      "qc": true
+    },
+    {
+      "word": "saucer_1",
+      "start_time": 1179,
+      "end_time": 1659,
+      "duration": 480,
+      "qc": false
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "cup_1"
+    },
+    {
+      "word": "is_1"
+    },
+    {
+      "word": "saucer_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "cup_1"
+    },
+    {
+      "word": "saucer_1"
+    }
+  ],
+  "incorrect words": []
+}

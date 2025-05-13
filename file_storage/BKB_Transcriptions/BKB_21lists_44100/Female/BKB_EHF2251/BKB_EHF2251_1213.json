@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1213.wav",
+  "words": [
+    {
+      "word": "picture_1",
+      "start_time": 259,
+      "end_time": 560,
+      "duration": 300,
+      "qc": false
+    },
+    {
+      "word": "came_1",
+      "start_time": 560,
+      "end_time": 939,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "book_1",
+      "start_time": 1460,
+      "end_time": 1519,
+      "duration": 59,
+      "qc": false
+    }
+  ]
+}

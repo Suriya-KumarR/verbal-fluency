@@ -1,0 +1,26 @@
+{
+  "audio_path": "BKB_EHF2251_1311.wav",
+  "words": [
+    {
+      "word": "strawberry_1",
+      "start_time": 360,
+      "end_time": 740,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "jam_1",
+      "start_time": 740,
+      "end_time": 1120,
+      "duration": 379,
+      "qc": false
+    },
+    {
+      "word": "sweet_1",
+      "start_time": 1379,
+      "end_time": 1759,
+      "duration": 379,
+      "qc": false
+    }
+  ]
+}

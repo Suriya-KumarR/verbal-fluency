@@ -1,0 +1,19 @@
+{
+  "audio_path": "BKB_EHF2251_0714.wav",
+  "words": [
+    {
+      "word": "orange_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": false
+    },
+    {
+      "word": "sweet_1",
+      "start_time": 1200,
+      "end_time": 1559,
+      "duration": 359,
+      "qc": true
+    }
+  ]
+}

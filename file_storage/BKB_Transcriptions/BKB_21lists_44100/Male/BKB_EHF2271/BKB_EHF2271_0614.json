@@ -1,0 +1,52 @@
+{
+  "audio_path": "BKB_EHF2271_0614.wav",
+  "words": [
+    {
+      "word": "smart_1",
+      "start_time": 280,
+      "end_time": 579,
+      "duration": 299,
+      "qc": true
+    },
+    {
+      "word": "girls_1",
+      "start_time": 579,
+      "end_time": 1000,
+      "duration": 420,
+      "qc": true
+    },
+    {
+      "word": "reading_1",
+      "start_time": 1159,
+      "end_time": 1539,
+      "duration": 379,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "smart_1"
+    },
+    {
+      "word": "girls_1"
+    },
+    {
+      "word": "are_1"
+    },
+    {
+      "word": "reading_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "smart_1"
+    },
+    {
+      "word": "girls_1"
+    },
+    {
+      "word": "reading_1"
+    }
+  ],
+  "incorrect words": []
+}

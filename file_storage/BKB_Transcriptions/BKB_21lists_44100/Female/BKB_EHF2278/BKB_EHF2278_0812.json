@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0812.wav",
+  "words": [
+    {
+      "word": "bus_1",
+      "start_time": 360,
+      "end_time": 660,
+      "duration": 300,
+      "qc": true
+    },
+    {
+      "word": "stopped_1",
+      "start_time": 660,
+      "end_time": 1159,
+      "duration": 499,
+      "qc": true
+    },
+    {
+      "word": "suddenly_1",
+      "start_time": 1159,
+      "end_time": 1639,
+      "duration": 480,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "bus_1"
+    },
+    {
+      "word": "stopped_1"
+    },
+    {
+      "word": "suddenly_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "bus_1"
+    },
+    {
+      "word": "stopped_1"
+    },
+    {
+      "word": "suddenly_1"
+    }
+  ],
+  "incorrect words": []
+}

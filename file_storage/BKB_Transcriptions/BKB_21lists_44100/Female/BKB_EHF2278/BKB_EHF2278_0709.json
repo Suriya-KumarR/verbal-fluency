@@ -1,0 +1,49 @@
+{
+  "audio_path": "BKB_EHF2278_0709.wav",
+  "words": [
+    {
+      "word": "bus_1",
+      "start_time": 239,
+      "end_time": 579,
+      "duration": 339,
+      "qc": true
+    },
+    {
+      "word": "left_1",
+      "start_time": 579,
+      "end_time": 920,
+      "duration": 340,
+      "qc": true
+    },
+    {
+      "word": "early_1",
+      "start_time": 920,
+      "end_time": 1279,
+      "duration": 359,
+      "qc": true
+    }
+  ],
+  "ground truth": [
+    {
+      "word": "bus_1"
+    },
+    {
+      "word": "left_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "correct words": [
+    {
+      "word": "bus_1"
+    },
+    {
+      "word": "left_1"
+    },
+    {
+      "word": "early_1"
+    }
+  ],
+  "incorrect words": []
+}
