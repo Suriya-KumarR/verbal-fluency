@@ -1,32 +1,44 @@
-# BKB Task
+# BKB App
 
-This application provides a tool for transcribing and editing audio files with word-level timestamps. It consists of a Vue.js frontend and a .NET Core backend.
+This is a Vue.js application for audio transcription and editing, with a .NET backend.
 
-## Project Structure
+## Getting Started
 
-- `verbal-fluency/` - Vue.js frontend
-- `server/` - .NET Core backend API
+### Prerequisites
+- Node.js (v16+)
+- .NET 9.0 SDK
+- npm (v8+)
 
-## Frontend Setup
+### Installation
 
-```bash
-# Navigate to the frontend directory
-cd verbal-fluency
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/verbal-fluency.git
+   cd verbal-fluency
+   ```
 
-# Install dependencies
-npm install
+2. Install frontend dependencies:
+   ```bash
+   npm install
+   ```
 
-# Compile and hot-reload for development
-npm run serve
+3. Install Electron builder plugin:
+   ```bash
+   npm install vue-cli-plugin-electron-builder@13.0.0 --save-dev
+   ```
 
-# Compile and minify for production
-npm run build
+4. Install backend dependencies:
+   ```bash
+   cd server
+   dotnet restore
+   cd ..
+   ```
 
-# Lint and fix files
-npm run lint
-```
+### Running the Application
 
-## Backend Setup
+#### Development Mode (Separate Frontend and Backend)
+
+1. Backend Setup
 
 ```bash
 # Navigate to the server directory
@@ -49,6 +61,32 @@ dotnet run
 
 The backend server will start at `http://localhost:5149`.
 
+2. In a new terminal, start the frontend:
+   ```bash
+   npm run serve
+   ```
+
+3. Access the app at `http://localhost:8080`
+
+#### Electron Mode (Desktop Application)
+
+1. Install Electron dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the Electron app in development mode:
+   ```bash
+   npm run electron:serve
+   ```
+
+3. The Electron app will launch automatically
+
+### Configuration
+
+- Backend URL: Set in `src/App.vue` (default: `http://localhost:5149`)
+- API Endpoints: Configured in `server/Controller/FileController.cs`
+
 ## Features
 
 - Upload audio files in various formats (mp3, mp4, mpeg, mpga, m4a, wav, webm)
@@ -62,6 +100,11 @@ The backend server will start at `http://localhost:5149`.
 - Download edited transcription as JSON
 
 ## Troubleshooting
+
+- **Electron build issues**: Make sure you have all required dependencies installed:
+  ```bash
+  npm install
+  ```
 
 ### CORS Issues
 

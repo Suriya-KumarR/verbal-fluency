@@ -9,17 +9,33 @@ let mainWindow
 let backendProcess
 
 function startBackend() {
-  backendProcess = exec('dotnet run', {
-    cwd: path.join(__dirname, '../server')
-  })
+  // Kill any existing process on port 5170
+  try {
+    exec('lsof -ti:5170 | xargs kill -9', (error) => {
+      if (error) {
+        console.log('No process was running on port 5170');
+      } else {
+        console.log('Killed process on port 5170');
+      }
+    });
+  } catch (error) {
+    console.error('Error killing process:', error);
+  }
 
-  backendProcess.stdout.on('data', (data) => {
-    console.log(`Backend: ${data}`)
-  })
+  // Wait a moment to ensure the port is released
+  setTimeout(() => {
+    backendProcess = exec('dotnet run', {
+      cwd: path.join(__dirname, '../server')
+    })
 
-  backendProcess.stderr.on('data', (data) => {
-    console.error(`Backend Error: ${data}`)
-  })
+    backendProcess.stdout.on('data', (data) => {
+      console.log(`Backend: ${data}`)
+    })
+
+    backendProcess.stderr.on('data', (data) => {
+      console.error(`Backend Error: ${data}`)
+    })
+  }, 1000);
 }
 
 function createWindow() {
