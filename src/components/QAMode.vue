@@ -68,21 +68,8 @@
 
       <!-- Session Data (Adopt TranscriptionMode structure) -->
       <div v-if="currentSession" class="session-data transcription-container">
-        <!-- Toolbar (Keep Existing QAMode Toolbar) -->
-        <div class="toolbar">
-          <button @click="playPause" class="toolbar-btn">
-            {{ isPlaying ? 'Pause' : 'Play' }}
-          </button>
-          <button @click="zoomIn" class="toolbar-btn">Zoom In</button>
-          <button @click="zoomOut" class="toolbar-btn">Zoom Out</button>
-          <!-- Modify Save Button -->
-          <button @click="saveChanges" class="toolbar-btn save-btn" :disabled="!hasChanges">
-            Save Changes
-          </button>
-        </div>
-
         <!-- Time Controls Display (From TranscriptionMode) -->
-        <div class="time-controls">
+        <div v-if="currentSession" class="time-controls">
            <div class="slider-group">
              <div class="input-group">
                <label>Region Start (ms)</label>
@@ -109,75 +96,67 @@
             <!-- Add button before first word -->
             <template v-if="currentSession.words.length > 0">
               <div class="add-word-button-container">
-                  <button @click="openAddWordModal(0)" class="add-word-button">+</button>
+                <button @click="openAddWordModal(0)" class="add-word-button">+</button>
               </div>
             </template>
             <!-- Or if list is empty -->
             <template v-else>
-               <div class="add-word-button-container">
-                  <button @click="openAddWordModal(0)" class="add-word-button">Add First Word</button>
-              </div>
-            </template>
-
-            <template v-for="(word, index) in currentSession.words" :key="word.id || index">
-              <div
-                :class="[
-                  'word-item',
-                  {
-                    'selected': selectedWordIndex === index,
-                    'qc-pass': word.qc,
-                    'qc-fail': !word.qc,
-                    'timestamp-overlap': word.hasOverlap,
-                    'marked': word.mark
-                  }
-                ]"
-                @click="selectWord(index)"
-              >
-                <!-- Add Mark Checkbox (Optional, can add later) -->
-                 <div class="mark-checkbox-container">
-                   <input
-                     type="checkbox"
-                     class="mark-checkbox"
-                     :checked="word.mark"
-                     @change="toggleMark(index)"
-                     title="Mark for review later"
-                   />
-                 </div>
-                <div class="word-text">
-                  <div class="word-content">
-                    {{ word.word }}
-                    <span v-if="word.edited" class="edited-badge">(edited)</span>
-                  </div>
-                  <div class="metadata">
-                    <span class="timestamps">
-                      {{ formatTime(word.start_time) }} - {{ formatTime(word.end_time) }}
-                       ({{ formatDuration(calculateDuration(word)) }})
-                    </span>
-                    <!-- Use QC status from QAMode -->
-                    <span
-                      :class="['qc-status', word.qc ? 'pass' : 'fail']"
-                    >
-                      {{ word.qc ? '✔ Pass' : '✗ Fail' }}
-                    </span>
-                  </div>
-                </div>
-
-                <!-- Add Overlap Tooltip (Optional, can add later) -->
-                 <div v-if="word.hasOverlap" class="overlap-tooltip">
-                   Warning: Timestamp overlaps with another word
-                 </div>
-
-                <div class="word-actions">
-                  <button class="action-btn edit-btn" @click.stop="selectWord(index)">Edit</button>
-                  <button class="action-btn remove-btn" @click.stop="deleteWord(index)">Remove</button>
-                </div>
-              </div>
-
-              <!-- Add button between words -->
               <div class="add-word-button-container">
-                <button @click="openAddWordModal(index + 1)" class="add-word-button">+</button>
+                <button @click="openAddWordModal(0)" class="add-word-button">Add First Word</button>
               </div>
             </template>
+
+            <!-- Word items -->
+            <div 
+              v-for="(word, index) in currentSession.words" 
+              :key="index"
+              :class="[
+                'word-item',
+                { 
+                  selected: selectedWordIndex === index,
+                  'qc-pass': word.qc,
+                  'qc-fail': !word.qc,
+                  'timestamp-overlap': word.hasOverlap,
+                  'marked': word.mark
+                }
+              ]"
+            >
+              <!-- Add Mark Checkbox (Optional, can add later) -->
+               <div class="mark-checkbox-container">
+                 <input
+                   type="checkbox"
+                   class="mark-checkbox"
+                   :checked="word.mark"
+                   @change="toggleMark(index)"
+                   title="Mark for review later"
+                 />
+               </div>
+              <div class="word-text">
+                <div class="word-content">
+                  {{ word.word }}
+                  <span v-if="word.edited" class="edited-badge">(edited)</span>
+                </div>
+                <div class="metadata">
+                  <span class="timestamps">
+                    {{ formatTime(word.start_time) }} - {{ formatTime(word.end_time) }}
+                    ({{ formatDuration(calculateDuration(word)) }})
+                  </span>
+                  <span :class="['qc-status', word.qc ? 'pass' : 'fail']">
+                    {{ word.qc ? '✔ Pass' : '✗ Fail' }}
+                  </span>
+                </div>
+              </div>
+
+              <!-- Add Overlap Tooltip (Optional, can add later) -->
+               <div v-if="word.hasOverlap" class="overlap-tooltip">
+                 Warning: Timestamp overlaps with another word
+               </div>
+
+              <div class="word-actions">
+                <button class="action-btn edit-btn" @click.stop="selectWord(index)">Edit</button>
+                <button class="action-btn remove-btn" @click.stop="deleteWord(index)">Remove</button>
+              </div>
+            </div>
           </div>
 
           <!-- Static Edit Panel (From TranscriptionMode) -->
@@ -210,9 +189,8 @@
                  </select>
                </div>
               <div class="modal-actions">
-                <button type="submit" class="save-button">💾 Apply Edit</button>
-                <button type="button" @click="resetWordChanges" class="cancel-button" :disabled="!wordHasChanges">✖ Reset</button>
-                 <button type="button" @click="playCurrentRegion" class="play-region">▶️ Play Selection</button>
+                <button type="button" class="cancel-button" @click="cancelEdit">Cancel</button>
+                <button type="submit" class="save-button">Save Changes</button>
               </div>
             </form>
              <div v-else>
@@ -296,6 +274,17 @@
        </div>
 
     </div>
+
+    <!-- Move this outside the main content div -->
+    <div v-if="currentSession" class="bottom-toolbar">
+      <button 
+        @click="saveChanges" 
+        class="save-btn"
+        :disabled="!hasChanges"
+      >
+        Save Changes
+      </button>
+    </div>
   </div>
 </template>
 
@@ -326,7 +315,6 @@ export default {
     
     // Waveform state
     const isPlaying = ref(false)
-    const zoom = ref(50)
     const timeRange = ref({ start: 0, end: 0 })
     
     // Content state
@@ -446,97 +434,106 @@ export default {
     }
 
     // WaveSurfer initialization
-    const initWaveSurfer = () => {
-      console.log('Initializing WaveSurfer...')
-      
+    const initializeWaveform = (audioUrl) => {
       if (wavesurfer.value) {
         wavesurfer.value.destroy()
-        wavesurfer.value = null
       }
-      
-      if (!waveformRef.value) {
-          console.error('Waveform container ref not found')
-          setTimeout(initWaveSurfer, 100);
-          return;
+
+      // Validate the audio URL
+      if (!audioUrl || typeof audioUrl !== 'string') {
+        console.error('Invalid audio URL:', audioUrl)
+        return
       }
-      
+
+      // Create WaveSurfer instance
+      wavesurfer.value = WaveSurfer.create({
+        container: waveformRef.value,
+        waveColor: '#4a4a4a',
+        progressColor: '#2196F3',
+        cursorColor: 'red',
+        backend: 'WebAudio',
+        height: 100,
+        plugins: [RegionsPlugin.create()],
+        interact: false,
+      })
+
+      // Add error handling BEFORE loading the file
+      wavesurfer.value.on('error', (error) => {
+        console.error('WaveSurfer error:', error)
+        // Don't show alert here - it's annoying on first load
+        // Just log the error and continue
+      })
+
+      // Set up other event handlers
+      wavesurfer.value.on('ready', () => {
+        const duration = wavesurfer.value.getDuration()
+        timeRange.value = { start: 0, end: duration }
+
+        // Create main region
+        const wsRegions = wavesurfer.value.registerPlugin(RegionsPlugin.create())
+        let activeRegion = null
+
+        wsRegions.addRegion({
+          id: 'main-region',
+          start: 0,
+          end: duration,
+          content: 'Selected Region',
+          color: 'rgba(255, 0, 0, 0.1)',
+          drag: true,
+          resize: true,
+          minLength: 0.1,
+          handleStyle: {
+            left: { backgroundColor: 'red', width: '8px' },
+            right: { backgroundColor: 'red', width: '8px' },
+          },
+        })
+
+        wsRegions.on('region-in', (region) => {
+          activeRegion = region
+        })
+
+        wsRegions.on('region-out', (region) => {
+          if (activeRegion === region) {
+            wavesurfer.value.pause()
+            isPlaying.value = false
+            activeRegion = null
+          }
+        })
+
+        wsRegions.on('region-clicked', (region, e) => {
+          e.stopPropagation()
+          activeRegion = region
+          
+          if (isPlaying.value) {
+            wavesurfer.value.pause()
+            isPlaying.value = false
+          } else {
+            wavesurfer.value.play(region.start, region.end)
+            isPlaying.value = true
+          }
+        })
+
+        // Update time range when region changes
+        wsRegions.on('region-updated', (updatedRegion) => {
+          if (updatedRegion.id === 'main-region') {
+            timeRange.value = { start: updatedRegion.start, end: updatedRegion.end }
+          }
+        })
+      })
+
+      // Load the audio file with error handling
       try {
-        wavesurfer.value = WaveSurfer.create({
-          container: waveformRef.value,
-          waveColor: '#4A76A8',
-          progressColor: '#7FB3D5',
-          cursorColor: '#3498DB',
-          height: 100,
-          normalize: true,
-          plugins: [
-            RegionsPlugin.create({
-              dragSelection: true,
-              slop: 5
-            })
-          ]
-        })
+        // Check if URL is a JSON file (common error case)
+        if (audioUrl.includes('.json')) {
+          console.error('Attempted to load JSON as audio:', audioUrl)
+          // Don't attempt to load JSON as audio
+          return
+        }
         
-        console.log('WaveSurfer initialized successfully')
-        
-        wavesurfer.value.on('ready', () => {
-          console.log('WaveSurfer is ready')
-          zoom.value = wavesurfer.value.options.minPxPerSec;
-          createWordRegions()
-        })
-        
-        wavesurfer.value.on('play', () => {
-          isPlaying.value = true
-        })
-        
-        wavesurfer.value.on('pause', () => {
-          isPlaying.value = false
-        })
-        
-        wavesurfer.value.on('finish', () => {
-          isPlaying.value = false
-        })
-
-        wavesurfer.value.on('region-created', (region) => {
-            console.log('Region created:', region.id);
-             if (region.id !== 'selection' && currentRegion.value) {
-                 console.log("Removing old selection region");
-                 currentRegion.value.remove();
-             }
-             region.id = 'selection';
-             currentRegion.value = region;
-             timeRange.value = { start: region.start, end: region.end };
-
-             region.on('update-end', () => {
-                 console.log('Selection region updated');
-                 timeRange.value = { start: region.start, end: region.end };
-                 if (selectedWordIndex.value !== null && editForm.word) {
-                     editForm.start_time = Math.round(region.start * 1000);
-                     editForm.end_time = Math.round(region.end * 1000);
-                     markAsChanged();
-                 }
-             });
-             region.on('click', (e) => {
-                e.stopPropagation();
-                wavesurfer.value.play(region.start, region.end);
-             });
-        });
-
-        wavesurfer.value.on('region-updated', (region) => {
-            if (region.id === 'selection') {
-                timeRange.value = { start: region.start, end: region.end };
-            }
-        });
-
-         wavesurfer.value.on('region-removed', (region) => {
-             if (region.id === 'selection' && currentRegion.value === region) {
-                 currentRegion.value = null;
-                 timeRange.value = { start: 0, end: 0 };
-             }
-         });
-
+        wavesurfer.value.load(audioUrl)
       } catch (error) {
-        console.error('Error initializing WaveSurfer:', error)
-        alert('Failed to initialize audio waveform: ' + error.message)
+        console.error('Error loading audio:', error)
+        // Don't show alert here either
       }
     }
     
@@ -617,7 +614,7 @@ export default {
           clearAllRegions()
           wavesurfer.value.empty()
         } else {
-            initWaveSurfer()
+            initializeWaveform(selectedSession.value)
         }
         
         // Load session data
@@ -647,36 +644,41 @@ export default {
         currentSession.value = sessionData
         hasChanges.value = false
         
-        // Load audio data
+        // Check for overlaps after loading
+        checkTimestampOverlaps()
+        
+        // Load audio data with the correct extension
         loadingMessage.value = 'Loading audio data...'
         
+        // Make sure we're using .wav extension for audio
         const audioFileName = selectedSession.value.replace('.json', '.wav')
         
-        const audioData = await fileSystemService.getAudioFile(
-          selectedListType.value, 
-          selectedGender.value,
-          selectedParticipant.value, 
-          audioFileName
-        )
-        
-        if (!audioData) {
-          alert('Failed to load audio file.')
-          isLoading.value = false
-          return
+        try {
+          const audioData = await fileSystemService.getAudioFile(
+            selectedListType.value, 
+            selectedGender.value,
+            selectedParticipant.value, 
+            audioFileName // WAV file, not JSON
+          )
+          
+          if (!audioData || audioData.byteLength === 0) {
+            console.error('Audio file not found or empty:', audioFileName)
+            // Don't show alert on first load
+            isLoading.value = false
+            return
+          }
+          
+          // Create a proper Blob with the audio MIME type
+          const blob = new Blob([audioData], { type: 'audio/wav' })
+          const audioUrl = URL.createObjectURL(blob)
+          
+          // Initialize WaveSurfer with the Blob URL
+          console.log('Initializing WaveSurfer with audio URL:', audioUrl)
+          initializeWaveform(audioUrl)
+        } catch (audioError) {
+          console.error('Error loading audio file:', audioError)
+          // Don't show alert on first load
         }
-        
-        if (wavesurfer.value) {
-          const blob = new Blob([audioData])
-          await wavesurfer.value.loadBlob(blob)
-          console.log('Audio loaded into WaveSurfer')
-        } else {
-          console.error('WaveSurfer not initialized')
-          alert('Audio waveform could not be initialized.')
-        }
-
-        // Initial overlap check after loading
-        await nextTick()
-        checkTimestampOverlaps()
 
       } catch (error) {
         console.error('Error loading session:', error)
@@ -769,15 +771,6 @@ export default {
         const word = currentSession.value.words[selectedWordIndex.value]
         wavesurfer.value.play(word.start_time / 1000, word.end_time / 1000)
       }
-    }
-    
-    // Zoom controls
-    const zoomIn = () => {
-      if (wavesurfer.value) wavesurfer.value.zoom(wavesurfer.value.options.minPxPerSec + 10)
-    }
-    
-    const zoomOut = () => {
-      if (wavesurfer.value) wavesurfer.value.zoom(wavesurfer.value.options.minPxPerSec - 10)
     }
     
     // Mark session as changed
@@ -910,8 +903,10 @@ export default {
     };
     
     // Formatting methods
-    const formatTime = (milliseconds) => {
-      return `${(milliseconds / 1000).toFixed(3)}s`
+    const formatTime = (timeInMs) => {
+      // Ensure the input is treated as milliseconds
+      const ms = Number(timeInMs)
+      return `${ms}ms`
     }
     
     const formatDuration = (milliseconds) => {
@@ -1135,12 +1130,24 @@ export default {
       applyWordEdit();
     };
 
+    const cancelEdit = () => {
+      selectedWordIndex.value = null
+      selectedSuggestedWordIndex.value = null
+      editForm.value = {
+        word: '',
+        start_time: 0,
+        end_time: 0,
+        qc: true,
+        qc_word: ''
+      }
+    }
+
     // Lifecycle hooks
     onMounted(() => {
       loadListTypes()
       nextTick(() => {
           if (!wavesurfer.value) {
-              initWaveSurfer()
+              initializeWaveform(selectedSession.value)
           }
       })
     })
@@ -1148,6 +1155,10 @@ export default {
     onBeforeUnmount(() => {
       if (wavesurfer.value) {
         wavesurfer.value.destroy()
+      }
+      // Clean up any Blob URLs
+      if (wavesurfer.value?.getMediaElement()?.src?.startsWith('blob:')) {
+        URL.revokeObjectURL(wavesurfer.value.getMediaElement().src)
       }
     })
 
@@ -1161,6 +1172,10 @@ export default {
 
     return {
       wavesurfer,
+      waveformRef,
+      isPlaying,
+      timeRange,
+      initializeWaveform,
       isLoading,
       loadingMessage,
       listTypes,
@@ -1173,7 +1188,6 @@ export default {
       currentSession,
       selectedWordIndex,
       selectedSuggestedWordIndex,
-      isPlaying,
       hasChanges,
       wordHasChanges,
       originalSession,
@@ -1183,14 +1197,10 @@ export default {
       onParticipantChange,
       loadSession,
       playPause,
-      zoomIn,
-      zoomOut,
       saveChanges,
       formatTime,
       formatDuration,
       calculateDuration,
-      waveformRef,
-      timeRange,
       editForm,
       showAddWordModal,
       addWordForm,
@@ -1214,6 +1224,7 @@ export default {
       suggestedWordsForDisplay,
       scrollToEditForm,
       handleEditFormSubmit,
+      cancelEdit
     }
   }
 }
@@ -1225,6 +1236,7 @@ export default {
   flex-direction: column;
   height: 100%;
   padding: 20px;
+  padding-bottom: 80px; /* Add space for the bottom toolbar */
 }
 
 .top-bar {
@@ -1308,17 +1320,6 @@ export default {
   cursor: pointer;
 }
 
-.save-btn {
-  background-color: var(--primary-color);
-  color: white;
-  margin-left: auto;
-}
-
-.save-btn:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
-
 .waveform-wrapper {
   width: 100%;
   padding: 10px;
@@ -1392,42 +1393,98 @@ export default {
 
 .content-wrapper {
   display: flex;
-  gap: 20px;
-  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .words-list {
-  flex: 1;
-  max-height: 60vh;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: visible; /* Remove scrolling */
+  border: none; /* Remove borders */
+  background-color: transparent; /* Remove background */
 }
 
 .word-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
-  margin-bottom: 8px;
-  border-radius: 6px;
+  padding: 12px 15px;
+  margin: 2px 0;
   background-color: white;
-  border: 1px solid #eee;
-  border-left: 4px solid transparent;
-  cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 
 .word-item:hover {
-  background-color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .word-item.selected {
-  background-color: #e3f2fd;
-  border-left-color: #2196f3;
+  background-color: #f0f4f8;
+  border-left: 3px solid var(--primary-color);
+}
+
+.word-item.qc-pass {
+  background-color: #e8f5e9;
+  border-left: 4px solid #2e7d32;
+}
+
+.word-item.qc-fail {
+  background-color: #ffebee;
+  border-left: 4px solid #c62828;
+}
+
+.add-word-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 4px 0;
+  position: relative;
+  height: 20px;
+}
+
+.add-word-button-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background-color: #e0e0e0;
+  transform: translateY(-50%);
+  transition: background-color 0.2s ease;
+}
+
+.add-word-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  z-index: 2;
+}
+
+.add-word-button-container:hover::before {
+  background-color: var(--primary-color);
+}
+
+.add-word-button-container:hover .add-word-button {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .word-text {
@@ -1470,261 +1527,49 @@ export default {
     color: #c62828;
 }
 
-.word-item.qc-pass {
-  border-left-color: #2e7d32;
-  /* background-color: #e8f5e9; */
-}
-
-.word-item.qc-fail {
-  border-left-color: #c62828;
-   /* background-color: #ffebee; */
-}
-
-.word-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.word-actions button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 4px;
-  font-size: 1.1em;
-  color: #555;
-  transition: color 0.2s ease;
-}
-.word-actions button:hover {
-  color: #000;
-}
-.edit-button::before { content: '✏️'; }
-.delete-button::before { content: '🗑️'; }
-.delete-button:hover { color: #d32f2f; }
-
-.add-word-button-container {
-  text-align: center;
-  margin: 5px 0;
-}
-.add-word-button {
-  background-color: #e0e0e0;
-  border: none;
-  color: #555;
-  font-weight: bold;
-  font-size: 1.2em;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  line-height: 26px;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-.add-word-button:hover {
-  background-color: #bdbdbd;
-  color: #000;
-}
-
-.static-panel {
-  width: 350px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: white;
-  height: fit-content;
-}
-
-.edit-panel h3 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: var(--primary-color);
-  border-bottom: 1px solid #eee;
-  padding-bottom: 10px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: 500;
-  font-size: 0.9em;
-}
-
-.form-group input,
-.form-group select {
-  width: 100%;
-  padding: 8px 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.original-value {
-    display: block;
-    color: #666;
-    font-size: 0.8em;
-    margin-top: 4px;
-    font-style: italic;
-}
-
-.qc-field {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.qc-field label {
-    margin-bottom: 0;
-    flex-shrink: 0;
-}
-.qc-field select {
-    width: auto;
-    flex-grow: 1;
-}
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.modal-content {
-  background: white;
-  padding: 25px 30px;
-  border-radius: 8px;
-  min-width: 350px;
-  max-width: 500px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.modal-content h3 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: var(--primary-color);
-}
-
-.modal-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-top: 25px;
-}
-
-.modal-actions button,
-.edit-panel .modal-actions button {
-  padding: 8px 18px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-.save-button {
-  background-color: var(--primary-color);
-  color: white;
-}
-.save-button:hover {
-  background-color: #2c7aaf;
-}
-
-.cancel-button, .reset-changes {
-  background-color: #f0f0f0;
-  color: #333;
-  border: 1px solid #ccc;
-}
-.cancel-button:hover, .reset-changes:hover {
-  background-color: #e0e0e0;
-}
-.reset-changes:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
-    opacity: 0.7;
-}
-
-.play-region {
-    background-color: #4CAF50;
-    color: white;
-}
-.play-region:hover {
-    background-color: #45a049;
-}
-
-.time-controls {
-    background-color: #f8f9fa;
-    padding: 8px 15px;
-    border-radius: 4px;
-    margin: 10px 0;
-    border: 1px solid #e0e0e0;
-}
-.slider-group {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-.input-group {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.input-group label {
-    font-size: 0.85em;
-    color: #555;
-}
-.input-group input {
-    font-size: 0.85em;
-    padding: 3px 6px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    width: 80px;
-    background-color: #fff;
-}
-
 .word-item.timestamp-overlap {
-  border: 1px solid #ffcc00;
-  border-left-width: 4px;
   position: relative;
 }
 
-.overlap-tooltip {
-  visibility: hidden;
-  width: 200px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 10px;
+.word-item.timestamp-overlap::before {
+  content: "⚠️";
   position: absolute;
-  z-index: 10;
-  bottom: 110%;
-  left: 50%;
-  margin-left: -100px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.8em;
+  right: 14px;
+  top: 8px;
+  color: #ff9800;
+  font-size: 16px;
 }
 
-.overlap-tooltip::after {
+.overlap-tooltip {
+  position: absolute;
+  background-color: #fff9c4;
+  border: 1px solid #ffd600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-size: 12px;
+  color: #5d4037;
+  z-index: 100;
+  max-width: 200px;
+  display: none;
+  right: -210px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.overlap-tooltip::before {
   content: "";
   position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
+  top: 50%;
+  left: -6px;
+  transform: translateY(-50%);
+  border-width: 6px 6px 6px 0;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: transparent #ffd600 transparent transparent;
 }
 
 .word-item.timestamp-overlap:hover .overlap-tooltip {
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
 
 .mark-checkbox-container {
@@ -1846,4 +1691,72 @@ export default {
 }
 
 /* ... other existing styles ... */
+
+.bottom-toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 15px;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.save-btn {
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.save-btn:not(:disabled):hover {
+  background-color: #2c6b8a;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cancel-button:hover {
+  background-color: #e0e0e0;
+}
+
+.save-button {
+  padding: 8px 16px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #2c7aaf;
+}
 </style> 

@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <div class="top-bar">
-      <button class="back-button" @click="goBack">← Back to Modes</button>
+      <button class="back-button" @click="goBack">Back to Modes</button>
       <h1 class="heading">Transcription Mode</h1>
     </div>
 
@@ -752,19 +752,25 @@ export default {
 <style scoped>
 /* Add styles for back navigation */
 .back-button {
-  background: none;
+  background-color: #3986A8;
   border: none;
-  color: var(--primary-color);
+  color: white;
   font-size: 16px;
   cursor: pointer;
-  margin-right: 20px;
-  padding: 8px 16px;
+  padding: 12px 20px;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
   transition: background-color 0.2s ease;
 }
 
 .back-button:hover {
-  background-color: rgba(57, 134, 168, 0.1);
+  background-color: #2c6b8a;
+}
+
+.back-button::before {
+  content: "←";
+  margin-right: 8px;
 }
 
 /* Original styles */
