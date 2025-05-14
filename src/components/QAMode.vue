@@ -188,7 +188,18 @@
                    <option :value="false">Fail</option>
                  </select>
                </div>
+              <div v-if="currentSession.words[selectedWordIndex]?.original_start_time" class="form-group">
+                <label>Original Timestamps:</label>
+                <div class="original-timestamps">
+                  {{ formatTime(currentSession.words[selectedWordIndex].original_start_time) }} - 
+                  {{ formatTime(currentSession.words[selectedWordIndex].original_end_time) }}
+                  ({{ formatDuration(currentSession.words[selectedWordIndex].original_end_time - currentSession.words[selectedWordIndex].original_start_time) }})
+                </div>
+              </div>
               <div class="modal-actions">
+                <button type="button" @click="playCurrentRegion" class="play-button">
+                  <span class="play-icon">▶</span> Play Audio
+                </button>
                 <button type="button" class="cancel-button" @click="cancelEdit">Cancel</button>
                 <button type="submit" class="save-button">Save Changes</button>
               </div>
@@ -765,11 +776,49 @@ export default {
     
     // Play the current selection only
     const playCurrentRegion = () => {
-      if (currentRegion.value) {
-        wavesurfer.value.play(currentRegion.value.start, currentRegion.value.end)
-      } else if (selectedWordIndex.value !== null) {
-        const word = currentSession.value.words[selectedWordIndex.value]
-        wavesurfer.value.play(word.start_time / 1000, word.end_time / 1000)
+      if (wavesurfer.value && selectedWordIndex.value !== null) {
+        const startTime = parseFloat(editForm.start_time) / 1000; // Convert ms to seconds for wavesurfer
+        const endTime = parseFloat(editForm.end_time) / 1000;
+        
+        // Create a temporary region for playback
+        const regions = wavesurfer.value.getActivePlugins().filter(p => p.name === 'regions')[0];
+        if (regions) {
+          // Remove any existing playback region
+          const existingRegion = regions.getRegions().find(r => r.id === 'playback-region');
+          if (existingRegion) {
+            existingRegion.remove();
+          }
+          
+          // Create a new region for playback
+          const region = regions.addRegion({
+            id: 'playback-region',
+            start: startTime,
+            end: endTime,
+            color: 'rgba(57, 134, 168, 0.2)',
+          });
+          
+          // Play the region
+          region.play();
+          
+          // Remove the region when playback is done
+          wavesurfer.value.once('region-out', () => {
+            region.remove();
+          });
+        } else {
+          // Fallback if regions plugin is not available
+          wavesurfer.value.setTime(startTime);
+          wavesurfer.value.play();
+          
+          // Stop when reaching end time
+          const checkEndTime = () => {
+            if (wavesurfer.value.getCurrentTime() >= endTime) {
+              wavesurfer.value.pause();
+              wavesurfer.value.un('audioprocess', checkEndTime);
+            }
+          };
+          
+          wavesurfer.value.on('audioprocess', checkEndTime);
+        }
       }
     }
     
@@ -905,13 +954,13 @@ export default {
     // Formatting methods
     const formatTime = (timeInMs) => {
       // Ensure the input is treated as milliseconds
-      const ms = Number(timeInMs)
-      return `${ms}ms`
-    }
+      const ms = Number(timeInMs);
+      return `${ms}ms`;
+    };
     
-    const formatDuration = (milliseconds) => {
-      return `${(milliseconds / 1000).toFixed(3)}s`
-    }
+    const formatDuration = (durationInMs) => {
+      return `${durationInMs}ms`;
+    };
     
     const calculateDuration = (word) => {
       return word.end_time - word.start_time
@@ -1090,38 +1139,44 @@ export default {
       // Implement scroll logic to focus on the edit form
     }
 
-    // Define the applyWordEdit function that's used in your template
+    // Modify applyWordEdit to store original timestamps
     const applyWordEdit = () => {
-      if (!editForm.word.trim()) {
-        alert('Word text cannot be empty.');
-        return;
-      }
-      
-      // Validate timestamps
-      const newStartTime = Number(editForm.start_time);
-      const newEndTime = Number(editForm.end_time);
-      
-      if (isNaN(newStartTime) || isNaN(newEndTime) || newStartTime < 0 || newEndTime <= newStartTime) {
-        alert('Invalid timestamps. End time must be greater than start time, and both must be non-negative.');
-        return;
-      }
-      
-      // Apply the edit to the selected word
-      if (selectedWordIndex.value !== null && currentSession.value && currentSession.value.words[selectedWordIndex.value]) {
-        const word = currentSession.value.words[selectedWordIndex.value];
+      if (selectedWordIndex.value !== null) {
+        const updatedWords = [...currentSession.value.words];
+        const word = updatedWords[selectedWordIndex.value];
+        
+        // Store original timestamps if this is the first edit
+        if (!word.original_start_time) {
+          word.original_start_time = word.start_time;
+          word.original_end_time = word.end_time;
+        }
+        
+        // Update the word with new values
         word.word = editForm.word;
-        word.start_time = newStartTime;
-        word.end_time = newEndTime;
+        word.start_time = parseInt(editForm.start_time);
+        word.end_time = parseInt(editForm.end_time);
         word.qc = editForm.qc;
+        //word.qc_word = editForm.qc_word;
         word.edited = true;
         
-        // Update UI state
-        hasChanges.value = true;
-        wordHasChanges.value = false;
+        // Update the session
+        currentSession.value.words = updatedWords;
         
-        // Update visualizations
+        // Mark session as changed
+        hasChanges.value = true;
+        
+        // Reset selected index and form
+        selectedWordIndex.value = null;
+        
+        // Reset form properties individually instead of reassigning
+        editForm.word = '';
+        editForm.start_time = 0;
+        editForm.end_time = 0;
+        editForm.qc = true;
+        //editForm.qc_word = '';
+        
+        // Check for overlaps
         checkTimestampOverlaps();
-        updateSelectionRegion(selectedWordIndex.value);
       }
     };
     
@@ -1131,15 +1186,15 @@ export default {
     };
 
     const cancelEdit = () => {
-      selectedWordIndex.value = null
-      selectedSuggestedWordIndex.value = null
-      editForm.value = {
-        word: '',
-        start_time: 0,
-        end_time: 0,
-        qc: true,
-        qc_word: ''
-      }
+      selectedWordIndex.value = null;
+      selectedSuggestedWordIndex.value = null;
+      
+      // Reset form properties individually instead of reassigning
+      editForm.word = '';
+      editForm.start_time = 0;
+      editForm.end_time = 0;
+      editForm.qc = true;
+      //editForm.qc_word = '';
     }
 
     // Lifecycle hooks
@@ -1731,6 +1786,7 @@ export default {
   justify-content: flex-end;
   gap: 10px;
   margin-top: 20px;
+  width: 100%;
 }
 
 .cancel-button {
@@ -1758,5 +1814,41 @@ export default {
 
 .save-button:hover {
   background-color: #2c7aaf;
+}
+
+.original-timestamps {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.play-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: auto; /* Push other buttons to the right */
+}
+
+.play-button:hover {
+  background-color: #e0e0e0;
+}
+
+.play-icon {
+  color: #3986A8;
+  font-size: 12px;
+}
+
+/* Make the icons look consistent */
+.play-icon, .cancel-icon, .save-icon {
+  display: inline-block;
+  width: 16px;
+  text-align: center;
 }
 </style> 
