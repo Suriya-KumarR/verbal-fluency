@@ -116,3 +116,4 @@ If you encounter CORS errors in the browser console:
 ### API Key Issues
 
 If transcription fails, verify that you've correctly set the OPENAI_API_KEY environment variable with a valid key.
+
